@@ -47,7 +47,6 @@
     url('./fonts/IBMPlexSansKR-Bold.woff2') format('woff2');
 }
 
-
 :root {
     font-family: Plex, "Roboto Light", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -62,7 +61,16 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+code {
+    font-size: 1.25rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+p {
+    margin: 4px;
+}
 .border {
     border: 1px solid red;
 }
@@ -77,6 +85,24 @@
 
 .full-height {
     height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+img.round {
+    border-radius: 50%;
+    width: 200px;
+}
+.bgcolor.dark {
+    background-color: #1a1a1a;
+}
+
+@media only screen and (max-width: 600px) {
+    img.round {
+        width: 100px;
+    }
 }
 
 a {
@@ -121,19 +147,4 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        color: #213547;
-        background-color: #ffffff;
-    }
-
-    a:hover {
-        color: #747bff;
-    }
-
-    button {
-        background-color: #f9f9f9;
-    }
 }

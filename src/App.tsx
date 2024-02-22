@@ -2,14 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Personal from './components/personal/Personal.tsx'
+import Contact from './components/personal/Contact.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="flex full-height border">
-        <Personal />
+        <Contact />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
