@@ -1,37 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Contact from './components/personal/Contact.tsx'
+import Contact from './components/specific/Contact.tsx'
+import Section from './components/common/Section.tsx'
+import { Container } from './components/styled/Container.ts'
+import { Stack } from './components/styled/Stack.ts'
+import AboutThisPage from './components/specific/AboutThisPage.tsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+    return (
+        <Container>
+            <Contact />
+            <Stack p={12}>
+                <AboutThisPage />
+                <Stack alignItems="flex-start">
+                    <Section title="소개 / About Me" />
+                    <Section title="sample" />
+                    <Section title="sample" />
 
-  return (
-    <div className="flex full-height border">
-        <Contact />
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+                </Stack>
+            </Stack>
+        </Container>
+    )
 }
 
 export default App
