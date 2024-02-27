@@ -61,15 +61,37 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -ms-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+#root {
+    width: 100%;
+    height: 100vh;
+}
 code {
     font-size: 1.25rem;
 }
 h2 {
     font-size: 2rem;
-    font-weight: normal;
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+hr {
+    border-color: rgba(0, 0, 0, 0.5);
 }
 p {
-    margin: 4px;
+    margin: 2px;
+    font-weight: 200;
 }
 .border {
     border: 1px solid red;

@@ -1,4 +1,4 @@
-import { SiMui, SiReact, SiRedux, SiTypescript, SiVite } from 'react-icons/si'
+import { SiMui, SiReact, SiRedux, SiTypescript, SiVite, SiWebstorm } from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
 import { MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone } from 'react-icons/md'
 
@@ -9,11 +9,10 @@ function Icon({ name }: { name: string }) {
             return <MdOutlineMail color={disabled} />
         case 'location':
             return <MdOutlineLocationOn color={disabled} />
+        case 'person':
+            return <MdPerson2 color={disabled} />
         case 'phone':
             return <MdSmartphone color={disabled} />
-        case 'test':
-            return <MdPerson2 color={disabled} />
-
 
         case 'mui':
             return <SiMui />
@@ -25,6 +24,8 @@ function Icon({ name }: { name: string }) {
             return <SiTypescript />
         case 'vite':
             return <SiVite />
+        case 'webstorm':
+            return <SiWebstorm />
         default:
             return <SlQuestion />
     }

@@ -8,7 +8,7 @@ const StyledChip = styled.div`
     background-color: #333333;
     border: 1px solid transparent;
     border-radius: 7px;
-    gap: 4px;
+    gap: 8px;
     padding: 0 12px 0;
     white-space: nowrap;
 
