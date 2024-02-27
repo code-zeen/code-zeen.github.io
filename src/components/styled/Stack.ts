@@ -10,7 +10,7 @@ const Stack = styled.div<{
 }>`
     display: flex;
     flex-wrap: wrap;
-    //border: 1px solid cornflowerblue;
+    width: 100%;
     flex-direction: ${p => p.row ? 'row' : 'column'};
     justify-content: ${p => p.justifyContent || 'flex-start'};
     align-items: ${p => p.alignItems || 'flex-start'};

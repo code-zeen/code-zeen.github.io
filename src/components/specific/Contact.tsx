@@ -28,7 +28,7 @@ function Contact() {
                 </Stack>
             </Stack>
             <Stack row>
-                <Chip text="TypeScript" startIcon={<Icon name="typescript" />} />
+                <Chip text="TypSecript" startIcon={<Icon name="typescript" />} />
                 <Chip text="React" startIcon={<Icon name="react" />} />
                 <Chip text="Redux Toolkit" startIcon={<Icon name="redux" />} />
                 <Chip text="Material UI" startIcon={<Icon name="mui" />} />

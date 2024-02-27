@@ -1,12 +1,21 @@
-import { ReactNode } from 'react'
+import styled from "styled-components";
+import { ReactNode } from "react";
+
+const StyledSection = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    padding: 0 16px 0;
+`
 
 function Section({ title, children }: { title: string, children: ReactNode }) {
     return (
-        <div style={{ textAlign: 'left', padding: '0 16px 0' }} className="border">
+        <StyledSection>
             <h3>{title}</h3>
-            <hr />
+            <hr/>
             {children}
-        </div>
+        </StyledSection>
     )
 }
 
