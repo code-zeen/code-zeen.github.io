@@ -61,6 +61,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 *, *:before, *:after {
     margin: 0;
     padding: 0;
@@ -70,61 +71,10 @@
     -ms-box-sizing: border-box !important;
     box-sizing: border-box !important;
 }
+
 #root {
     width: 100%;
     height: 100vh;
-}
-code {
-    font-size: 1.25rem;
-}
-h2 {
-    font-size: 2rem;
-    font-weight: 500;
-}
-h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-hr {
-    border-color: rgba(0, 0, 0, 0.5);
-}
-p {
-    margin: 2px;
-    font-weight: 200;
-}
-.border {
-    border: 1px solid red;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex.column {
-    flex-direction: column;
-}
-
-.full-height {
-    height: 100%;
-}
-
-.full-width {
-    width: 100%;
-}
-
-img.round {
-    border-radius: 50%;
-    width: 200px;
-}
-.bgcolor.dark {
-    background-color: #1a1a1a;
-}
-
-@media only screen and (max-width: 600px) {
-    img.round {
-        width: 100px;
-    }
 }
 
 a {
@@ -137,17 +87,13 @@ a:hover {
     color: #535bf2;
 }
 
+
 body {
     margin: 0;
     display: flex;
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-}
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
 }
 
 button {
@@ -170,3 +116,83 @@ button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
+
+code {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333333;
+}
+
+
+li {
+    list-style-type: "\1F538";
+}
+
+img.round {
+    border-radius: 50%;
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    img.round {
+        width: 100px;
+    }
+}
+
+p {
+    margin: 2px;
+    font-weight: 200;
+}
+
+s {
+    color: #565656;
+}
+ul {
+    margin-left: 20px;
+}
+
+
+/* class based */
+.bgcolor.dark {
+    background-color: #1a1a1a;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
