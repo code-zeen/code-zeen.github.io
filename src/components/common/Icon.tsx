@@ -1,6 +1,6 @@
 import { SiMui, SiReact, SiRedux, SiTypescript, SiVite, SiWebstorm } from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
-import { MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone } from 'react-icons/md'
+import { MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone } from 'react-icons/md'
 
 function Icon({ name }: { name: string }) {
     const disabled = '#b4b4b4'
@@ -11,6 +11,8 @@ function Icon({ name }: { name: string }) {
             return <MdOutlineLocationOn color={disabled} />
         case 'person':
             return <MdPerson2 color={disabled} />
+        case 'personality':
+            return <MdLocationSearching color={disabled} />
         case 'phone':
             return <MdSmartphone color={disabled} />
 

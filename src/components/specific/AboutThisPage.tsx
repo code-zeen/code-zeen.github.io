@@ -7,8 +7,8 @@ function AboutThisPage() {
         setHide(true)
     }
     return (
-        <Stack style={{ display: hide ? 'none' : 'flex' }}>
-            <p>이 페이지는 최소한의 외부 라이브러리만 사용하여 직접 제작하였습니다.</p>
+        <Stack style={{ display: hide ? 'none' : 'flex' }} spacing={12}>
+            <p>이 페이지는 최소한의 외부 라이브러리만 사용하여 직접 디자인 제작하였습니다.</p>
             <code style={{ fontSize: '1rem', whiteSpace: 'pre-wrap', backgroundColor: '#111', padding: '16px', width: '100%', borderRadius: '9px' }}>
                 {
                     `"dependencies": {
@@ -19,7 +19,9 @@ function AboutThisPage() {
  },`
                 }
             </code>
-            <button onClick={handleClick}>그렇군요!</button>
+            <Stack alignItems="flex-end" width="100%">
+                <button onClick={handleClick}>그렇군요!</button>
+            </Stack>
         </Stack>
     )
 }
