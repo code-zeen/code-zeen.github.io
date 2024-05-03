@@ -126,7 +126,6 @@ h1 {
     line-height: 1.1;
 }
 
-
 h2 {
     font-size: 2rem;
     font-weight: 500;
@@ -141,7 +140,6 @@ hr {
     border: none;
     border-top: 1px solid #333333;
 }
-
 
 li {
     list-style-type: "\1F538";
@@ -161,11 +159,23 @@ img.round {
 p {
     margin: 2px;
     font-weight: 200;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+p.timeline {
+    opacity: 0.5;
+    line-height: 1;
 }
 
 s {
     color: #565656;
 }
+
+span.hidden {
+    opacity: 0;
+}
+
 ul {
     margin-left: 20px;
 }
