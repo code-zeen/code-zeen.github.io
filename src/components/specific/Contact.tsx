@@ -19,7 +19,7 @@ function Contact() {
     ]
     return (
         <Stack spacing={16} className="contact bgcolor dark" style={{ padding: '20px 10px 20px' }}>
-            <Stack row alignItems="flex-end" spacing={16}>
+            <Stack row alignItems="center" spacing={16} style={{ padding: '20px 0' }}>
                 <img className="img round" src="https://avatars.githubusercontent.com/u/77660676?v=4"
                      alt="profile-picture" />
                 <Stack>
