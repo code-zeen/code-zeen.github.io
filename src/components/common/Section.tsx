@@ -5,6 +5,7 @@ const StyledSection = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 8px;
     padding: 0 16px 0;
     gap: 8px;
 `
