@@ -179,6 +179,9 @@ s {
 span.hidden {
     opacity: 0;
 }
+span.opaque {
+    opacity: 0.2;
+}
 
 ul {
     margin-left: 20px;
