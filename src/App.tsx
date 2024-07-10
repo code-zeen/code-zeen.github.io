@@ -3,6 +3,7 @@ import Section from './components/common/Section.tsx'
 import { Container } from './components/styled/Container.ts'
 import { Stack } from './components/styled/Stack.ts'
 import AboutThisPage from './components/specific/AboutThisPage.tsx'
+import ImageSlide from "./components/styled/ImageSlide.tsx";
 
 function App() {
     return (
@@ -55,9 +56,9 @@ function App() {
                         <br />
 
                         <Stack row alignItems="center" spacing={8}>
-                        <h3>2. BingoCVM 3.x</h3>
-                        <span className="opaque">2023.07 ~ 2024.02</span>
-                </Stack>
+                            <h3>2. BingoCVM 3.x</h3>
+                            <span className="opaque">2023.07 ~ 2024.02</span>
+                        </Stack>
                         <p>
                             기존 버전의 기술적 한계를 극복하기 위해 저희 개발팀은 새로운 버전을 만들기로 결정했습니다. 2023년 7월 쯤 부터 시작한 이 프로젝트의 프론트엔드는 제가 담당하여 총괄하게 되었고 나머지 2명의 개발자는 백엔드에 몰두할 수 있게 되어 좋은 시너지를 발휘할 수 있었습니다.
                         </p>
@@ -80,6 +81,11 @@ function App() {
                             href="https://apexcharts.com/"
                             target="_blank">ApexCharts</a> 등 여러 데이터 시각화 라이브러리를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.
                         </p>
+                        <br />
+                        <h3>화면 샘플</h3>
+                        <ImageSlide>
+
+                        </ImageSlide>
                     </Section>
 
                     <Section title="현재 적용 중인 것">
