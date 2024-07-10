@@ -82,10 +82,7 @@ function App() {
                             target="_blank">ApexCharts</a> 등 여러 데이터 시각화 라이브러리를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.
                         </p>
                         <br />
-                        <h3>화면 샘플</h3>
-                        <ImageSlide>
-
-                        </ImageSlide>
+                        <ImageSlide />
                     </Section>
 
                     <Section title="현재 적용 중인 것">

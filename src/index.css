@@ -145,6 +145,11 @@ hr {
     margin-bottom: 20px;
 }
 
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
 li {
     list-style-type: "\1F538";
 }
