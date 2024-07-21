@@ -14,12 +14,9 @@ import memes from "../../assets/projects-8-memes.png"
 import tenzies from "../../assets/projects-9-tenzies.png"
 import quizzical from "../../assets/projects-10-quizzical.png"
 import movies from "../../assets/projects-11-movies.png"
-import ss0 from "../../assets/ss0.png"
-import ss1 from "../../assets/ss1.png"
-import ss2 from "../../assets/ss2.png"
-import ss3 from "../../assets/ss3.png"
 import { MdArrowRightAlt } from "react-icons/md";
 import { useState } from "react";
+import ImageSlide from "../styled/ImageSlide.tsx";
 
 enum Tab {
     Redesign = 'Redesign',
@@ -142,7 +139,6 @@ function Projects() {
             description: '(주)케이비아이의 자사 프로그램인 BingoCVM의 유지보수 및 기능추가를 풀스택 개발자 2명과 함께 진행했습니다.\n' +
                 'CRA, JavaScript, Redux-Toolkit을 기반으로 빌드와 전역상태관리를 하였고 fetch를 사용한 RESTful API를 통해 백엔드와 통신을 했습니다.\n' +
                 '고객에게 전달받은 의견을 개발팀 회의를 통해 의논하고 프로그램에 반영하여 고도화하였고, 틈틈히 리눅스서버에 접속하는 방법을 익혀 빌드 파일을 수동으로 업데이트하는 작업도 했습니다.',
-            thumbnailOne: movies,
         },
         {
             type: Tab.Career,
@@ -191,8 +187,8 @@ function Projects() {
                                     <img src={c.thumbnailTwo} className="thumbnail" />
                                 </>
                             )}
-
                         </Stack>
+                        {c.summary === 'BingoCVM 취약점 진단 솔루션 3.x' && <ImageSlide />}
                     </Stack>
                     <hr style={{ width: "100%" }} />
                 </>

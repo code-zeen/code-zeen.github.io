@@ -17,8 +17,6 @@ function App() {
                     </Section>
                     <Section title="프로젝트">
                         <Projects />
-
-                        <ImageSlide />
                     </Section>
 
                     <Section title="현재 적용 중인 것">
