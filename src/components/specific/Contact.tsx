@@ -10,12 +10,14 @@ function Contact() {
         { icon: 'personality', text: 'INTP' },
     ]
     const skillSet = [
-        { icon: 'typescript', text: 'TypeScript' },
         { icon: 'react', text: 'React' },
         { icon: 'redux', text: 'Redux Toolkit' },
+        { icon: 'typescript', text: 'TypeScript' },
         { icon: 'mui', text: 'Material UI' },
         { icon: 'vite', text: 'Vite' },
-        { icon: 'webstorm', text: 'WebStorm' },
+        { icon: 'figma', text: 'Figma' },
+        { icon: 'webstorm', text: 'Webstorm' },
+        { icon: 'git', text: 'Git' },
     ]
     return (
         <Stack spacing={16} className="contact bgcolor dark" style={{ padding: '20px 32px' }}>
@@ -25,13 +27,17 @@ function Contact() {
                 <Stack>
                     <h2>김애진</h2>
                     <code>frontend-developer</code>
+                    <a href="https://www.github.com/code-zeen" target='_blank'>
+                        <Icon name="github" />
+                        <span> Git Hub</span>
+                    </a>
                 </Stack>
             </Stack>
             <Stack alignItems="flex-start">
                 {personalInfo.map((row, i) => (
                     <Stack key={i} row alignItems="center">
                         <Icon name={row.icon} />
-                        <p>{row.text}</p>
+                        <p className="tertiary">{row.text}</p>
                     </Stack>
                 ))}
             </Stack>
