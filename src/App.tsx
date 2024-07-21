@@ -2,7 +2,6 @@ import Contact from './components/specific/Contact.tsx'
 import Section from './components/common/Section.tsx'
 import { Container } from './components/styled/Container.ts'
 import { Stack } from './components/styled/Stack.ts'
-import ImageSlide from "./components/styled/ImageSlide.tsx";
 import AboutMe from "./components/specific/AboutMe.tsx";
 import Projects from "./components/specific/Projects.tsx";
 
