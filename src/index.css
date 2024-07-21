@@ -54,7 +54,7 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #1f1f1f;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -159,6 +159,11 @@ img.round {
     width: 200px;
 }
 
+img.thumbnail {
+    width: 400px;
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     img.round {
         width: 100px;
@@ -167,9 +172,22 @@ img.round {
 
 p {
     margin: 2px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.6;
     white-space: pre-wrap;
+}
+
+p.secondary, span.secondary {
+    color: #b4b4b9;
+}
+
+p.tertiary, span.tertiary {
+    color: #71767B;
+}
+
+p.summary {
+    font-size: 1.125rem;
+    font-weight: 500;
 }
 
 p.timeline {
@@ -184,8 +202,9 @@ s {
 span.hidden {
     opacity: 0;
 }
-span.opaque {
-    opacity: 0.2;
+
+span.small {
+    font-size: 0.825rem;
 }
 
 ul {
@@ -200,6 +219,31 @@ ul {
 
 .border {
     border: 1px solid red;
+}
+
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+.circle-icon.html {
+    background-color: #e34c26;
+}
+
+.circle-icon.javascript {
+    background-color: #e3c903;
+}
+
+.circle-icon.react {
+    background-color: #61DBFB;
+}
+
+.circle-icon.career {
+    background-color: #fc3939;
 }
 
 .flex {

@@ -4,6 +4,7 @@ import { Container } from './components/styled/Container.ts'
 import { Stack } from './components/styled/Stack.ts'
 import ImageSlide from "./components/styled/ImageSlide.tsx";
 import AboutMe from "./components/specific/AboutMe.tsx";
+import Projects from "./components/specific/Projects.tsx";
 
 function App() {
     return (
@@ -16,10 +17,12 @@ function App() {
                     </Section>
                     <Section title="프로젝트">
                         <Stack row alignItems="center">
-                            <button>HTML</button>
+                            <button>Basic</button>
                             <button>JavaScript</button>
                             <button>React</button>
+                            <button>Career</button>
                         </Stack>
+                        <Projects />
                         <Stack row alignItems="center" spacing={8}>
                             <h3>1. BingoCVM 2.x</h3>
                             <span className="opaque">2023.04 ~ 2023.12</span>
