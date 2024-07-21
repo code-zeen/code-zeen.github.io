@@ -43,6 +43,7 @@ function Icon({ name }: { name: string }) {
         case 'mui':
             return <SiMui />
         case 'react':
+        case 'React':
             return <SiReact />
         case 'redux':
             return <SiRedux />
@@ -53,11 +54,11 @@ function Icon({ name }: { name: string }) {
         case 'webstorm':
             return <SiWebstorm />
 
-        case 'html':
+        case 'Redesign':
             return <SiHtml5 />
-        case 'javascript':
+        case 'JavaScript':
             return <SiJavascript />
-        case 'work':
+        case 'Career':
             return <MdWork />
 
         default:

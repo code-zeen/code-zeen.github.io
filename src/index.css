@@ -178,7 +178,7 @@ p {
 }
 
 p.secondary, span.secondary {
-    color: #b4b4b9;
+    color: #d0d0d0;
 }
 
 p.tertiary, span.tertiary {
@@ -230,20 +230,20 @@ ul {
     border-radius: 50%;
 }
 
-.circle-icon.html {
+.Redesign {
     background-color: #e34c26;
 }
 
-.circle-icon.javascript {
+.JavaScript {
     background-color: #e3c903;
 }
 
-.circle-icon.react {
+.React {
     background-color: #61DBFB;
 }
 
-.circle-icon.career {
-    background-color: #fc3939;
+.Career {
+    background-color: #9639c4;
 }
 
 .flex {
