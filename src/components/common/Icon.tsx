@@ -1,6 +1,24 @@
-import { SiMui, SiReact, SiRedux, SiTypescript, SiVite, SiWebstorm } from 'react-icons/si'
+import {
+    SiMui,
+    SiReact,
+    SiRedux,
+    SiTypescript,
+    SiVite,
+    SiWebstorm,
+    SiGit,
+    SiGithub,
+    SiFigma,
+    SiHtml5, SiJavascript
+} from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
-import { MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone } from 'react-icons/md'
+import {
+    MdLocationSearching,
+    MdOutlineLocationOn,
+    MdOutlineMail,
+    MdPerson2,
+    MdSmartphone,
+    MdWork
+} from 'react-icons/md'
 
 function Icon({ name }: { name: string }) {
     const disabled = '#b4b4b4'
@@ -15,7 +33,13 @@ function Icon({ name }: { name: string }) {
             return <MdLocationSearching color={disabled} />
         case 'phone':
             return <MdSmartphone color={disabled} />
+        case 'github':
+            return <SiGithub />
 
+        case 'figma':
+            return <SiFigma />
+        case 'git':
+            return <SiGit />
         case 'mui':
             return <SiMui />
         case 'react':
@@ -28,6 +52,14 @@ function Icon({ name }: { name: string }) {
             return <SiVite />
         case 'webstorm':
             return <SiWebstorm />
+
+        case 'html':
+            return <SiHtml5 />
+        case 'javascript':
+            return <SiJavascript />
+        case 'work':
+            return <MdWork />
+
         default:
             return <SlQuestion />
     }
