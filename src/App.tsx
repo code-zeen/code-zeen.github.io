@@ -20,7 +20,6 @@ function App() {
 
                     <Section title="현재 적용 중인 것">
                         <ul>
-                            <li>디자인 패턴</li>
                             <li>컴포넌트 모듈화</li>
                             <li>(리)렌더링 최적화</li>
                             <li>클린 코드 유지</li>
@@ -30,6 +29,7 @@ function App() {
                     </Section>
                     <Section title="앞으로 배우고 싶은 것">
                         <ul>
+                            <li>디자인 패턴</li>
                             <li>유닛 테스트</li>
                             <li>Docker <s>내 PC에선 잘 되던데</s></li>
                             <li>반응형 (또는 모바일 앱, React Native, Flutter)</li>
