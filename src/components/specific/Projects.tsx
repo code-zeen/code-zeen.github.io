@@ -66,6 +66,8 @@ function Projects() {
             summary: '카드 게임 : 블랙잭',
             description: '블랙잭 카드게임에 필요한 다양한 로직들을 구현하였습니다.',
             thumbnailOne: blackjack,
+            urlKr: 'https://zeen-blackjack-kr.netlify.app/',
+            urlEn: 'https://zeen-blackjack-en.netlify.app/',
         },
         {
             type: Tab.JavaScript,
@@ -75,6 +77,8 @@ function Projects() {
             description: '영문 대문자, 소문자, 숫자, 그리고 특수기호가 포함된 15자 비밀번호를 생성할 수 있습니다. \n' +
                 '생성된 비밀번호를 클릭하면 자동으로 클립보드에 저장됩니다.',
             thumbnailOne: password,
+            urlKr: 'https://zeen-password-kr.netlify.app',
+            urlEn: 'https://zeen-password-en.netlify.app',
         },
         {
             type: Tab.JavaScript,
@@ -84,6 +88,8 @@ function Projects() {
             description: '미터법(Metric System)과 야드파운드법(Imperial System)의 변환을 빠르게 할 수 있습니다. \n' +
                 '소수점 3자리까지 반올림하여 표시됩니다',
             thumbnailOne: conversion,
+            urlKr: 'https://zeen-conversion-kr.netlify.app',
+            urlEn: 'https://zeen-conversion-en.netlify.app',
         },
         {
             type: Tab.React,
@@ -92,6 +98,7 @@ function Projects() {
             summary: '여행 일지',
             description: '커스텀 컴포넌트, props, map을 사용하여 하나의 json 파일의 정보를 화면에 표현하는 정적 레이아웃을 제작했습니다.',
             thumbnailOne: travel,
+            urlKr: 'https://zeen-travel-kr.netlify.app',
         },
         {
             type: Tab.React,
@@ -101,6 +108,7 @@ function Projects() {
             description: 'Form을 통해 받는 유저의 input을 리액트가 제어할 수 있는 제어 컴포넌트로 만들었습니다. \n' +
                 '사용자의 텍스트를 이미지 위에 렌더링을 하고, 밈 이미지는 버튼 클릭시 무작위 이미지를 useEffect를 이용하여 API 호출을합니다.',
             thumbnailOne: memes,
+            urlEn: 'https://zeen-meme-en.netlify.app',
         },
         {
             type: Tab.React,
@@ -110,6 +118,8 @@ function Projects() {
             description: '각각의 주사위를 오브젝트화 하여 데이터를 담았습니다. \n' +
                 'Win-condition 충족시 (모든 주사위가 선택되었고, 모든 수가 같은 수일때) 게임을 이기고\n 자신의 최고기록이 남아 재도전할 수 있는 단순한 게임을 제작하였습니다.',
             thumbnailOne: tenzies,
+            urlKr: 'https://zeen-tenzies-kr.netlify.app',
+            urlEn: 'https://zeen-tenzies-en.netlify.app',
         },
         {
             type: Tab.React,
@@ -119,6 +129,7 @@ function Projects() {
             description: '잡상식 질문 API를 객관식 퀴즈 UI로 표현하였습니다. \n' +
                 'Check Answers 버튼으로 답을 확인 및 채점 할 수 있고, New Quiz 버튼을 눌러 새로운 질문들을 받아 올 수 있습니다.',
             thumbnailOne: quizzical,
+            urlEn: 'https://zeen-quizzical-en.netlify.app',
         },
         {
             type: Tab.React,
@@ -130,6 +141,7 @@ function Projects() {
                 '개인페이지 데이터는 sessionStorage로 브라우저창을 닫으면 데이터가 삭제됩니다. \n' +
                 'Context API를 통해 글로벌 상태/데이터 관리를 하였고 "검색 페이지"가 언마운트 되어도 재빨리 마지막 검색기록으로 돌아갈 수 있습니다.',
             thumbnailOne: movies,
+            urlEn: 'https://zeen-movies-en.netlify.app',
         },
         {
             type: Tab.Career,
@@ -188,6 +200,10 @@ function Projects() {
                                     <img src={c.thumbnailTwo} className="thumbnail" />
                                 </>
                             )}
+                        </Stack>
+                        <Stack row spacing={12}>
+                            {c.urlEn && <a href={c.urlEn} target="_blank">영어 버전</a>}
+                            {c.urlKr && <a href={c.urlKr} target="_blank">한국어 버전</a>}
                         </Stack>
                         {c.summary === 'BingoCVM 취약점 진단 솔루션 3.x' && <ImageSlide />}
                     </Stack>
