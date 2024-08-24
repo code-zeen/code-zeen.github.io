@@ -17,6 +17,34 @@ function App() {
                     <Section title="프로젝트">
                         <Projects />
                     </Section>
+                    <Section title="React">
+                        <ul>
+                            <li>React의 꽃인 <em>재사용성</em>을 중요시 여깁니다. UI와 로직을 분리 시키기 위해 <em>컴포넌트 계층</em>를 철저히 고려합니다. <em>"Smart"</em> 컴포넌트와 <em>"Dumb"</em> 컴포넌트를 구분하여 <em>로직</em>, <em>로컬상태 인스턴스화</em>, <em>전역상태의 접근 경로</em>, prop을 통한 <em>데이터의 흐름</em>을 늘 염두하며 구축합니다. 재사용되는 로직은 <em>커스텀 Hook</em> 또는 <em>helper 함수</em>를 통해 프로젝트 전역에  간결성과 일관성을 유지합니다. 복잡한 어플리케이션일수록 <em>모듈성</em>을 지향합니다.
+                            </li>
+                            <li>
+                                <em>React Developer Tools</em> 크롬 익스텐션을 사용해 렌더링/리렌더링 프로세스, 상태변화 감지, hook 사용여부, 등을 분석합니다. <em>최적화</em> 작업과 <em>디버깅</em> 할 때 사용합니다.
+                            </li>
+                        </ul>
+                    </Section>
+                    <Section title="Git">
+                        <ul>
+                            <li><em>Git</em>으로 형상관리를 하며 변경 사항을 내용별로 토막내어 정확하게 요약하여 관련 이슈 넘버를 태그합니다.</li>
+                            <li>
+                                <em>GitHub Desktop</em>의 힘을 빌려 <em>amend</em>, <em>undo</em>, <em>squash</em>, <em>stash</em>, 등으로 팀원들의 <em>DevEx</em>를 고려한 깔끔한 커밋 히스토리를 유지합니다.
+                            </li>
+                            <li>프론트엔드 리드 역할로 <em>GitHub 이슈사항 관리와 분배</em>, <em>브랜치 관리</em>, <em>풀 리퀘스트 검토</em>, <em>병합</em>, 그리고 <em>코드리뷰 진행</em>을 한 경험이 있습니다.
+                            </li>
+                            <li><em>GitHub Pages</em>와 <em>Netlify</em>를 사용한 간단한 배포 자동화 경험이 있습니다.</li>
+                        </ul>
+                    </Section>
+
+                    <Section title="기타">
+                        <ul>
+                            <li><em>FTP</em> 또는 <em>CLI</em>를 사용해 리눅스 서버에 접속하여 빌드를 업데이트 한 경험이 있습니다.</li>
+                            <li>팀원과 소통할 때 이슈의 정확한 <em>장소/경로</em>, 이슈를 <em>재현</em>할 수 있는 단계, 이슈의 <em>원인</em>에 대한 추측, 등을 상황에 맞게 전달하여 효율적인 정보 전달을 위해 적극적으로 노력합니다.
+                            </li>
+                        </ul>
+                    </Section>
 
                     <Section title="현재 적용 중인 것">
                         <ul>

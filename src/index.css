@@ -124,6 +124,10 @@ code {
     font-size: 1.25rem;
 }
 
+em {
+    color: palegreen;
+}
+
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
@@ -136,6 +140,10 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -152,6 +160,7 @@ img {
 
 li {
     list-style-type: "\1F538";
+    line-height: 1.8;
 }
 
 img.round {
