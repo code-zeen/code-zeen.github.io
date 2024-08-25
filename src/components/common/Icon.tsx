@@ -54,7 +54,7 @@ function Icon({ name }: { name: string }) {
         case 'webstorm':
             return <SiWebstorm />
 
-        case 'Redesign':
+        case 'Publishing':
             return <SiHtml5 />
         case 'JavaScript':
             return <SiJavascript />

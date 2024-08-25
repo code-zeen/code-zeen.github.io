@@ -19,7 +19,7 @@ import { useState } from "react";
 import ImageSlide from "../styled/ImageSlide.tsx";
 
 enum Tab {
-    Redesign = 'Redesign',
+    Publishing = 'Publishing',
     JavaScript = 'JavaScript',
     React = 'React',
     Career = 'Career',
@@ -30,7 +30,7 @@ function Projects() {
     const buttons = (Object.keys(Tab) as Array<keyof typeof Tab>).map(tab => tab)
     const content = [
         {
-            type: Tab.Redesign,
+            type: Tab.Publishing,
             date: '2022 . 02',
             location: '그린컴퓨터아트학원',
             summary: 'Float, Position 이용한 정적 레아이웃 -해피피플',
@@ -40,7 +40,7 @@ function Projects() {
             thumbnailTwo: happyPeople1,
         },
         {
-            type: Tab.Redesign,
+            type: Tab.Publishing,
             date: '2022 . 03',
             location: '그린컴퓨터아트학원',
             summary: 'Flexbox를 이용한 반응형 레이아웃 -mosh!',
@@ -50,7 +50,7 @@ function Projects() {
             thumbnailTwo: mosh1,
         },
         {
-            type: Tab.Redesign,
+            type: Tab.Publishing,
             date: '2022 . 04',
             location: '그린컴퓨터아트학원',
             summary: 'JavaScript를 활용한 masonry 레이아웃 -만개의레시피',
