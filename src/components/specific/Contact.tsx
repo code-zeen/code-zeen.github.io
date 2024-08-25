@@ -37,7 +37,7 @@ function Contact() {
                 {personalInfo.map((row, i) => (
                     <Stack key={i} row alignItems="center">
                         <Icon name={row.icon} />
-                        <p className="tertiary">{row.text}</p>
+                        <p className="secondary">{row.text}</p>
                     </Stack>
                 ))}
             </Stack>
@@ -45,6 +45,9 @@ function Contact() {
                 {skillSet.map((row, i) => (
                     <Chip key={i} text={row.text} startIcon={<Icon name={row.icon} />} />
                 ))}
+            </Stack>
+            <Stack>
+                <p className="tertiary">Last updated: {BUILD_TIMESTAMP.slice(0,10)}</p>
             </Stack>
         </Stack>
     )
