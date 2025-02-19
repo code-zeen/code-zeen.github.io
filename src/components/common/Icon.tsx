@@ -1,25 +1,23 @@
 import {
+    SiAxios, SiClaude,
+    SiFigma,
+    SiGit,
+    SiGithub,
+    SiHtml5,
+    SiJavascript,
     SiMui,
+    SiNextdotjs,
     SiReact,
     SiRedux,
+    SiStyledcomponents,
+    SiSupabase,
     SiTypescript,
     SiVite,
     SiWebstorm,
-    SiGit,
-    SiGithub,
-    SiFigma,
-    SiHtml5, SiJavascript, SiAxios, SiCreatereactapp,
 } from 'react-icons/si'
-import { SlQuestion } from 'react-icons/sl'
-import {
-    MdLocationSearching,
-    MdOutlineLocationOn,
-    MdOutlineMail,
-    MdPerson2,
-    MdSmartphone,
-    MdWork
-} from 'react-icons/md'
-import { HiOutlineChartPie } from 'react-icons/hi'
+import {SlQuestion} from 'react-icons/sl'
+import {MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone, MdWork} from 'react-icons/md'
+import {HiOutlineChartPie} from 'react-icons/hi'
 
 function Icon({ name }: { name: string }) {
     const disabled = '#b4b4b4'
@@ -41,19 +39,25 @@ function Icon({ name }: { name: string }) {
             return <HiOutlineChartPie />
         case 'axios':
             return <SiAxios />
-        case 'create-react-app':
-            return <SiCreatereactapp />
+        case 'claudeai':
+            return <SiClaude />
         case 'figma':
             return <SiFigma />
         case 'git':
             return <SiGit />
         case 'mui':
             return <SiMui />
+        case 'next':
+            return <SiNextdotjs />
         case 'react':
             return <SiReact />
         case 'redux toolkit':
         case 'rtk query':
             return <SiRedux />
+        case 'styled-components':
+            return <SiStyledcomponents />
+        case 'supabase':
+            return <SiSupabase />
         case 'typescript':
             return <SiTypescript />
         case 'vite':

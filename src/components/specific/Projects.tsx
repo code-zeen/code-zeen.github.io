@@ -162,10 +162,10 @@ function Projects() {
             location: '(주)케이비아이',
             title: 'BingoCVM 취약점 진단 솔루션 2.x',
             contribution: 40,
-            stacks: ['Create-React-App', 'JavaScript', 'Redux Toolkit', 'MUI', 'ApexCharts'],
+            stacks: [ 'React', 'JavaScript', 'Redux Toolkit', 'MUI', 'ApexCharts'],
             description:
-                '<em>(주)케이비아이</em>의 자사 프로그램인 <em>BingoCVM</em>은 기관의 디지털 자산의 취약점을 자동진단하여 한국인터넷진흥원 (KISA)의 최신 기준에 준수하여 <em>디지털 침해사고 피해를 방지하는 CAASM 프로그램</em>입니다.</br></br>' +
-                '프로그램의 유지보수 및 기능추가를 <em>풀스택 개발자 2명과 함께</em> 진행했습니다.</br></br>' +
+                '<em>(주)케이비아이</em>의 자사 프로그램인 <em>BingoCVM</em>은 기관의 디지털 자산의 취약점을 자동진단하여 한국인터넷진흥원 (KISA)의 최신 기준에 준수하여 <em>디지털 침해사고 피해를 방지하는 CAASM 프로그램</em>입니다.<br/><br/>' +
+                '프로그램의 유지보수 및 기능추가를 <em>풀스택 개발자 2명과 함께</em> <em>총 3명</em>이서 진행했습니다.<br/><br/>' +
                 '<em>기본적인 CRUD</em> 기능으로 로그인, 계정생성, 자산등록, 자산진단, 진단내역 조회, 취약항목 조회, 취약항목에 대한 조치 등록, 조치내역 조회, 자료실 파일 업로드/다운로드, 관리자 감사(로그) 조회, 물리적/관리적 취약점 수동 등록, 스크립트 관리, 시스템 설정페이지가 있습니다.\n\n' +
                 '<em>RESTful API</em>를 통해 백엔드와 통신을 했습니다.<br/>' +
                 '코드베이스를 익혀가며 <em>컴포넌트 리팩토링</em> 작업도 진행하며, MUI를 사용한 신규 화면 <em>UI/UX 제작</em>도 하였습니다.<br/>' +
@@ -177,14 +177,38 @@ function Projects() {
             location: '(주)케이비아이',
             title: 'BingoCVM 취약점 진단 솔루션 3.x',
             contribution: 99,
-            stacks: ['Vite', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Axios', 'MUI', 'ApexCharts'],
+            stacks: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Axios', 'MUI', 'ApexCharts'],
             description:
-                '기존 버전의 기술적 한계를 극복하기 위해 저희 개발팀은 새로운 버전을 만들기로 결정했습니다.</br></br>' +
-                '이 프로젝트의 <em>프론트엔드는 제가 담당하여 총괄하게 되었고</em> 나머지 2명의 개발자는 백엔드에 몰두하여 좋은 시너지를 발휘할 수 있었습니다.<br/>추후에 프론트엔드 개발자가 추가되었습니다.</br></br>' +
-                '더욱 효율적인 빌드툴 Vite를 선택했고, TypeScript를 엄격하게 사용하여 <em>개발환경과 코드 품질을 향상시켰습니다</em>.</br>' +
-                '<em>전역으로 관리되어야 하는 요소들</em> (디자인 테마, 에러 핸들링, 토큰/권한 확인, 로딩 UI 등)을 <em>middleware</em> 또는 <em>config</em>를 생성하여 <em>시스테믹하게 설계해</em> 유지보수와 개발 효율을 급격히 증가하였습니다.</br>' +
-                '<em>Redux-Toolkit</em>을 더 파고들어 기존 버전의 코드보다 <em>훨씬 단순하지만 확실한 방법으로</em> 상태관리를 했습니다. <em>RTK Query</em>또한 연구하여 <em>캐싱</em>으로 동일한 쿼리 데이터에 대한 중복 요청 방지, 로딩 상태 추적, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 <em>더욱 부드러운 유저 경험</em>을 제공했습니다.</br></br>' +
+                '기존 버전의 기술적 한계를 극복하기 위해 저희 개발팀은 새로운 버전을 만들기로 결정했습니다.<br/><br/>' +
+                '이 프로젝트의 <em>프론트엔드는 제가 담당하여 총괄하게 되었고</em> 나머지 2명의 개발자는 백엔드에 몰두하여 좋은 시너지를 발휘할 수 있었습니다.<br/>추후에 프론트엔드 개발자가 추가되었습니다.<br/><br/>' +
+                '더욱 효율적인 빌드툴 Vite를 선택했고, TypeScript를 엄격하게 사용하여 <em>개발환경과 코드 품질을 향상시켰습니다</em>.<br/>' +
+                '<em>전역으로 관리되어야 하는 요소들</em> (디자인 테마, 에러 핸들링, 토큰/권한 확인, 로딩 UI 등)을 <em>middleware</em> 또는 <em>config</em>를 생성하여 <em>시스테믹하게 설계해</em> 유지보수와 개발 효율을 급격히 증가하였습니다.<br/>' +
+                '<em>Redux-Toolkit</em>을 더 파고들어 기존 버전의 코드보다 <em>훨씬 단순하지만 확실한 방법으로</em> 상태관리를 했습니다. <em>RTK Query</em>또한 연구하여 <em>캐싱</em>으로 동일한 쿼리 데이터에 대한 중복 요청 방지, 로딩 상태 추적, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 <em>더욱 부드러운 유저 경험</em>을 제공했습니다.<br/><br/>' +
                 'Chart-js, ApexCharts 등 여러 <em>데이터 시각화 라이브러리</em>를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.'
+        },
+        {
+            type: Tab.Career,
+            date: '2024 . 08 ~ 2024 . 12',
+            location: '위드런 (WithRun)',
+            title: '컴퓨터 기반 평가 문제은행',
+            contribution: 50,
+            stacks: ['React', 'JavaScript', 'Supabase', 'Styled-Components', 'ClaudeAI'],
+            description:
+                '<em>위드런(WithRun)</em>의 <em>컴퓨터 기반 평가 문제은행</em>은 초등학생 선생님들이 문제 은행에서 과목, 단원, 문제유형과 난이도를 선택하여 문제를 만들고, 학생들에게 배포하여 풀게 할 수 있는 <em>디지털 교과서 서비스</em>입니다.<br/><br/>' +
+                '<em>풀스택 시니어 개발자 1명</em>과 <em>프론트엔드 개발자 1명</em>과 함께 <em>총 3명</em>이서 진행했습니다. 빠른 시일 내에 프로토타입을 창출하기 위해 <em>백엔드 없이 supabase를 사용한 서버리스</em> 형식으로 개발하였습니다.<br/><br/>' +
+                '초등학생이 대상인 특성상, 다양한 형태의 문제를 구현해야 했습니다. 고객이 요청한 끝없이 다양한 문제 레이아웃을 <em>데이터베이스만을 사용하여 구현하기 어려워</em>, 퍼블리싱 팀이 <em>커스텀으로 제작한 HTML 파일</em>을 읽어와 <em>html-react-parser</em>를 사용해 리액트 형식으로 파싱하여 기능구현 하는 작업을 맡았습니다. 그 중 가장 새로웠던 경험은 <em>canvas</em>를 이용한 <em>"점 연결하기"</em> 기능과 <em>react-dnd</em>를 사용한 <em>"끌어놓기"</em> 기능이었습니다. 그렇게 인터랙션을 구현한 뒤, 학생이 입력한 값을 DB와 맞는 형식으로 변환한 뒤 학생 입력값을 정답값과 비교하여 <em>자동채점</em> 기능까지 구현하였습니다.<br/><br/>' +
+                '모든 CRUD 작업은 백엔드 없이 직접 supabase를 호출하여 <em>데이터베이스 조회, 변경, 삭제</em>등 하였습니다. 자바스크립트만을 사용하여 여러 테이블들을 쿼리 하여 join 하는 과정이 가장 복잡하게 느껴졌습니다.<br/><br/>' +
+                '시니어 개발자의 주도 아래 <em>ChatGPT</em>, <em>Claude</em>, <em>Cursor</em>, <em>GitHub Copilot</em>, <em>JetBrains AI Assistant</em> , 등을 활용하여 처음으로 <em>다양한 AI 툴</em>들을 사용한 프로젝트였습니다.'
+        },
+        {
+            type: Tab.Career,
+            date: '2024 . 11 ~ 현재',
+            location: '위드런 (WithRun)',
+            title: '컴퓨터 기반 평가 문제은행',
+            contribution: 50,
+            stacks: ['Next', 'TypeScript', 'Supabase', 'Styled-Components'],
+            description:
+                'Lorem Ipsum'
         },
     ]
 
