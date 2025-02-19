@@ -6,13 +6,18 @@ import {Project} from "../../content/projects.type.ts";
 
 const StyledOuterContainer = styled.div`
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 560px;
 `
 const StyledInnerContainer = styled.div`
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
+    height: 100%;
+    position: relative;
 `
 const StyledButtons = styled.div<{
     disabled?: boolean,
@@ -32,6 +37,14 @@ const StyledButtons = styled.div<{
     }
 
     ${p => p.disabled && "background-color: #222222; cursor: auto; &:hover { background-color: #222222 }"}
+`
+const StyledImage = styled.img`
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 `
 
 interface ImageSlideProps {
@@ -54,14 +67,14 @@ function ImageSlide({ imageSlide }: ImageSlideProps) {
     }
 
     return (
-        <Stack alignItems="center">
+        <Stack alignItems="center" width='100%'>
             <p>{imageSlide[currentSlide].caption}</p>
             <StyledOuterContainer>
                 <StyledButtons onClick={clickLeft} disabled={currentSlide === 0}>
                     <MdArrowLeft size={64} />
                 </StyledButtons>
                 <StyledInnerContainer>
-                    <img src={imageSlide[currentSlide].image} width="100%" />
+                    <StyledImage src={imageSlide[currentSlide].image} width="100%" alt={imageSlide[currentSlide].image} />
                 </StyledInnerContainer>
                 <StyledButtons onClick={clickRight} disabled={currentSlide === imageSlide.length - 1}>
                     <MdArrowRight size={64} />
