@@ -24,9 +24,9 @@ function AboutMe() {
             <p className="timeline"><span className="hidden">2022년</span> 10 월 - TOEIC 990점 취득</p>
             <p className="timeline"><span className="hidden">2022년</span> 11 월 - React 독학</p>
             <p className="timeline">2023년 03 월 - 프론트엔드 입사</p>
-            <p className="timeline">2024년 01 월 - <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank">cs50</a> 수강</p>
-            <p className="timeline"><span className="hidden">2024년</span> 03 월 - 프론트엔드 퇴사</p>
+            <p className="timeline">2024년 03 월 - 프론트엔드 퇴사</p>
             <p className="timeline"><span className="hidden">2024년</span> 08 월 - 프론트엔드 프리랜스</p>
+            <p className="timeline"><span className="hidden">2024년</span> 10 월 - 프론트엔드 정규직 변환</p>
         </>
     )
 }
