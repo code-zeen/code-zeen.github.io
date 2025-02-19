@@ -24,6 +24,7 @@ enum Tab {
     JavaScript = 'JavaScript',
     React = 'React',
     Career = 'Career',
+    ToyProjects = 'Toy Projects',
 }
 
 function Projects() {
@@ -161,11 +162,13 @@ function Projects() {
             location: '(주)케이비아이',
             title: 'BingoCVM 취약점 진단 솔루션 2.x',
             contribution: 40,
-            stacks: ['Create-React-App', 'JavaScript', 'Redux Toolkit', 'ApexCharts'],
-            description: '(주)케이비아이의 자사 프로그램인 BingoCVM은 기관의 디지털 자산의 취약점을 자동진단하여 한국인터넷진흥원 (KISA)의 최신 기준에 준수하여 디지털 침해사고 피해를 방지하는 CAASM 프로그램입니다.\n\n' +
-                '프로그램의 유지보수 및 기능추가를 풀스택 개발자 2명과 함께 진행했습니다.\n\n' +
-                '기본적은 CRUD 기능으로 로그인, 계정생성, 자산등록, 자산진단, 진단내역 조회, 취약항목 조회, 취약항목에 대한 조치 등록, 조치내역 조회, 자료실 파일 업로드/다운로드, 관리자 감사(로그) 조회, 물리적/관리적 취약점 수동 등록, 스크립트 관리, 시스템 설정페이지가 있습니다.\n\n' +
-                'Create-React-App, JavaScript, Redux-Toolkit을 기반으로 빌드와 전역상태관리를 하였고 fetch를 사용한 RESTful API를 통해 백엔드와 통신을 했습니다.\n' +
+            stacks: ['Create-React-App', 'JavaScript', 'Redux Toolkit', 'MUI', 'ApexCharts'],
+            description:
+                '<em>(주)케이비아이</em>의 자사 프로그램인 <em>BingoCVM</em>은 기관의 디지털 자산의 취약점을 자동진단하여 한국인터넷진흥원 (KISA)의 최신 기준에 준수하여 <em>디지털 침해사고 피해를 방지하는 CAASM 프로그램</em>입니다.</br></br>' +
+                '프로그램의 유지보수 및 기능추가를 <em>풀스택 개발자 2명과 함께</em> 진행했습니다.</br></br>' +
+                '<em>기본적인 CRUD</em> 기능으로 로그인, 계정생성, 자산등록, 자산진단, 진단내역 조회, 취약항목 조회, 취약항목에 대한 조치 등록, 조치내역 조회, 자료실 파일 업로드/다운로드, 관리자 감사(로그) 조회, 물리적/관리적 취약점 수동 등록, 스크립트 관리, 시스템 설정페이지가 있습니다.\n\n' +
+                '<em>RESTful API</em>를 통해 백엔드와 통신을 했습니다.<br/>' +
+                '코드베이스를 익혀가며 <em>컴포넌트 리팩토링</em> 작업도 진행하며, MUI를 사용한 신규 화면 <em>UI/UX 제작</em>도 하였습니다.<br/>' +
                 '고객에게 전달받은 의견을 개발팀 회의를 통해 의논하고 프로그램에 반영하여 고도화하였습니다',
         },
         {
@@ -174,13 +177,14 @@ function Projects() {
             location: '(주)케이비아이',
             title: 'BingoCVM 취약점 진단 솔루션 3.x',
             contribution: 99,
-            stacks: ['Vite', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'ApexCharts', 'Axios'],
-            description: '기존 버전의 기술적 한계를 극복하기 위해 저희 개발팀은 새로운 버전을 만들기로 결정했습니다. \n' +
-                '이 프로젝트의 프론트엔드는 제가 담당하여 총괄하게 되었고 나머지 2명의 개발자는 백엔드에 몰두하여 좋은 시너지를 발휘할 수 있었습니다.추후에 프론트엔드 개발자가 추가되었습니다. \n\n' +
-                '더욱 효율적인 빌드툴 Vite를 선택했고, TypeScript를 엄격하게 사용했습니다.\n' +
-                '전역으로 관리되어야 하는 요소들 (디자인 테마, 에러 핸들링, 토큰/권한 확인, 로딩 UI 등)을 시스테믹하게 설계해 수동으로 해야할 일을 줄이고, 에러 발생도 급격히 줄였습니다.' +
-                'Redux-Toolkit을 더 파고들어 기존 버전의 코드보다 훨씬 단순하지만 확실한 방법으로 상태관리를 했습니다. RTK Query또한 연구하여 캐시 수명 관리, 동일한 데이터에 대한 중복 요청 방지, 로딩 상태 추적, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 더욱 부드럽고 직관적인 유저 경험을 제공했습니다.\n\n' +
-                'Chart-js, ApexCharts 등 여러 데이터 시각화 라이브러리를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.'
+            stacks: ['Vite', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Axios', 'MUI', 'ApexCharts'],
+            description:
+                '기존 버전의 기술적 한계를 극복하기 위해 저희 개발팀은 새로운 버전을 만들기로 결정했습니다.</br></br>' +
+                '이 프로젝트의 <em>프론트엔드는 제가 담당하여 총괄하게 되었고</em> 나머지 2명의 개발자는 백엔드에 몰두하여 좋은 시너지를 발휘할 수 있었습니다.<br/>추후에 프론트엔드 개발자가 추가되었습니다.</br></br>' +
+                '더욱 효율적인 빌드툴 Vite를 선택했고, TypeScript를 엄격하게 사용하여 <em>개발환경과 코드 품질을 향상시켰습니다</em>.</br>' +
+                '<em>전역으로 관리되어야 하는 요소들</em> (디자인 테마, 에러 핸들링, 토큰/권한 확인, 로딩 UI 등)을 <em>middleware</em> 또는 <em>config</em>를 생성하여 <em>시스테믹하게 설계해</em> 유지보수와 개발 효율을 급격히 증가하였습니다.</br>' +
+                '<em>Redux-Toolkit</em>을 더 파고들어 기존 버전의 코드보다 <em>훨씬 단순하지만 확실한 방법으로</em> 상태관리를 했습니다. <em>RTK Query</em>또한 연구하여 <em>캐싱</em>으로 동일한 쿼리 데이터에 대한 중복 요청 방지, 로딩 상태 추적, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 <em>더욱 부드러운 유저 경험</em>을 제공했습니다.</br></br>' +
+                'Chart-js, ApexCharts 등 여러 <em>데이터 시각화 라이브러리</em>를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.'
         },
     ]
 
@@ -216,7 +220,9 @@ function Projects() {
                                 <Chip key={stack} text={stack} startIcon={<Icon name={stack} />}/>
                             ))}
                         </Stack>
-                        <p className="secondary">{c.description}</p>
+                        <Stack py={8}>
+                        <p className="secondary" dangerouslySetInnerHTML={{ __html: c.description}} />
+                        </Stack>
                         <Stack row spacing={12} alignItems="center">
                             <img src={c.thumbnailOne} className="thumbnail" />
                             {c.thumbnailTwo && (
