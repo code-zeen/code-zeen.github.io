@@ -194,7 +194,7 @@ p.tertiary, span.tertiary {
     color: #71767B;
 }
 
-p.summary {
+p.title {
     font-size: 1.125rem;
     font-weight: 500;
 }
@@ -206,6 +206,11 @@ p.timeline {
 
 s {
     color: #565656;
+}
+
+span.contribution {
+    color: #71767B;
+    font-size: 0.825rem;
 }
 
 span.hidden {
