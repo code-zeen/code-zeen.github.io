@@ -10,15 +10,16 @@ function Contact() {
         { icon: 'personality', text: 'INTP' },
     ]
     const skillSet = [
-        { icon: 'react', text: 'React' },
-        { icon: 'redux', text: 'Redux Toolkit' },
-        { icon: 'typescript', text: 'TypeScript' },
-        { icon: 'mui', text: 'Material UI' },
-        { icon: 'vite', text: 'Vite' },
-        { icon: 'figma', text: 'Figma' },
-        { icon: 'webstorm', text: 'Webstorm' },
-        { icon: 'git', text: 'Git' },
+        { icon: 'React' },
+        { icon: 'Redux Toolkit' },
+        { icon: 'Typescript' },
+        { icon: 'Mui' },
+        { icon: 'Vite' },
+        { icon: 'Figma' },
+        { icon: 'Webstorm' },
+        { icon: 'Git' },
     ]
+
     return (
         <Stack spacing={16} className="contact bgcolor dark" style={{ padding: '20px 32px' }}>
             <Stack row alignItems="center" spacing={16} style={{ padding: '20px 0' }}>
@@ -43,7 +44,7 @@ function Contact() {
             </Stack>
             <Stack row>
                 {skillSet.map((row, i) => (
-                    <Chip key={i} text={row.text} startIcon={<Icon name={row.icon} />} />
+                    <Chip key={i} text={row.icon} startIcon={<Icon name={row.icon} />} />
                 ))}
             </Stack>
             <Stack>

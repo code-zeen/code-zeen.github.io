@@ -22,7 +22,7 @@ import {
 
 function Icon({ name }: { name: string }) {
     const disabled = '#b4b4b4'
-    switch (name) {
+    switch (name.toLowerCase()) {
         case 'email':
             return <MdOutlineMail color={disabled} />
         case 'location':
@@ -43,9 +43,8 @@ function Icon({ name }: { name: string }) {
         case 'mui':
             return <SiMui />
         case 'react':
-        case 'React':
             return <SiReact />
-        case 'redux':
+        case 'redux toolkit':
             return <SiRedux />
         case 'typescript':
             return <SiTypescript />
@@ -54,11 +53,11 @@ function Icon({ name }: { name: string }) {
         case 'webstorm':
             return <SiWebstorm />
 
-        case 'Publishing':
+        case 'publishing':
             return <SiHtml5 />
-        case 'JavaScript':
+        case 'javaScript':
             return <SiJavascript />
-        case 'Career':
+        case 'career':
             return <MdWork />
 
         default:
