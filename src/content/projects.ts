@@ -12,8 +12,20 @@ import memes from "../assets/projects-8-memes.png"
 import tenzies from "../assets/projects-9-tenzies.png"
 import quizzical from "../assets/projects-10-quizzical.png"
 import movies from "../assets/projects-11-movies.png"
-import {Project} from "./projects.type.ts";
-import {TabEnum} from "../types/enums.ts";
+import {Project} from "./projects.type.ts"
+import {TabEnum} from "../types/enums.ts"
+import ss0 from "../assets/ss0.png"
+import ss1 from "../assets/ss1.png"
+import ss2 from "../assets/ss2.png"
+import ss3 from "../assets/ss3.png"
+import wr1 from "../assets/wr1.png"
+import wr2 from "../assets/wr2.png"
+import wr3 from "../assets/wr3.png"
+import wr4 from "../assets/wr4.png"
+import wr5 from "../assets/wr5.png"
+import wr6 from "../assets/wr6.png"
+import wr7 from "../assets/wr7.png"
+
 
 export const projects: Project[] = [
     {
@@ -169,7 +181,13 @@ export const projects: Project[] = [
             '더욱 효율적인 빌드툴 Vite를 선택했고, TypeScript를 엄격하게 사용하여 <em>개발환경과 코드 품질을 향상시켰습니다</em>.<br/>' +
             '<em>전역으로 관리되어야 하는 요소들</em> (디자인 테마, 에러 핸들링, 토큰/권한 확인, 로딩 UI 등)을 <em>middleware</em> 또는 <em>config</em>를 생성하여 <em>시스테믹하게 설계해</em> 유지보수와 개발 효율을 급격히 증가하였습니다.<br/>' +
             '<em>Redux-Toolkit</em>을 더 파고들어 기존 버전의 코드보다 <em>훨씬 단순하지만 확실한 방법으로</em> 상태관리를 했습니다. <em>RTK Query</em>또한 연구하여 <em>캐싱</em>으로 동일한 쿼리 데이터에 대한 중복 요청 방지, 로딩 상태 추적, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 <em>더욱 부드러운 유저 경험</em>을 제공했습니다.<br/><br/>' +
-            'Chart-js, ApexCharts 등 여러 <em>데이터 시각화 라이브러리</em>를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.'
+            'Chart-js, ApexCharts 등 여러 <em>데이터 시각화 라이브러리</em>를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.',
+        imageSlide: [
+            { image: ss0, caption: '1. 대시보드' },
+            { image: ss1, caption: '2. 취약점 체크리스트 및 점수표' },
+            { image: ss2, caption: '3. 계정 목록 및 생성' },
+            { image: ss3, caption: '4. 자료실 및 파일 업로드' }
+        ]
     },
     {
         type: TabEnum.Career,
@@ -183,7 +201,16 @@ export const projects: Project[] = [
             '<em>풀스택 시니어 개발자 1명</em>과 <em>프론트엔드 개발자 1명</em>과 함께 <em>총 3명</em>이서 진행했습니다. 빠른 시일 내에 프로토타입을 창출하기 위해 <em>백엔드 없이 supabase를 사용한 서버리스</em> 형식으로 개발하였습니다.<br/><br/>' +
             '초등학생이 대상인 특성상, 다양한 형태의 문제를 구현해야 했습니다. 고객이 요청한 끝없이 다양한 문제 레이아웃을 <em>데이터베이스만을 사용하여 구현하기 어려워</em>, 퍼블리싱 팀이 <em>커스텀으로 제작한 HTML 파일</em>을 읽어와 <em>html-react-parser</em>를 사용해 리액트 형식으로 파싱하여 기능구현 하는 작업을 맡았습니다. 그 중 가장 새로웠던 경험은 <em>canvas</em>를 이용한 <em>"점 연결하기"</em> 기능과 <em>react-dnd</em>를 사용한 <em>"끌어놓기"</em> 기능이었습니다. 그렇게 인터랙션을 구현한 뒤, 학생이 입력한 값을 DB와 맞는 형식으로 변환한 뒤 학생 입력값을 정답값과 비교하여 <em>자동채점</em> 기능까지 구현하였습니다.<br/><br/>' +
             '그 외의 작업은 보편적인 CRUD 기능이었지만, 백엔드 없이 직접 supabase를 호출하여 <em>데이터베이스 조회, 변경, 삭제</em>등 하였습니다. supabase API를 사용하여 자바스크립트만을 통해 여러 테이블들을 쿼리 하여 데이터를 직접 계산/가공하는 과정이 많았습니다.<br/><br/>' +
-            '시니어 개발자의 주도 아래 <em>ChatGPT</em>, <em>Claude</em>, <em>Cursor</em>, <em>GitHub Copilot</em>, <em>JetBrains AI Assistant</em> , 등을 활용하여 처음으로 <em>다양한 AI 툴</em>들을 사용한 프로젝트였습니다.'
+            '시니어 개발자의 주도 아래 <em>ChatGPT</em>, <em>Claude</em>, <em>Cursor</em>, <em>GitHub Copilot</em>, <em>JetBrains AI Assistant</em> , 등을 활용하여 처음으로 <em>다양한 AI 툴</em>들을 사용한 프로젝트였습니다.',
+        imageSlide: [
+            { image: wr1, caption: '1. 점 연결하기' },
+            { image: wr2, caption: '2. 끌어넣기 (복수 가능, 중복 불가)' },
+            { image: wr3, caption: '3. 끌어넣기 (복수 불가)' },
+            { image: wr4, caption: '4. 선택하기' },
+            { image: wr5, caption: '5. 라디오 버튼' },
+            { image: wr6, caption: '6. 라디오 버튼' },
+            { image: wr7, caption: '7. 라디오 버튼' },
+        ]
     },
     {
         type: TabEnum.Career,

@@ -8,9 +8,15 @@ export interface Project {
     contribution: number
     stacks?: string[]
     description: string
+    imageSlide?: ImageSlide[]
 
     thumbnailOne?: string
     thumbnailTwo?: string
     urlKr?: string
     urlEn?: string
+}
+
+interface ImageSlide {
+    image: string
+    caption: string
 }

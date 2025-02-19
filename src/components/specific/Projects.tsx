@@ -63,7 +63,7 @@ function Projects() {
                             {p.urlEn && <a href={p.urlEn} target="_blank">영어 버전</a>}
                             {p.urlKr && <a href={p.urlKr} target="_blank">한국어 버전</a>}
                         </Stack>
-                        {p.title === 'BingoCVM 취약점 진단 솔루션 3.x' && <ImageSlide />}
+                        {p.imageSlide && <ImageSlide imageSlide={p.imageSlide} />}
                     </Stack>
                     <hr style={{ width: "100%" }} />
                 </>
