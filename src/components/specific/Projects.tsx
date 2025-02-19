@@ -227,14 +227,17 @@ function Projects() {
             {content.map(c => c.type === currentTab && (
                 <>
                     <Stack px={20} py={8} spacing={8}>
-                        <Stack row spacing={12} alignItems="center">
-                            <div className={c.type + ' circle-icon'}>
-                                <Icon name={c.type} />
-                            </div>
-                            <span>{c.type}</span>
-                            <span className="tertiary small">{c.date}</span>
+                        <Stack>
+                            <Stack row spacing={12} alignItems="center">
+                                <div className={c.type + ' circle-icon'}>
+                                    <Icon name={c.type} />
+                                </div>
+                                <span>{c.type}</span>
+                                <span className="tertiary small">{c.date}</span>
+                            </Stack>
                             <span className="tertiary small">{c.location}</span>
                         </Stack>
+
                         <Stack row alignItems="center" spacing={12}>
                             <p className="title">{c.title}</p>
                             <span className="contribution">기여도 {c.contribution}%</span>
