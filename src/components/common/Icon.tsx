@@ -8,7 +8,7 @@ import {
     SiGit,
     SiGithub,
     SiFigma,
-    SiHtml5, SiJavascript
+    SiHtml5, SiJavascript, SiAxios, SiCreatereactapp,
 } from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
 import {
@@ -19,6 +19,7 @@ import {
     MdSmartphone,
     MdWork
 } from 'react-icons/md'
+import { HiOutlineChartPie } from 'react-icons/hi'
 
 function Icon({ name }: { name: string }) {
     const disabled = '#b4b4b4'
@@ -36,6 +37,12 @@ function Icon({ name }: { name: string }) {
         case 'github':
             return <SiGithub />
 
+        case 'apexcharts':
+            return <HiOutlineChartPie />
+        case 'axios':
+            return <SiAxios />
+        case 'create-react-app':
+            return <SiCreatereactapp />
         case 'figma':
             return <SiFigma />
         case 'git':
@@ -45,6 +52,7 @@ function Icon({ name }: { name: string }) {
         case 'react':
             return <SiReact />
         case 'redux toolkit':
+        case 'rtk query':
             return <SiRedux />
         case 'typescript':
             return <SiTypescript />
@@ -55,7 +63,7 @@ function Icon({ name }: { name: string }) {
 
         case 'publishing':
             return <SiHtml5 />
-        case 'javaScript':
+        case 'javascript':
             return <SiJavascript />
         case 'career':
             return <MdWork />
