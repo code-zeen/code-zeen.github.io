@@ -18,6 +18,7 @@ import {
 import {SlQuestion} from 'react-icons/sl'
 import {MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone, MdWork} from 'react-icons/md'
 import {HiOutlineChartPie} from 'react-icons/hi'
+import {TbCircleLetterZFilled} from "react-icons/tb";
 
 function Icon({ name }: { name: string }) {
     const disabled = '#b4b4b4'
@@ -64,6 +65,8 @@ function Icon({ name }: { name: string }) {
             return <SiVite />
         case 'webstorm':
             return <SiWebstorm />
+        case 'zustand':
+            return <TbCircleLetterZFilled />
 
         case 'publishing':
             return <SiHtml5 />

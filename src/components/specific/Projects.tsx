@@ -197,7 +197,7 @@ function Projects() {
                 '<em>위드런(WithRun)</em>의 <em>컴퓨터 기반 평가 문제은행</em>은 초등학생 선생님들이 문제 은행에서 과목, 단원, 문제유형과 난이도를 선택하여 문제를 만들고, 학생들에게 배포하여 풀게 할 수 있는 <em>디지털 교과서 서비스</em>입니다.<br/><br/>' +
                 '<em>풀스택 시니어 개발자 1명</em>과 <em>프론트엔드 개발자 1명</em>과 함께 <em>총 3명</em>이서 진행했습니다. 빠른 시일 내에 프로토타입을 창출하기 위해 <em>백엔드 없이 supabase를 사용한 서버리스</em> 형식으로 개발하였습니다.<br/><br/>' +
                 '초등학생이 대상인 특성상, 다양한 형태의 문제를 구현해야 했습니다. 고객이 요청한 끝없이 다양한 문제 레이아웃을 <em>데이터베이스만을 사용하여 구현하기 어려워</em>, 퍼블리싱 팀이 <em>커스텀으로 제작한 HTML 파일</em>을 읽어와 <em>html-react-parser</em>를 사용해 리액트 형식으로 파싱하여 기능구현 하는 작업을 맡았습니다. 그 중 가장 새로웠던 경험은 <em>canvas</em>를 이용한 <em>"점 연결하기"</em> 기능과 <em>react-dnd</em>를 사용한 <em>"끌어놓기"</em> 기능이었습니다. 그렇게 인터랙션을 구현한 뒤, 학생이 입력한 값을 DB와 맞는 형식으로 변환한 뒤 학생 입력값을 정답값과 비교하여 <em>자동채점</em> 기능까지 구현하였습니다.<br/><br/>' +
-                '모든 CRUD 작업은 백엔드 없이 직접 supabase를 호출하여 <em>데이터베이스 조회, 변경, 삭제</em>등 하였습니다. 자바스크립트만을 사용하여 여러 테이블들을 쿼리 하여 join 하는 과정이 가장 복잡하게 느껴졌습니다.<br/><br/>' +
+                '그 외의 작업은 보편적인 CRUD 기능이었지만, 백엔드 없이 직접 supabase를 호출하여 <em>데이터베이스 조회, 변경, 삭제</em>등 하였습니다. supabase API를 사용하여 자바스크립트만을 통해 여러 테이블들을 쿼리 하여 데이터를 직접 계산/가공하는 과정이 많았습니다.<br/><br/>' +
                 '시니어 개발자의 주도 아래 <em>ChatGPT</em>, <em>Claude</em>, <em>Cursor</em>, <em>GitHub Copilot</em>, <em>JetBrains AI Assistant</em> , 등을 활용하여 처음으로 <em>다양한 AI 툴</em>들을 사용한 프로젝트였습니다.'
         },
         {
@@ -206,7 +206,7 @@ function Projects() {
             location: '위드런 (WithRun)',
             title: '컴퓨터 기반 평가 문제은행',
             contribution: 50,
-            stacks: ['Next', 'TypeScript', 'Supabase', 'Styled-Components'],
+            stacks: ['Next', 'TypeScript', 'Supabase', 'Zustand', 'Styled-Components'],
             description:
                 'Lorem Ipsum'
         },
