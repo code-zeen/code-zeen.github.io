@@ -220,6 +220,9 @@ export const projects: Project[] = [
         contribution: 50,
         stacks: ['Next', 'TypeScript', 'Supabase', 'Zustand', 'Styled-Components'],
         description:
-            'Lorem Ipsum'
+            '기존 React 프로젝드를 <em>NextJS로 마이그레이션</em> 작업을 진행했습니다.<br/><br/>' +
+            '마이그레이션을 진행하게 된 가장 큰 이유는 클라이언트에 <em>이미지 업로드</em>를 하기 위해서지만 이 부분은 다른 팀원이 담당하였습니다.<br/><br/>' +
+            'Next를 사용하게되며 <em>App Router</em>를 사용했고, 기존에 클라이언트에서 처리하던 supabase 요청을 NextJS 서버 API로 옮겨 작성한 후 적용했습니다. 이로 인해 <em>API key 노출 문제</em>도 해결이 되었습니다.<br/><br/>' +
+            '사용자 수가 증가할 경우 supabase 비용 부담에 대한 우려로 백엔드 개발자가 충원이 되며 기존 supabse에서 제공해주던 <em>실시간(real-time) 기능</em>들을 백엔드와 협업하여 <em>Server-Sent Events(SSE)</em>로 구현해 실기간 트래픽을 자체 서버로 분산하였습니다.'
     },
 ]
