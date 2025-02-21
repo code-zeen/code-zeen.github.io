@@ -14,10 +14,14 @@ import quizzical from "../assets/projects-10-quizzical.png"
 import movies from "../assets/projects-11-movies.png"
 import {Project} from "./projects.type.ts"
 import {TabEnum} from "../types/enums.ts"
-import ss0 from "../assets/ss0.png"
-import ss1 from "../assets/ss1.png"
-import ss2 from "../assets/ss2.png"
-import ss3 from "../assets/ss3.png"
+import oldBingo0 from "../assets/oldBingo0.png"
+import oldBingo1 from "../assets/oldBingo1.png"
+import oldBingo2 from "../assets/oldBingo2.png"
+import oldBingo3 from "../assets/oldBingo3.png"
+import newBingo0 from "../assets/newBingo0.png"
+import newBingo1 from "../assets/newBingo1.png"
+import newBingo2 from "../assets/newBingo2.png"
+import newBingo3 from "../assets/newBingo3.png"
 import wr1 from "../assets/wr1.png"
 import wr2 from "../assets/wr2.png"
 import wr3 from "../assets/wr3.png"
@@ -169,6 +173,12 @@ export const projects: Project[] = [
             '<em>RESTful API</em>를 통해 백엔드와 통신을 했습니다.<br/>' +
             '코드베이스를 익혀가며 <em>컴포넌트 리팩토링</em> 작업도 진행하며, MUI를 사용한 신규 화면 <em>UI/UX 제작</em>도 하였습니다.<br/>' +
             '고객에게 전달받은 의견을 개발팀 회의를 통해 의논하고 프로그램에 반영하여 고도화하였습니다',
+        imageSlide: [
+            { image: oldBingo0, caption: '1. 랜딩화면' },
+            { image: oldBingo1, caption: '2. 취약점 체크리스트 및 점수표' },
+            { image: oldBingo2, caption: '3. 계정 목록 및 생성' },
+            { image: oldBingo3, caption: '4. 자료실 및 파일 업로드' }
+        ]
     },
     {
         type: TabEnum.Career,
@@ -182,13 +192,13 @@ export const projects: Project[] = [
             '이 프로젝트의 <em>프론트엔드는 제가 담당하여 총괄하게 되었고</em> 나머지 2명의 개발자는 백엔드에 몰두하여 좋은 시너지를 발휘할 수 있었습니다.<br/>추후에 프론트엔드 개발자가 추가되었습니다.<br/><br/>' +
             '더욱 효율적인 빌드툴 Vite를 선택했고, TypeScript를 엄격하게 사용하여 <em>개발환경과 코드 품질을 향상시켰습니다</em>.<br/>' +
             '<em>전역으로 관리되어야 하는 요소들</em> (디자인 테마, 에러 핸들링, 토큰/권한 확인, 로딩 UI 등)을 <em>middleware</em> 또는 <em>config</em>를 생성하여 <em>시스테믹하게 설계해</em> 유지보수와 개발 효율을 급격히 증가하였습니다.<br/>' +
-            '<em>Redux-Toolkit</em>을 더 파고들어 기존 버전의 코드보다 <em>훨씬 단순하지만 확실한 방법으로</em> 상태관리를 했습니다. <em>RTK Query</em>또한 연구하여 <em>캐싱</em>으로 동일한 쿼리 데이터에 대한 중복 요청 방지, 로딩 상태 추적, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 <em>더욱 부드러운 유저 경험</em>을 제공했습니다.<br/><br/>' +
+            '<em>Redux-Toolkit</em>을 더 파고들어 로컬상태와 전역상태를 구분하여 <em>Store에 저장되는 데이터와 액션함수의 양을 40% 이상 줄일 수 있었습니다.</em> 기본적인 <em>reducers</em> 뿐만 아니라 <em>extraReducers</em>도 활용해 API 통신의 응답 상황에 따른 유동적인 처리도 추가하였습니다. 또한 <em>RTK Query</em>에 대해 알게되어 <em>캐싱</em>으로 동일한 쿼리에 대한 <em>중복 요청 방지</em>, <em>로딩 상태 추적</em>, 등의 API을 활용해 코드의 복잡성을 줄일 뿐만 아니라 <em>더욱 부드러운 유저 경험</em>을 제공했습니다.<br/><br/>' +
             'Chart-js, ApexCharts 등 여러 <em>데이터 시각화 라이브러리</em>를 테스트 해보며 선택하여 사용자 대시보드를 기획하고 제작했습니다.',
         imageSlide: [
-            { image: ss0, caption: '1. 대시보드' },
-            { image: ss1, caption: '2. 취약점 체크리스트 및 점수표' },
-            { image: ss2, caption: '3. 계정 목록 및 생성' },
-            { image: ss3, caption: '4. 자료실 및 파일 업로드' }
+            { image: newBingo0, caption: '1. 대시보드' },
+            { image: newBingo1, caption: '2. 취약점 체크리스트 및 점수표' },
+            { image: newBingo2, caption: '3. 계정 목록 및 생성' },
+            { image: newBingo3, caption: '4. 자료실 및 파일 업로드' }
         ]
     },
     {
