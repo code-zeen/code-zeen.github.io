@@ -20,7 +20,7 @@ function Projects() {
         <Stack>
             <Stack row alignItems="center">
                 {buttons.map(b => (
-                    <button onClick={() => handleClick(b)} className={b === currentTab ? b : undefined}>{b}</button>
+                    <button onClick={() => handleClick(b)} className={`tab-button ${b === currentTab ? `${b} active` : ''}`}>{b}</button>
                 ))}
             </Stack>
 

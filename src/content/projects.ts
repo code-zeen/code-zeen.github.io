@@ -25,6 +25,8 @@ import wr4 from "../assets/wr4.png"
 import wr5 from "../assets/wr5.png"
 import wr6 from "../assets/wr6.png"
 import wr7 from "../assets/wr7.png"
+import ppbDitto from "../assets/ppb-ditto.gif"
+import ppbGrumpig from "../assets/ppb-grumpig.gif"
 
 
 export const projects: Project[] = [
@@ -201,7 +203,7 @@ export const projects: Project[] = [
             '<em>풀스택 시니어 개발자 1명</em>과 <em>프론트엔드 개발자 1명</em>과 함께 <em>총 3명</em>이서 진행했습니다. 빠른 시일 내에 프로토타입을 창출하기 위해 <em>백엔드 없이 supabase를 사용한 서버리스</em> 형식으로 개발하였습니다.<br/><br/>' +
             '초등학생이 대상인 특성상, 다양한 형태의 문제를 구현해야 했습니다. 고객이 요청한 끝없이 다양한 문제 레이아웃을 <em>데이터베이스만을 사용하여 구현하기 어려워</em>, 퍼블리싱 팀이 <em>커스텀으로 제작한 HTML 파일</em>을 읽어와 <em>html-react-parser</em>를 사용해 리액트 형식으로 파싱하여 기능구현 하는 작업을 맡았습니다. 그 중 가장 새로웠던 경험은 <em>canvas</em>를 이용한 <em>"점 연결하기"</em> 기능과 <em>react-dnd</em>를 사용한 <em>"끌어놓기"</em> 기능이었습니다. 그렇게 인터랙션을 구현한 뒤, 학생이 입력한 값을 DB와 맞는 형식으로 변환한 뒤 학생 입력값을 정답값과 비교하여 <em>자동채점</em> 기능까지 구현하였습니다.<br/><br/>' +
             '그 외의 작업은 보편적인 CRUD 기능이었지만, 백엔드 없이 직접 supabase를 호출하여 <em>데이터베이스 조회, 변경, 삭제</em>등 하였습니다. supabase API를 사용하여 자바스크립트만을 통해 여러 테이블들을 쿼리 하여 데이터를 직접 계산/가공하는 과정이 많았습니다.<br/><br/>' +
-            '시니어 개발자의 주도 아래 <em>ChatGPT</em>, <em>Claude</em>, <em>Cursor</em>, <em>GitHub Copilot</em>, <em>JetBrains AI Assistant</em> , 등을 활용하여 처음으로 <em>다양한 AI 툴</em>들을 사용한 프로젝트였습니다.',
+            '시니어 개발자의 주도 아래 <em>ChatGPT</em>, <em>Claude</em>, <em>Cursor</em>, <em>GitHub Copilot</em>, 등을 활용하여 처음으로 <em>다양한 AI 툴</em>들을 사용한 프로젝트였습니다.',
         imageSlide: [
             { image: wr1, caption: '1. 점 연결하기' },
             { image: wr2, caption: '2. 끌어넣기 (복수 가능, 중복 불가)' },
@@ -224,5 +226,20 @@ export const projects: Project[] = [
             '마이그레이션을 진행하게 된 가장 큰 이유는 클라이언트에 <em>이미지 업로드</em>를 하기 위해서지만 이 부분은 다른 팀원이 담당하였습니다.<br/><br/>' +
             'Next를 사용하게되며 <em>App Router</em>를 사용했고, 기존에 클라이언트에서 처리하던 supabase 요청을 NextJS 서버 API로 옮겨 작성한 후 적용했습니다. 이로 인해 <em>API key 노출 문제</em>도 해결이 되었습니다.<br/><br/>' +
             '사용자 수가 증가할 경우 supabase 비용 부담에 대한 우려로 백엔드 개발자가 충원이 되며 기존 supabse에서 제공해주던 <em>실시간(real-time) 기능</em>들을 백엔드와 협업하여 <em>Server-Sent Events(SSE)</em>로 구현해 실기간 트래픽을 자체 서버로 분산하였습니다.'
+    },
+    {
+        type: TabEnum.ToyProjects,
+        date: '2024 . 12 ~ 현재',
+        location: '',
+        title: 'PokePlaybook',
+        contribution: 100,
+        stacks: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'TailwindCSS'],
+        description:
+            '포켓몬카드를 모으는 취미로 시작하여 <em>포켓몬 정보를 볼 수 있는 사이트</em>를 만들어보았습니다.</br></br>' +
+            '<em>TailwindCSS</em>를 사용하여 포켓몬카드 디자인을 제작하는게 제일 재밌었습니다. 시간날 때마다 틈틈히 개발 중인 개인 프로젝트입니다!',
+        imageSlide: [
+            {image: ppbDitto, caption: '1. 포켓몬 도감 (Pokedex)'},
+            {image: ppbGrumpig, caption: '2. 포켓몬 카드 랜덤 뽑기'},
+        ],
     },
 ]

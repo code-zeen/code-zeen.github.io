@@ -10,13 +10,21 @@ import {
     SiReact,
     SiRedux,
     SiStyledcomponents,
-    SiSupabase,
+    SiSupabase, SiTailwindcss,
     SiTypescript,
     SiVite,
     SiWebstorm,
 } from 'react-icons/si'
 import {SlQuestion} from 'react-icons/sl'
-import {MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdPerson2, MdSmartphone, MdWork} from 'react-icons/md'
+import {
+    MdLocationSearching,
+    MdOutlineLocationOn,
+    MdOutlineMail,
+    MdOutlineSmartToy,
+    MdPerson2,
+    MdSmartphone,
+    MdWork
+} from 'react-icons/md'
 import {HiOutlineChartPie} from 'react-icons/hi'
 import {TbCircleLetterZFilled} from "react-icons/tb";
 
@@ -59,6 +67,8 @@ function Icon({ name }: { name: string }) {
             return <SiStyledcomponents />
         case 'supabase':
             return <SiSupabase />
+        case 'tailwindcss':
+            return <SiTailwindcss />
         case 'typescript':
             return <SiTypescript />
         case 'vite':
@@ -74,6 +84,8 @@ function Icon({ name }: { name: string }) {
             return <SiJavascript />
         case 'career':
             return <MdWork />
+        case 'toyprojects':
+            return <MdOutlineSmartToy />
 
         default:
             return <SlQuestion />

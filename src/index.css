@@ -142,6 +142,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 h4 {
     font-size: 1.2rem;
     font-weight: 400;
@@ -244,6 +245,14 @@ ul {
     border-radius: 50%;
 }
 
+.tab-button {
+    color: white;
+}
+
+.tab-button.active {
+    color: black;
+}
+
 .Publishing {
     background-color: #e34c26;
 }
@@ -258,6 +267,10 @@ ul {
 
 .Career {
     background-color: #9639c4;
+}
+
+.ToyProjects {
+    background-color: palevioletred;
 }
 
 .flex {

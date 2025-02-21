@@ -3,5 +3,5 @@ export enum TabEnum {
     JavaScript = 'JavaScript',
     React = 'React',
     Career = 'Career',
-    ToyProjects = 'Toy Projects',
+    ToyProjects = 'ToyProjects',
 }
