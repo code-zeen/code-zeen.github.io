@@ -1,7 +1,7 @@
 import Chip from '../styled/Chip.tsx'
 import Icon from '../common/Icon.tsx'
 import { Stack } from '../styled/Stack.ts'
-import { personalInfo, skillSet } from '../../content/contact.ts'
+import { personalInfo, skillSet } from '@/content/contact.ts'
 
 function Contact() {
 
