@@ -11,13 +11,13 @@ const StyledSection = styled.div`
 `
 
 function Section({ title, children }: { title: string, children: ReactNode }) {
-    return (
-        <StyledSection>
-            <h3>{title}</h3>
-            <hr />
-            {children}
-        </StyledSection>
-    )
+  return (
+    <StyledSection>
+      <h3>{title}</h3>
+      <hr />
+      {children}
+    </StyledSection>
+  )
 }
 
 export default Section

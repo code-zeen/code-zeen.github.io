@@ -1,17 +1,17 @@
 import styled from 'styled-components'
 
 const Stack = styled.div<{
-    border?: boolean,
-    row?: boolean,
-    justifyContent?: string,
-    alignItems?: string,
-    width?: string,
-    height?: string,
-    spacing?: number,
-    m?: number,
-    p?: number,
-    px?: number,
-    py?: number,
+  border?: boolean,
+  row?: boolean,
+  justifyContent?: string,
+  alignItems?: string,
+  width?: string,
+  height?: string,
+  spacing?: number,
+  m?: number,
+  p?: number,
+  px?: number,
+  py?: number,
 }>`
     display: flex;
     flex-wrap: wrap;
