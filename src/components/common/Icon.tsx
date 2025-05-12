@@ -1,5 +1,6 @@
 import {
-    SiAxios, SiClaude,
+    SiAxios,
+    SiClaude,
     SiFigma,
     SiGit,
     SiGithub,
@@ -10,7 +11,8 @@ import {
     SiReact,
     SiRedux,
     SiStyledcomponents,
-    SiSupabase, SiTailwindcss,
+    SiSupabase,
+    SiTailwindcss,
     SiTypescript,
     SiVite,
     SiWebstorm,
@@ -27,69 +29,74 @@ import {
 } from 'react-icons/md'
 import {HiOutlineChartPie} from 'react-icons/hi'
 import {TbCircleLetterZFilled} from "react-icons/tb";
+import {IconType} from "react-icons";
 
-function Icon({ name }: { name: string }) {
-    const disabled = '#b4b4b4'
-    switch (name.toLowerCase()) {
-        case 'email':
-            return <MdOutlineMail color={disabled} />
-        case 'location':
-            return <MdOutlineLocationOn color={disabled} />
-        case 'person':
-            return <MdPerson2 color={disabled} />
-        case 'personality':
-            return <MdLocationSearching color={disabled} />
-        case 'phone':
-            return <MdSmartphone color={disabled} />
-        case 'github':
-            return <SiGithub />
+export type IconName =
+    'email'
+    | 'location'
+    | 'person'
+    | 'personality'
+    | 'phone'
+    | 'github'
+    | 'apexcharts'
+    | 'axios'
+    | 'claudeAi'
+    | 'figma'
+    | 'git'
+    | 'mui'
+    | 'next'
+    | 'react'
+    | 'reduxToolkit'
+    | 'rtkQuery'
+    | 'styledComponents'
+    | 'supabase'
+    | 'tailwindcss'
+    | 'typescript'
+    | 'vite'
+    | 'webstorm'
+    | 'zustand'
+    | 'publishing'
+    | 'javascript'
+    | 'career'
+    | 'toyProjects'
 
-        case 'apexcharts':
-            return <HiOutlineChartPie />
-        case 'axios':
-            return <SiAxios />
-        case 'claudeai':
-            return <SiClaude />
-        case 'figma':
-            return <SiFigma />
-        case 'git':
-            return <SiGit />
-        case 'mui':
-            return <SiMui />
-        case 'next':
-            return <SiNextdotjs />
-        case 'react':
-            return <SiReact />
-        case 'redux toolkit':
-        case 'rtk query':
-            return <SiRedux />
-        case 'styled-components':
-            return <SiStyledcomponents />
-        case 'supabase':
-            return <SiSupabase />
-        case 'tailwindcss':
-            return <SiTailwindcss />
-        case 'typescript':
-            return <SiTypescript />
-        case 'vite':
-            return <SiVite />
-        case 'webstorm':
-            return <SiWebstorm />
-        case 'zustand':
-            return <TbCircleLetterZFilled />
+const disabled = '#b4b4b4'
 
-        case 'publishing':
-            return <SiHtml5 />
-        case 'javascript':
-            return <SiJavascript />
-        case 'career':
-            return <MdWork />
-        case 'toyprojects':
-            return <MdOutlineSmartToy />
+const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
+    email: { icon: MdOutlineMail, color: disabled },
+    location: { icon: MdOutlineLocationOn, color: disabled },
+    person: { icon: MdPerson2, color: disabled },
+    personality: { icon: MdLocationSearching, color: disabled },
+    phone: { icon: MdSmartphone, color: disabled },
+    github: { icon: SiGithub },
+    apexcharts: { icon: HiOutlineChartPie },
+    axios: { icon: SiAxios },
+    claudeAi: { icon: SiClaude },
+    figma: { icon: SiFigma },
+    git: { icon: SiGit },
+    mui: { icon: SiMui },
+    next: { icon: SiNextdotjs },
+    react: { icon: SiReact },
+    reduxToolkit: { icon: SiRedux },
+    rtkQuery: { icon: SiRedux },
+    styledComponents: { icon: SiStyledcomponents },
+    supabase: { icon: SiSupabase },
+    tailwindcss: { icon: SiTailwindcss },
+    typescript: { icon: SiTypescript },
+    vite: { icon: SiVite },
+    webstorm: { icon: SiWebstorm },
+    zustand: { icon: TbCircleLetterZFilled },
+    publishing: { icon: SiHtml5 },
+    javascript: { icon: SiJavascript },
+    career: { icon: MdWork },
+    toyProjects: { icon: MdOutlineSmartToy }
+}
 
-        default:
-            return <SlQuestion />
-    }
+function Icon({ name }: { name: IconName }) {
+    const entry = iconMap[name.toLowerCase() as IconName]
+    if (!entry) return <SlQuestion />
+    const { icon: IconComponent, color } = entry
+    return <IconComponent color={color} />
 }
 
 export default Icon
