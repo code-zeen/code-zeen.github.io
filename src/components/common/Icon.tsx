@@ -22,6 +22,7 @@ import { MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdOutlineSmart
 import { HiOutlineChartPie } from 'react-icons/hi'
 import { TbCircleLetterZFilled } from 'react-icons/tb'
 import { IconType } from 'react-icons'
+import { TabEnumValues } from '@/types/enums.ts'
 
 export type IconName =
   'email'
@@ -30,14 +31,13 @@ export type IconName =
   | 'personality'
   | 'phone'
   | 'github'
-  | 'apexcharts'
+  | 'apexCharts'
   | 'axios'
   | 'claudeAi'
   | 'figma'
   | 'git'
   | 'mui'
   | 'next'
-  | 'react'
   | 'reduxToolkit'
   | 'rtkQuery'
   | 'styledComponents'
@@ -47,10 +47,7 @@ export type IconName =
   | 'vite'
   | 'webstorm'
   | 'zustand'
-  | 'publishing'
-  | 'javascript'
-  | 'career'
-  | 'toyProjects'
+  | TabEnumValues
 
 const disabled = '#b4b4b4'
 
@@ -61,7 +58,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   personality: { icon: MdLocationSearching, color: disabled },
   phone: { icon: MdSmartphone, color: disabled },
   github: { icon: SiGithub },
-  apexcharts: { icon: HiOutlineChartPie },
+  apexCharts: { icon: HiOutlineChartPie },
   axios: { icon: SiAxios },
   claudeAi: { icon: SiClaude },
   figma: { icon: SiFigma },

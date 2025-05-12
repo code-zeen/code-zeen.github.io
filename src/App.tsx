@@ -2,7 +2,7 @@ import Contact from './components/specific/contact/Contact.tsx'
 import Section from './components/common/Section.tsx'
 import { Container } from './components/styled/Container.ts'
 import AboutMe from './components/specific/about-me/AboutMe.tsx'
-import Projects from './components/specific/Projects.tsx'
+import AboutProjects from './components/specific/about-projects/AboutProjects.tsx'
 import AboutReact from './components/specific/AboutReact.tsx'
 import AboutGit from './components/specific/AboutGit.tsx'
 import AboutMiscellaneous from './components/specific/AboutMiscellaneous.tsx'
@@ -24,7 +24,7 @@ function App() {
             <AboutEducation />
           </Section>
           <Section title="프로젝트">
-            <Projects />
+            <AboutProjects />
           </Section>
           <Section title="React">
             <AboutReact />

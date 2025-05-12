@@ -1,7 +1,9 @@
 export enum TabEnum {
-  Publishing = 'Publishing',
-  JavaScript = 'JavaScript',
-  React = 'React',
-  Career = 'Career',
-  ToyProjects = 'ToyProjects',
+  PUBLISHING = 'publishing',
+  JAVASCRIPT = 'javascript',
+  REACT = 'react',
+  CAREER = 'career',
+  TOYPROJECTS = 'toyProjects',
 }
+
+export type TabEnumValues = `${TabEnum}`

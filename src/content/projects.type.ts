@@ -1,4 +1,5 @@
 import { TabEnum } from '../types/enums.ts'
+import { IconName } from '@/components/common/Icon.tsx'
 
 export interface Project {
   type: TabEnum
@@ -6,7 +7,7 @@ export interface Project {
   location: string
   title: string
   contribution: number
-  stacks?: string[]
+  stacks?: IconName[]
   description: string
   imageSlide?: ImageSlide[]
 

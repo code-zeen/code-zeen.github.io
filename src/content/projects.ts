@@ -32,10 +32,9 @@ import wr7 from '../assets/wr7.png'
 import ppbDitto from '../assets/ppb-ditto.gif'
 import ppbGrumpig from '../assets/ppb-grumpig.gif'
 
-
 export const projects: Project[] = [
   {
-    type: TabEnum.Publishing,
+    type: TabEnum.PUBLISHING,
     date: '2022 . 02',
     location: '그린컴퓨터아트학원',
     title: 'Float, Position 이용한 정적 레아이웃 -해피피플',
@@ -46,7 +45,7 @@ export const projects: Project[] = [
     thumbnailTwo: happyPeople1,
   },
   {
-    type: TabEnum.Publishing,
+    type: TabEnum.PUBLISHING,
     date: '2022 . 03',
     location: '그린컴퓨터아트학원',
     title: 'Flexbox를 이용한 반응형 레이아웃 -mosh!',
@@ -57,7 +56,7 @@ export const projects: Project[] = [
     thumbnailTwo: mosh1,
   },
   {
-    type: TabEnum.Publishing,
+    type: TabEnum.PUBLISHING,
     date: '2022 . 04',
     location: '그린컴퓨터아트학원',
     title: 'JavaScript를 활용한 masonry 레이아웃 -만개의레시피',
@@ -68,7 +67,7 @@ export const projects: Project[] = [
     thumbnailTwo: recipes1,
   },
   {
-    type: TabEnum.JavaScript,
+    type: TabEnum.JAVASCRIPT,
     date: '2022 . 08',
     location: 'Scrimba - Learn JavaScript',
     title: '카드 게임 : 블랙잭',
@@ -79,7 +78,7 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-blackjack-en.netlify.app/',
   },
   {
-    type: TabEnum.JavaScript,
+    type: TabEnum.JAVASCRIPT,
     date: '2022 . 08',
     location: 'Scrimba - Learn JavaScript',
     title: '랜덤 암호 만들기',
@@ -91,7 +90,7 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-password-en.netlify.app',
   },
   {
-    type: TabEnum.JavaScript,
+    type: TabEnum.JAVASCRIPT,
     date: '2022 . 08',
     location: 'Scrimba - Learn JavaScript',
     title: '단위 변환기',
@@ -103,7 +102,7 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-conversion-en.netlify.app',
   },
   {
-    type: TabEnum.React,
+    type: TabEnum.REACT,
     date: '2022 . 11',
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '여행 일지',
@@ -113,7 +112,7 @@ export const projects: Project[] = [
     urlKr: 'https://zeen-travel-kr.netlify.app',
   },
   {
-    type: TabEnum.React,
+    type: TabEnum.REACT,
     date: '2022 . 12',
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '밈(meme) 제작기',
@@ -124,7 +123,7 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-meme-en.netlify.app',
   },
   {
-    type: TabEnum.React,
+    type: TabEnum.REACT,
     date: '2023 . 01',
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '주사위 게임',
@@ -136,7 +135,7 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-tenzies-en.netlify.app',
   },
   {
-    type: TabEnum.React,
+    type: TabEnum.REACT,
     date: '2023 . 01',
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '상식 퀴즈 (English)',
@@ -147,7 +146,7 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-quizzical-en.netlify.app',
   },
   {
-    type: TabEnum.React,
+    type: TabEnum.REACT,
     date: '2023 . 02',
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '영화 검색',
@@ -160,12 +159,12 @@ export const projects: Project[] = [
     urlEn: 'https://zeen-movies-en.netlify.app',
   },
   {
-    type: TabEnum.Career,
+    type: TabEnum.CAREER,
     date: '2023 . 04 ~ 2023 . 12',
     location: '(주)케이비아이',
     title: 'BingoCVM 취약점 진단 솔루션 2.x',
     contribution: 40,
-    stacks: ['React', 'JavaScript', 'Redux Toolkit', 'MUI', 'ApexCharts'],
+    stacks: ['react', 'javascript', 'reduxToolkit', 'mui', 'apexCharts'],
     description:
       '<em>(주)케이비아이</em>의 자사 프로그램인 <em>BingoCVM</em>은 기관의 디지털 자산의 취약점을 자동진단하여 한국인터넷진흥원 (KISA)의 최신 기준에 준수하여 <em>디지털 침해사고 피해를 방지하는 CAASM 프로그램</em>입니다.<br/><br/>' +
       '프로그램의 유지보수 및 기능추가를 <em>풀스택 개발자 2명과 함께</em> <em>총 3명</em>이서 진행했습니다.<br/><br/>' +
@@ -181,12 +180,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    type: TabEnum.Career,
+    type: TabEnum.CAREER,
     date: '2023 . 07 ~ 2024 . 02',
     location: '(주)케이비아이',
     title: 'BingoCVM 취약점 진단 솔루션 3.x',
     contribution: 99,
-    stacks: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'Axios', 'MUI', 'ApexCharts'],
+    stacks: ['react', 'typescript', 'reduxToolkit', 'rtkQuery', 'axios', 'mui', 'apexCharts'],
     description:
       '기존 버전의 기술적 한계를 극복하기 위해 저희 개발팀은 새로운 버전을 만들기로 결정했습니다.<br/><br/>' +
       '이 프로젝트의 <em>프론트엔드는 제가 담당하여 총괄하게 되었고</em> 나머지 2명의 개발자는 백엔드에 몰두하여 좋은 시너지를 발휘할 수 있었습니다.<br/>추후에 프론트엔드 개발자가 추가되었습니다.<br/><br/>' +
@@ -202,12 +201,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    type: TabEnum.Career,
+    type: TabEnum.CAREER,
     date: '2024 . 08 ~ 2024 . 12',
     location: '위드런 (WithRun)',
     title: '컴퓨터 기반 평가 문제은행',
     contribution: 50,
-    stacks: ['React', 'JavaScript', 'Supabase', 'Styled-Components', 'ClaudeAI'],
+    stacks: ['react', 'javascript', 'supabase', 'styledComponents'],
     description:
       '<em>위드런(WithRun)</em>의 <em>컴퓨터 기반 평가 문제은행</em>은 초등학생 선생님들이 문제 은행에서 과목, 단원, 문제유형과 난이도를 선택하여 문제를 만들고, 학생들에게 배포하여 풀게 할 수 있는 <em>디지털 교과서 서비스</em>입니다.<br/><br/>' +
       '<em>풀스택 시니어 개발자 1명</em>과 <em>프론트엔드 개발자 1명</em>과 함께 <em>총 3명</em>이서 진행했습니다. 빠른 시일 내에 프로토타입을 창출하기 위해 <em>백엔드 없이 supabase를 사용한 서버리스</em> 형식으로 개발하였습니다.<br/><br/>' +
@@ -225,12 +224,12 @@ export const projects: Project[] = [
     ],
   },
   {
-    type: TabEnum.Career,
+    type: TabEnum.CAREER,
     date: '2024 . 11 ~ 현재',
     location: '위드런 (WithRun)',
     title: '컴퓨터 기반 평가 문제은행',
     contribution: 50,
-    stacks: ['Next', 'TypeScript', 'Supabase', 'Zustand', 'Styled-Components'],
+    stacks: ['next', 'typescript', 'supabase', 'zustand', 'styledComponents'],
     description:
       '기존 React 프로젝드를 <em>NextJS로 마이그레이션</em> 작업을 진행했습니다.<br/><br/>' +
       '마이그레이션을 진행하게 된 가장 큰 이유는 클라이언트에 <em>이미지 업로드</em>를 하기 위해서지만 이 부분은 다른 팀원이 담당하였습니다.<br/><br/>' +
@@ -238,12 +237,12 @@ export const projects: Project[] = [
       '사용자 수가 증가할 경우 supabase 비용 부담에 대한 우려로 백엔드 개발자가 충원이 되며 기존 supabse에서 제공해주던 <em>실시간(real-time) 기능</em>들을 백엔드와 협업하여 <em>Server-Sent Events(SSE)</em>로 구현해 실기간 트래픽을 자체 서버로 분산하였습니다.',
   },
   {
-    type: TabEnum.ToyProjects,
+    type: TabEnum.TOYPROJECTS,
     date: '2024 . 12 ~ 현재',
     location: '',
     title: 'PokePlaybook',
     contribution: 100,
-    stacks: ['React', 'TypeScript', 'Redux Toolkit', 'RTK Query', 'TailwindCSS'],
+    stacks: ['react', 'typescript', 'reduxToolkit', 'rtkQuery', 'tailwindcss'],
     description:
       '포켓몬카드를 모으는 취미로 시작하여 <em>포켓몬 정보를 볼 수 있는 사이트</em>를 만들어보았습니다.</br></br>' +
       '<em>TailwindCSS</em>를 사용하여 포켓몬카드 디자인을 제작하는게 제일 재밌었습니다. 시간날 때마다 틈틈히 개발 중인 개인 프로젝트입니다!',
