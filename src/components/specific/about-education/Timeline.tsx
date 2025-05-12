@@ -16,6 +16,5 @@ export default function Timeline({ event }: { event: TimelineEvent }) {
         {event.content}
       </div>
     </div>
-
   )
 }

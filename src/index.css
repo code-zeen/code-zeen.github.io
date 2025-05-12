@@ -105,7 +105,6 @@ button {
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
     cursor: pointer;
     transition: border-color 0.25s;
 }
@@ -149,48 +148,6 @@ img.thumbnail {
     }
 }
 
-p {
-    margin: 2px;
-    font-weight: 300;
-    line-height: 1.6;
-    white-space: pre-wrap;
-}
-
-p.secondary, span.secondary {
-    color: #d0d0d0;
-}
-
-p.tertiary, span.tertiary {
-    color: #71767B;
-}
-
-p.title {
-    font-size: 1.125rem;
-    font-weight: 500;
-}
-
-p.timeline {
-    opacity: 0.6;
-    line-height: 1;
-}
-
-s {
-    color: #565656;
-}
-
-span.contribution {
-    color: #71767B;
-    font-size: 0.825rem;
-}
-
-span.hidden {
-    opacity: 0;
-}
-
-span.small {
-    font-size: 0.825rem;
-}
-
 ul {
     margin-left: 20px;
 }
@@ -201,15 +158,6 @@ ul {
     background-color: #1a1a1a;
 }
 
-.circle-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-}
-
 .tab-button {
     color: white;
 }
@@ -217,40 +165,3 @@ ul {
 .tab-button.active {
     color: black;
 }
-
-.Publishing {
-    background-color: #e34c26;
-}
-
-.JavaScript {
-    background-color: #e3c903;
-}
-
-.React {
-    background-color: #61DBFB;
-}
-
-.Career {
-    background-color: #9639c4;
-}
-
-.ToyProjects {
-    background-color: palevioletred;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex.column {
-    flex-direction: column;
-}
-
-.full-height {
-    height: 100%;
-}
-
-.full-width {
-    width: 100%;
-}
-

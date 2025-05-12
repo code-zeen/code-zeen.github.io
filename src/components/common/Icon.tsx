@@ -19,7 +19,7 @@ import {
 } from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
 import { MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdOutlineSmartToy, MdPerson2, MdSmartphone, MdWork } from 'react-icons/md'
-import { HiOutlineChartPie } from 'react-icons/hi'
+import { HiChevronDown, HiChevronUp, HiOutlineChartPie } from 'react-icons/hi'
 import { TbCircleLetterZFilled } from 'react-icons/tb'
 import { IconType } from 'react-icons'
 import { TabEnumValues } from '@/types/enums.ts'
@@ -48,6 +48,8 @@ export type IconName =
   | 'webstorm'
   | 'zustand'
   | TabEnumValues
+  | 'chevronUp'
+  | 'chevronDown'
 
 const disabled = '#b4b4b4'
 
@@ -79,6 +81,8 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   javascript: { icon: SiJavascript },
   career: { icon: MdWork },
   toyProjects: { icon: MdOutlineSmartToy },
+  chevronUp: { icon: HiChevronUp },
+  chevronDown: { icon: HiChevronDown },
 }
 
 function Icon({ name }: { name: IconName }) {

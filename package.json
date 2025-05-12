@@ -21,6 +21,7 @@
     "tailwindcss": "^4.1.6"
   },
   "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "^22.15.17",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
