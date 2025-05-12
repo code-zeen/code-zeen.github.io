@@ -9,6 +9,7 @@ import AboutCurrentHabits from './components/specific/AboutCurrentHabits.tsx'
 import AboutTopicsToLearn from './components/specific/AboutTopicsToLearn.tsx'
 import AboutFuturePlans from './components/specific/AboutFuturePlans.tsx'
 import AboutEducation from '@/components/specific/about-education/AboutEducation.tsx'
+import Footer from '@/components/specific/Footer.tsx'
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
           </Section>
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
