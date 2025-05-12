@@ -26,14 +26,14 @@ export default function ProjectDescription({ project }: { project: Project }) {
       >
         <p className={expanded ? '' : 'line-clamp-4'} dangerouslySetInnerHTML={{ __html: project.description }} />
       </div>
-      <div className="flex justify-end">
-        <button
-          className="flex items-center text-xs text-indigo-400"
+      <div className="flex">
+        <p
+          className="flex items-center text-sm text-indigo-400 p-0"
           onClick={() => setExpanded(prev => !prev)}
         >
           {expanded ? '닫기' : '펼치기'}
           <Icon name={expanded ? 'chevronUp' : 'chevronDown'} />
-        </button>
+        </p>
       </div>
     </div>
   )

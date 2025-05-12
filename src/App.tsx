@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="flex flex-col max-w-[1000px] h-screen mx-auto">
       <Contact />
-      <div className="flex flex-col items-stretch p-2">
-        <div className="flex flex-col gap-8">
+      <div className="flex flex-col items-stretch p-1">
+        <div className="flex flex-col gap-10">
           <Section title="소개">
             <AboutMe />
           </Section>
