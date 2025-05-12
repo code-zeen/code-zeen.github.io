@@ -3,7 +3,6 @@ import { useState } from 'react'
 
 export default function ProjectImageSlide({ project }: { project: Project }) {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [startTouch, setStartTouch] = useState(0)
 
   if (!project.imageSlide) return null
 

@@ -1,6 +1,5 @@
 import Contact from './components/specific/contact/Contact.tsx'
 import Section from './components/common/Section.tsx'
-import { Container } from './components/styled/Container.ts'
 import AboutMe from './components/specific/about-me/AboutMe.tsx'
 import AboutProjects from './components/specific/about-projects/AboutProjects.tsx'
 import AboutReact from './components/specific/AboutReact.tsx'
@@ -13,7 +12,7 @@ import AboutEducation from '@/components/specific/about-education/AboutEducation
 
 function App() {
   return (
-    <Container>
+    <div className="flex flex-col max-w-[1000px] h-screen mx-auto">
       <Contact />
       <div className="flex flex-col items-stretch p-2">
         <div className="flex flex-col gap-8">
@@ -47,7 +46,7 @@ function App() {
           </Section>
         </div>
       </div>
-    </Container>
+    </div>
   )
 }
 
