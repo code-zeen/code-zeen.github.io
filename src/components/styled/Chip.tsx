@@ -1,31 +1,15 @@
-import styled from 'styled-components'
 import { ReactNode } from 'react'
-
-const StyledChip = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333333;
-    border: 1px solid transparent;
-    border-radius: 7px;
-    gap: 8px;
-    padding: 0 12px 0;
-    white-space: nowrap;
-
-    &:hover {
-        background-color: #383838;
-        border-color: #404040;
-    }
-`
 
 function Chip({ text, startIcon }: { text: string, startIcon?: ReactNode }) {
 
-    return (
-        <StyledChip>
-            {startIcon}
-            {text}
-        </StyledChip>
-    )
+  return (
+    <div
+      className="flex justify-center items-center gap-2 px-2 rounded  bg-zinc-700 hover:bg-zinc-600 border border-zinc-600 hover:border hover:border-zinc-500">
+      {startIcon}
+      {text}
+    </div>
+
+  )
 }
 
 export default Chip

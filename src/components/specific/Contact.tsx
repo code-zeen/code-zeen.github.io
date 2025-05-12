@@ -42,16 +42,16 @@ function Contact() {
                     </Stack>
                 ))}
             </Stack>
-            <Stack row>
-                {skillSet.map((row, i) => (
-                    <Chip key={i} text={row.icon} startIcon={<Icon name={row.icon} />} />
-                ))}
-            </Stack>
             <Stack>
                 <p className="tertiary">Last updated: {BUILD_TIMESTAMP.slice(0,10)}</p>
             </Stack>
         </Stack>
     )
+      <div className="flex gap-1">
+        {skillSet.map((row, i) => (
+          <Chip key={i} text={row.text} startIcon={<Icon name={row.icon} />} />
+        ))}
+      </div>
 }
 
 export default Contact
