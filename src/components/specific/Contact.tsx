@@ -1,22 +1,9 @@
 import Chip from '../styled/Chip.tsx'
-import Icon, { IconName } from '../common/Icon.tsx'
+import Icon from '../common/Icon.tsx'
 import { Stack } from '../styled/Stack.ts'
+import { personalInfo, skillSet } from '../../content/contact.ts'
 
 function Contact() {
-  const personalInfo: { icon: IconName, text: string }[] = [
-    { icon: 'person', text: '1996, 여' },
-    { icon: 'email', text: 'aezeen_kim@naver.com' },
-    { icon: 'location', text: '대전광역시, 유성구' },
-    { icon: 'personality', text: 'INTP' },
-  ]
-  const skillSet: { icon: IconName, text: string }[] = [
-    { icon: 'react', text: 'React' },
-    { icon: 'reduxToolkit', text: 'Redux Toolkit' },
-    { icon: 'typescript', text: 'TypeScript' },
-    { icon: 'mui', text: 'MUI' },
-    { icon: 'vite', text: 'Vite' },
-    { icon: 'git', text: 'Git' },
-  ]
 
   return (
     <Stack spacing={16} className="contact bgcolor dark" style={{ padding: '20px 32px' }}>
