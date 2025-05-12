@@ -119,38 +119,8 @@ button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-code {
-    font-size: 1.25rem;
-}
-
 em {
     color: palegreen;
-}
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-h4 {
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
-hr {
-    border: none;
-    border-top: 1px solid #333333;
-    margin-bottom: 20px;
 }
 
 img {

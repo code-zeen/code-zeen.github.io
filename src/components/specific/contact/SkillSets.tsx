@@ -1,0 +1,13 @@
+import { skillSets } from '@/content/contact.ts'
+import Chip from '@/components/styled/Chip.tsx'
+import Icon from '@/components/common/Icon.tsx'
+
+export default function SkillSets() {
+  return (
+    <div className="flex gap-1 flex-wrap">
+      {skillSets.map((row, i) => (
+        <Chip key={i} text={row.text} startIcon={<Icon name={row.icon} />} />
+      ))}
+    </div>
+  )
+}

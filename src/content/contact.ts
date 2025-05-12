@@ -12,7 +12,7 @@ export const personalInfo: IconWithText[] = [
   { icon: 'personality', text: 'INTP' },
 ]
 
-export const skillSet: IconWithText[] = [
+export const skillSets: IconWithText[] = [
   { icon: 'react', text: 'React' },
   { icon: 'reduxToolkit', text: 'Redux Toolkit' },
   { icon: 'typescript', text: 'TypeScript' },

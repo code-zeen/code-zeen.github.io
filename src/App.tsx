@@ -1,4 +1,4 @@
-import Contact from './components/specific/Contact.tsx'
+import Contact from './components/specific/contact/Contact.tsx'
 import Section from './components/common/Section.tsx'
 import { Container } from './components/styled/Container.ts'
 import { Stack } from './components/styled/Stack.ts'
@@ -15,7 +15,7 @@ function App() {
   return (
     <Container>
       <Contact />
-      <Stack p={20} alignItems="stretch">
+      <div className="flex flex-col items-stretch p-2">
         <Stack alignItems="flex-start" spacing={48}>
           <Section title="소개">
             <AboutMe />
@@ -43,7 +43,7 @@ function App() {
             <AboutFuturePlans />
           </Section>
         </Stack>
-      </Stack>
+      </div>
     </Container>
   )
 }

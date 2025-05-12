@@ -85,7 +85,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
 }
 
 function Icon({ name }: { name: IconName }) {
-  const entry = iconMap[name.toLowerCase() as IconName]
+  const entry = iconMap[name as IconName]
   if (!entry) return <SlQuestion />
   const { icon: IconComponent, color } = entry
   return <IconComponent color={color} />
