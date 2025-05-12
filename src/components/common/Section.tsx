@@ -1,22 +1,14 @@
 import { ReactNode } from 'react'
-import styled from 'styled-components'
-
-const StyledSection = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 8px;
-    padding: 0 16px 0;
-    gap: 8px;
-`
 
 function Section({ title, children }: { title: string, children: ReactNode }) {
   return (
-    <StyledSection>
-      <h3>{title}</h3>
-      <hr />
+    <div className="flex flex-col p-2 gap-1">
+      <div className="flex items-center gap-4 my-4">
+        <h3 className="text-xl text-zinc-500 whitespace-nowrap">{title}</h3>
+        <hr className="flex-grow border-t border-zinc-700" />
+      </div>
       {children}
-    </StyledSection>
+    </div>
   )
 }
 
