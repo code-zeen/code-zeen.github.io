@@ -17,18 +17,18 @@ export default function ProjectImageSlide({ project }: { project: Project }) {
 
   return (
     <div className="flex flex-col w-full mx-auto p-1 rounded-lg border border-zinc-800">
-      <div className="overflow-hidden relative max-h-96"> {/* limit by height */}
+      <div className="overflow-hidden relative"> {/* limit by height */}
         <div
           className="flex transition-transform duration-300"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {project.imageSlide.map((slide, index) => (
-            <div key={index} className="w-full flex-shrink-0 flex flex-col items-center justify-center max-h-96">
+            <div key={index} className="w-full flex-shrink-0 flex flex-col items-center justify-center max-h-[500px]">
               <span className="text-zinc-300 mb-1">{slide.caption}</span>
               <img
                 src={slide.image}
                 alt={`Slide ${index + 1}`}
-                className="h-full max-h-80 object-contain"
+                className="h-full max-h-[400px] object-contain"
               />
             </div>
           ))}

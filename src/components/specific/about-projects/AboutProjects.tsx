@@ -44,19 +44,23 @@ function AboutProjects() {
           <ProjectDescription project={project} />
           <ProjectSkillSets project={project} />
 
-          <div className="flex flex-col items-center gap-3">
-            <img src={project.thumbnailOne} className="thumbnail" />
-            {project.thumbnailTwo && (
-              <>
-                <MdArrowRightAlt size="2em" />
-                <img src={project.thumbnailTwo} className="thumbnail" />
-              </>
-            )}
-          </div>
-          <div className="flex gap-3">
-            {project.urlEn && <a href={project.urlEn} target="_blank">영어 버전</a>}
-            {project.urlKr && <a href={project.urlKr} target="_blank">한국어 버전</a>}
-          </div>
+          {project.thumbnailOne && (
+            <div className="flex flex-col items-center gap-3">
+              <img src={project.thumbnailOne} className="thumbnail" />
+              {project.thumbnailTwo && (
+                <>
+                  <MdArrowRightAlt size="2em" />
+                  <img src={project.thumbnailTwo} className="thumbnail" />
+                </>
+              )}
+            </div>
+          )}
+          {(project.urlEn || project.urlKr) && (
+            <div className="flex gap-3">
+              {project.urlEn && <a href={project.urlEn} target="_blank">영어 버전</a>}
+              {project.urlKr && <a href={project.urlKr} target="_blank">한국어 버전</a>}
+            </div>
+          )}
         </div>
       ))}
     </div>

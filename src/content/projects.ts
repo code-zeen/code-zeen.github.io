@@ -255,7 +255,7 @@ export const projects: Project[] = [
   {
     type: TabEnum.TOYPROJECTS,
     date: '2024 . 12 ~ 현재',
-    location: '',
+    location: '개인 프로젝트',
     title: 'PokePlaybook',
     contribution: 100,
     stacks: ['react', 'typescript', 'reduxToolkit', 'rtkQuery', 'tailwindcss'],

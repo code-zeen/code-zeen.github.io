@@ -3,8 +3,7 @@ import { getContributionColor } from '@/content/getContributionColor.ts'
 
 export default function ProjectTitle({ project }: { project: Project }) {
   return (
-    <div className="flex flex-col">
-      <span className="text-xs text-zinc-400">{project.location}</span>
+    <div className="flex flex-col gap-1">
       <h4 className="text-lg font-bold">{project.title}</h4>
       <div className="flex items-center gap-2">
         <span className="text-xs text-zinc-400">기여도</span>

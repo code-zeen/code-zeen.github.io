@@ -4,7 +4,7 @@ import { Project } from '@/content/projects.type.ts'
 
 export default function ProjectSkillSets({ project }: { project: Project }) {
   return (
-    <div className="flex flex-wrap gap-1">
+    <div className="flex flex-wrap gap-1 mt-4">
       {project.stacks && project.stacks.map(stack => (
         <Chip key={stack} text={stack} startIcon={<Icon name={stack} />} />
       ))}
