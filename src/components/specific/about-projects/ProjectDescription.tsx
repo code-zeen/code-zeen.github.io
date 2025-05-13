@@ -25,10 +25,10 @@ export default function ProjectDescription({ project }: { project: Project }) {
           transition: 'height 0.3s ease',
         }}
       >
-        <p className={expanded ? '' : 'line-clamp-4'} dangerouslySetInnerHTML={{ __html: project.description }} />
+        <p className={`text-zinc-300 font-light  ${expanded ? '' : 'line-clamp-4'}`} dangerouslySetInnerHTML={{ __html: project.description }} />
       </div>
       <TextButton onClick={() => setExpanded(prev => !prev)}>
-        {expanded ? '닫기' : '펼치기'}
+        {expanded ? '접기' : '펼치기'}
         <Icon name={expanded ? 'chevronUp' : 'chevronDown'} />
       </TextButton>
     </div>

@@ -6,7 +6,7 @@ import BuildTimestamp from '@/components/specific/contact/BuildTimestamp.tsx'
 function Contact() {
 
   return (
-    <div className="flex flex-col gap-4 p-4 bg-zinc-900 border-b border-b-zinc-800">
+    <div className="flex flex-col gap-4 p-4 border border-zinc-800 bg-zinc-900 border-b border-b-zinc-800">
       <Profile />
       <PersonalInfo />
       <SkillSets />
