@@ -24,12 +24,10 @@ export default function ProjectTabs({ currentTab, handleClick, orderBy, handleOr
           </Button>
         ))}
       </div>
-      <div className="flex">
-        <TextButton onClick={handleOrderBy}>
-          {orderBy ? '최신순' : '과거순'}
-          <Icon name={orderBy ? 'chevronDown' : 'chevronUp'} />
-        </TextButton>
-      </div>
+      <TextButton onClick={handleOrderBy}>
+        {orderBy ? '최신순' : '과거순'}
+        <Icon name={orderBy ? 'chevronDown' : 'chevronUp'} />
+      </TextButton>
     </div>
   )
 }

@@ -18,7 +18,7 @@ export function Button({ className = '', children, ...props }: ButtonProps) {
 export function TextButton({ className = '', children, ...props }: ButtonProps) {
   return (
     <button
-      className={`flex items-center text-sm text-indigo-400 ${className}`}
+      className={`flex items-center text-sm text-indigo-400 hover:text-indigo-500 ${className}`}
       {...props}
     >
       {children}
