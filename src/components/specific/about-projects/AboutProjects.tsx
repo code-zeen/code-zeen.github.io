@@ -11,7 +11,9 @@ import ProjectTabs from '@/components/specific/about-projects/ProjectTabs.tsx'
 
 function AboutProjects() {
   const [currentTab, setCurrentTab] = useState<TabEnum>(TabEnum.CAREER)
+  const [orderBy, setOrderBy] = useState(true)
   const scrollRef = useRef<HTMLDivElement>(null)
+  const orderedProjects = orderBy ? [...projects].reverse() : projects
 
   const handleClick = (params: TabEnum) => {
     setCurrentTab(params)
@@ -24,11 +26,15 @@ function AboutProjects() {
     }
   }
 
+  const handleOrderBy = () => {
+    setOrderBy(prev => !prev)
+  }
+
   return (
     <div ref={scrollRef} className="flex flex-col gap-2">
-      <ProjectTabs currentTab={currentTab} handleClick={handleClick} />
+      <ProjectTabs currentTab={currentTab} handleClick={handleClick} orderBy={orderBy} handleOrderBy={handleOrderBy} />
 
-      {projects.map(project => project.type === currentTab && (
+      {orderedProjects.map(project => project.type === currentTab && (
         <div className="flex flex-col gap-2 px-2 py-3 rounded-lg border border-zinc-800 bg-zinc-900">
           <ProjectMetaData project={project} />
           <ProjectTitle project={project} />

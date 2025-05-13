@@ -13,7 +13,7 @@ import Footer from '@/components/specific/Footer.tsx'
 
 function App() {
   return (
-    <div className="flex flex-col max-w-[1000px] h-screen mx-auto">
+    <div className="flex flex-col max-w-[800px] h-screen mx-auto">
       <Contact />
       <div className="flex flex-col items-stretch p-1">
         <div className="flex flex-col gap-10">
