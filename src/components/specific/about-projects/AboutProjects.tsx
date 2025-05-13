@@ -32,7 +32,9 @@ function AboutProjects() {
 
   return (
     <div ref={scrollRef} className="flex flex-col gap-2">
-      <ProjectTabs currentTab={currentTab} handleClick={handleClick} orderBy={orderBy} handleOrderBy={handleOrderBy} />
+      <div className="sticky top-0 z-10 p-1 rounded-xl border border-zinc-800 bg-zinc-900">
+        <ProjectTabs currentTab={currentTab} handleClick={handleClick} orderBy={orderBy} handleOrderBy={handleOrderBy} />
+      </div>
 
       {orderedProjects.map(project => project.type === currentTab && (
         <div className="flex flex-col gap-2 px-2 py-3 rounded-lg border border-zinc-800 bg-zinc-900">
@@ -57,8 +59,6 @@ function AboutProjects() {
           </div>
         </div>
       ))}
-
-      <ProjectTabs currentTab={currentTab} handleClick={handleClick} />
     </div>
   )
 }
