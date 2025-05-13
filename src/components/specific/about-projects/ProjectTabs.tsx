@@ -1,6 +1,7 @@
 import { projectColorMap } from '@/content/projectColorMap.ts'
 import Icon from '@/components/common/Icon.tsx'
 import { TabEnum } from '@/types/enums.ts'
+import { Button, TextButton } from '@/components/common/Button.tsx'
 
 interface ProjectTabProps {
   currentTab: TabEnum
@@ -16,21 +17,18 @@ export default function ProjectTabs({ currentTab, handleClick, orderBy, handleOr
     <div className="flex justify-between">
       <div className="flex items-center flex-wrap gap-1">
         {buttons.map(button => (
-          <button onClick={() => handleClick(button)}
-                  className={`flex justify-center items-center gap-1 capitalize tab-button ${button === currentTab ? `${projectColorMap[currentTab]}` : 'bg-zinc-700'}`}>
+          <Button onClick={() => handleClick(button)}
+                  className={button === currentTab ? `${projectColorMap[currentTab]}` : 'bg-zinc-700'}>
             <Icon name={button} />
             {button === currentTab && button}
-          </button>
+          </Button>
         ))}
       </div>
       <div className="flex">
-        <p
-          className="flex items-center text-sm text-indigo-400 p-0"
-          onClick={handleOrderBy}
-        >
+        <TextButton onClick={handleOrderBy}>
           {orderBy ? '최신순' : '과거순'}
           <Icon name={orderBy ? 'chevronDown' : 'chevronUp'} />
-        </p>
+        </TextButton>
       </div>
     </div>
   )

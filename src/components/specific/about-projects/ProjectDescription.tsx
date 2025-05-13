@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Project } from '@/content/projects.type.ts'
 import Icon from '@/components/common/Icon.tsx'
+import { TextButton } from '@/components/common/Button.tsx'
 
 export default function ProjectDescription({ project }: { project: Project }) {
   const [expanded, setExpanded] = useState(false)
@@ -26,15 +27,10 @@ export default function ProjectDescription({ project }: { project: Project }) {
       >
         <p className={expanded ? '' : 'line-clamp-4'} dangerouslySetInnerHTML={{ __html: project.description }} />
       </div>
-      <div className="flex">
-        <p
-          className="flex items-center text-sm text-indigo-400 p-0"
-          onClick={() => setExpanded(prev => !prev)}
-        >
-          {expanded ? '닫기' : '펼치기'}
-          <Icon name={expanded ? 'chevronUp' : 'chevronDown'} />
-        </p>
-      </div>
+      <TextButton onClick={() => setExpanded(prev => !prev)}>
+        {expanded ? '닫기' : '펼치기'}
+        <Icon name={expanded ? 'chevronUp' : 'chevronDown'} />
+      </TextButton>
     </div>
   )
 }

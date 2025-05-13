@@ -1,5 +1,6 @@
 import { Project } from '@/content/projects.type.ts'
 import { useState } from 'react'
+import { Button } from '@/components/common/Button.tsx'
 
 export default function ProjectImageSlide({ project }: { project: Project }) {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -35,9 +36,9 @@ export default function ProjectImageSlide({ project }: { project: Project }) {
       </div>
 
       <div className="flex justify-between items-center p-1">
-        <button onClick={prevSlide} className="bg-zinc-600 rounded-full shadow-md px-2 py-1 text-sm text-white">이전</button>
+        <Button onClick={prevSlide} className="bg-zinc-600">이전</Button>
         <span className="text-zinc-300">{currentIndex + 1} / {project.imageSlide.length}</span>
-        <button onClick={nextSlide} className="bg-zinc-600 rounded-full shadow-md px-2 py-1 text-sm text-white">다음</button>
+        <Button onClick={nextSlide} className="bg-zinc-600">다음</Button>
       </div>
     </div>
   )
