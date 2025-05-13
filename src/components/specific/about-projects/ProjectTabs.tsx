@@ -14,7 +14,7 @@ export default function ProjectTabs({ currentTab, handleClick, orderBy, handleOr
   const buttons = Object.values(TabEnum).map(tab => tab)
 
   return (
-    <div className="flex justify-between">
+    <div className="flex-col justify-between">
       <div className="flex items-center flex-wrap gap-1">
         {buttons.map(button => (
           <Button onClick={() => handleClick(button)}

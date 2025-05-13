@@ -239,7 +239,7 @@ export const projects: Project[] = [
   },
   {
     type: TabEnum.CAREER,
-    date: '2024 . 05 ~ 현재',
+    date: '2025 . 05 ~ 현재',
     location: '위드런 (WithRun)',
     title: '문제은행 에디터',
     contribution: 90,
