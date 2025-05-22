@@ -232,7 +232,7 @@ export const projects: Project[] = [
     contribution: 50,
     stacks: ['next', 'typescript', 'reactQuery', 'zustand', 'axios'],
     description:
-      '기존 React 프로젝드를 <em>NextJS로 마이그레이션</em> 작업을 진행했습니다.<br/><br/>' +
+      '기존 React 프로젝트를 <em>NextJS로 마이그레이션</em> 작업을 진행했습니다.<br/><br/>' +
       '마이그레이션을 진행하게 된 가장 큰 이유는 클라이언트에 <em>이미지 업로드</em>를 하기 위해서지만 이 부분은 다른 팀원이 담당하였습니다.<br/><br/>' +
       'Next를 사용하게되며 <em>App Router</em>를 사용했고, 기존에 클라이언트에서 처리하던 supabase 요청을 NextJS 서버 API로 옮겨 작성한 후 적용했습니다. 이로 인해 <em>API key 노출 문제</em>도 해결이 되었습니다.<br/><br/>' +
       '사용자 수가 증가할 경우 supabase 비용 부담에 대한 우려로 백엔드 개발자가 충원이 되며 기존 supabse에서 제공해주던 <em>실시간(real-time) 기능</em>들을 백엔드와 협업하여 <em>Server-Sent Events(SSE)</em>로 구현해 실기간 트래픽을 자체 서버로 분산하였습니다.',
@@ -246,7 +246,7 @@ export const projects: Project[] = [
     stacks: ['next', 'typescript', 'tinymceEditor', 'mathQuill', 'mathJax'],
     description:
       '사용자가 직접 <em>문제은행 컨텐츠 제작</em>을 할 수 있는 <em>텍스트 에디터</em>를 개발했습니다.<br/><br/>' +
-      '퍼블리셔가 디자인한 수많은 템플릿 중에 사용자가 선택, 조합, 수정하는 기능과, 중고등학생 대상으로 필요한 손쉽게 <em>수식을 작성할 수 있는 편집기</em>를 구현하였습니다.<br/><br/>' +
+      '퍼블리셔가 디자인한 수많은 템플릿 중에 사용자가 선택, 조합, 수정하는 기능과, 중고등학생 대상으로 필요한 <em>수식을 손쉽게 작성할 수 있는 편집기</em>를 구현하였습니다.<br/><br/>' +
       '<em>TinyMCE</em>의 무료 기능에 커스텀 기능을 추가하여 툴바에 제공을 하고, 입력은 <em>MathQuill</em>, 출력은 <em>MathJax</em>를 통해 svg 또는 png 이미지로 에디터와 미리보기 화면에 출력하여 사용자가 레이아웃을 자유롭게 수정할 수 있습니다.<br/><br/>',
     imageSlide: [
       { image: wr8, caption: '수식 에디터 프로토타입' },
