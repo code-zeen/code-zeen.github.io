@@ -25,7 +25,8 @@ export default function ProjectDescription({ project }: { project: Project }) {
           transition: 'height 0.3s ease',
         }}
       >
-        <p className={`text-zinc-300 font-light  ${expanded ? '' : 'line-clamp-4'}`} dangerouslySetInnerHTML={{ __html: project.description }} />
+        <p className={`text-zinc-300 font-light p-2 ${expanded ? '' : 'line-clamp-4'}`}
+           dangerouslySetInnerHTML={{ __html: project.description }} />
       </div>
       <TextButton onClick={() => setExpanded(prev => !prev)}>
         {expanded ? '접기' : '펼치기'}
