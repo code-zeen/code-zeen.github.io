@@ -108,7 +108,7 @@ export const projects: Project[] = [
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '여행 일지',
     contribution: 75,
-    description: '커스텀 컴포넌트, props, map을 사용하여 하나의 json 파일의 정보를 화면에 표현하는 정적 레이아웃을 제작했습니다.',
+    description: '<em>커스텀 컴포넌트, props, .map()</em>을 사용하여 하나의 json 파일의 정보를 화면에 표현하는 <em>정적 레이아웃</em>을 제작했습니다.',
     thumbnailOne: travel,
     urlKr: 'https://zeen-travel-kr.netlify.app',
   },
@@ -118,8 +118,8 @@ export const projects: Project[] = [
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '밈(meme) 제작기',
     contribution: 75,
-    description: 'Form을 통해 받는 유저의 input을 리액트가 제어할 수 있는 제어 컴포넌트로 만들었습니다. \n' +
-      '사용자의 텍스트를 이미지 위에 렌더링을 하고, 밈 이미지는 버튼 클릭시 무작위 이미지를 useEffect를 이용하여 API 호출을합니다.',
+    description: '<em>Form</em>을 통해 받는 유저의 <em>input</em>을 리액트가 제어할 수 있는 <em>제어 컴포넌트</em>로 만들었습니다. \n' +
+      '사용자의 텍스트를 이미지 위에 렌더링을 하고, 밈 이미지는 버튼 클릭시 무작위 이미지를 <em>useEffect를 이용하여 API 호출</em>을합니다.',
     thumbnailOne: memes,
     urlEn: 'https://zeen-meme-en.netlify.app',
   },
@@ -130,7 +130,7 @@ export const projects: Project[] = [
     title: '주사위 게임',
     contribution: 75,
     description: '각각의 주사위를 오브젝트화 하여 데이터를 담았습니다. \n' +
-      'Win-condition 충족시 (모든 주사위가 선택되었고, 모든 수가 같은 수일때) 게임을 이기고\n 자신의 최고기록이 남아 재도전할 수 있는 단순한 게임을 제작하였습니다.',
+      'Win-condition 충족시 (모든 주사위가 선택되었고, 모든 수가 같은 수일때) 게임을 이기고\n <em>자신의 최고기록이 sessionStorage에 남아</em> 재도전할 수 있는 단순한 게임을 제작하였습니다.',
     thumbnailOne: tenzies,
     urlKr: 'https://zeen-tenzies-kr.netlify.app',
     urlEn: 'https://zeen-tenzies-en.netlify.app',
@@ -141,8 +141,8 @@ export const projects: Project[] = [
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '상식 퀴즈 (English)',
     contribution: 75,
-    description: '잡상식 질문 API를 객관식 퀴즈 UI로 표현하였습니다. \n' +
-      'Check Answers 버튼으로 답을 확인 및 채점 할 수 있고, New Quiz 버튼을 눌러 새로운 질문들을 받아 올 수 있습니다.',
+    description: '잡상식 질문 API를 <em>객관식 퀴즈</em> UI로 표현하였습니다. \n' +
+      'Check Answers 버튼으로 <em>답을 확인 및 채점</em> 할 수 있고, <em>New Quiz</em> 버튼을 눌러 새로운 질문들을 받아 올 수 있습니다.',
     thumbnailOne: quizzical,
     urlEn: 'https://zeen-quizzical-en.netlify.app',
   },
@@ -152,10 +152,10 @@ export const projects: Project[] = [
     location: 'Scrimba - The Frontend Developer Career Path',
     title: '영화 검색',
     contribution: 75,
-    description: 'React Router를 활용해 검색 페이지, 상세 페이지 (제작중), 그리고 마이 페이지로 조합된 싱글 페이지 어플(SPA)입니다. \n' +
-      '오픈 무비(OMDb) API로 영화를 검색하여 북마크 버튼을 통해 개인페이지에 저장할 수 있습니다. \n' +
+    description: '<em>React Router</em>를 활용해 <em>검색 페이지, 상세 페이지 (제작중단), 그리고 마이 페이지</em>로 조합된 싱글 페이지 어플(SPA)입니다. \n' +
+      '<em>오픈 무비(OMDb) API</em>로 영화를 검색하여 <em>북마크 버튼</em>을 통해 개인페이지에 저장할 수 있습니다. \n' +
       '개인페이지 데이터는 sessionStorage로 브라우저창을 닫으면 데이터가 삭제됩니다. \n' +
-      'Context API를 통해 글로벌 상태/데이터 관리를 하였고 "검색 페이지"가 언마운트 되어도 재빨리 마지막 검색기록으로 돌아갈 수 있습니다.',
+      '<em>Context API</em>를 통해 글로벌 상태/데이터 관리를 하였고 "검색 페이지"가 언마운트 되어도 재빨리 마지막 검색기록으로 돌아갈 수 있습니다.',
     thumbnailOne: movies,
     urlEn: 'https://zeen-movies-en.netlify.app',
   },
