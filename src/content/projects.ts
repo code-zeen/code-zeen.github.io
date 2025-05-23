@@ -30,6 +30,9 @@ import wr5 from '../assets/wr5.png'
 import wr6 from '../assets/wr6.png'
 import wr7 from '../assets/wr7.png'
 import wr8 from '../assets/wr8.gif'
+import wr9 from '../assets/wr9.gif'
+import wr10 from '../assets/wr10.gif'
+import wr11 from '../assets/wr11.gif'
 import ppbDitto from '../assets/ppb-ditto.gif'
 import ppbGrumpig from '../assets/ppb-grumpig.gif'
 
@@ -245,11 +248,14 @@ export const projects: Project[] = [
     contribution: 90,
     stacks: ['next', 'typescript', 'tinymceEditor', 'mathQuill', 'mathJax'],
     description:
-      '사용자가 직접 <em>문제은행 컨텐츠 제작</em>을 할 수 있는 <em>텍스트 에디터</em>를 개발했습니다.<br/><br/>' +
+      '사용자가 직접 <em>문제은행 컨텐츠 제작</em>을 할 수 있는 <em>텍스트 에디터</em> 프로토타입을 개발 중입니다.<br/><br/>' +
       '퍼블리셔가 디자인한 수많은 템플릿 중에 사용자가 선택, 조합, 수정하는 기능과, 중고등학생 대상으로 필요한 <em>수식을 손쉽게 작성할 수 있는 편집기</em>를 구현하였습니다.<br/><br/>' +
       '<em>TinyMCE</em>의 무료 기능에 커스텀 기능을 추가하여 툴바에 제공을 하고, 입력은 <em>MathQuill</em>, 출력은 <em>MathJax</em>를 통해 svg 또는 png 이미지로 에디터와 미리보기 화면에 출력하여 사용자가 레이아웃을 자유롭게 수정할 수 있습니다.<br/><br/>',
     imageSlide: [
-      { image: wr8, caption: '수식 에디터 프로토타입' },
+      { image: wr8, caption: '1. 중고등 수식 에디터' },
+      { image: wr9, caption: '2. 타입1: 에디터 + 미리보기 분리' },
+      { image: wr10, caption: '3. 타입1: 에디터 + 미리보기 분리' },
+      { image: wr11, caption: '4. 타입2: 미리보기 내부에 inline 에디터' },
     ],
   },
   {
