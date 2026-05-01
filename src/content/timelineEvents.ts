@@ -1,23 +1,81 @@
-export interface TimelineEvent {
+import { TranslatedText } from '@/types/enums.ts'
+
+export interface TimelineEvent extends TranslatedText {
   date: {
-    year: string
-    month: string
+    start: string
+    end: string
   }
   isNewYear?: boolean
-  content: string
 }
 
 export const timelineEvents: TimelineEvent[] = [
-  { date: { year: '2015', month: '08' }, isNewYear: true, content: '대학 입학' },
-  { date: { year: '2019', month: '06' }, isNewYear: true, content: '휴학 및 귀국' },
-  { date: { year: '2021', month: '12' }, isNewYear: true, content: '웹퍼블리셔 수강' },
-  { date: { year: '2022', month: '05' }, isNewYear: true, content: '웹퍼블리셔 수료' },
-  { date: { year: '2022', month: '06' }, content: '웹디자인기능사 취득' },
-  { date: { year: '2022', month: '07' }, content: 'JavaScript 독학' },
-  { date: { year: '2022', month: '10' }, content: 'TOEIC 990점 취득' },
-  { date: { year: '2022', month: '11' }, content: 'React 독학' },
-  { date: { year: '2023', month: '03' }, isNewYear: true, content: '프론트엔드 입사' },
-  { date: { year: '2024', month: '03' }, isNewYear: true, content: '프론트엔드 퇴사' },
-  { date: { year: '2024', month: '08' }, content: '프론트엔드 프리랜스' },
-  { date: { year: '2024', month: '10' }, content: '프론트엔드 정규직 변환' },
+  {
+    date: { start: '2015', end: '2019' }, isNewYear: true, text: {
+      ko: '대학',
+      en: 'University (USA)',
+      de: 'Universität (USA)',
+    },
+  }, {
+    date: { start: '2021', end: '2022' }, isNewYear: true, text: {
+      ko: '웹퍼블리셔 양성과정',
+      en: 'Web Developer Course for HTML/CSS (South Korea)',
+      de: 'Webentwicklungskurs für HTML/CSS (Südkorea)',
+    },
+  }, {
+    date: { start: '', end: '2022' }, text: {
+      ko: '웹디자인기능사 취득',
+      en: 'Obtain Web Designer Certificate (South Korea)',
+      de: 'Web-Designer Certifikat (Südkorea)',
+    },
+  }, {
+    date: { start: '', end: '2022' }, text: {
+      ko: 'JavaScript 독학',
+      en: 'JavaScript Online-Course',
+      de: 'JavaScript Online-Kurs',
+    },
+  }, {
+    date: { start: '', end: '2022' }, text: {
+      ko: 'TOEIC 990점 취득',
+      en: 'Obtain TOEIC Score of 990/990',
+      de: 'TOEIC Certifikat (990/990)',
+    },
+  }, {
+    date: { start: '', end: '2022' }, text: {
+      ko: 'React 독학',
+      en: 'React Online-Course',
+      de: 'React Online-Kurs',
+    },
+  }, {
+    date: { start: '2023', end: '2024' }, isNewYear: true, text: {
+      ko: '프론트엔드 정규직',
+      en: 'Employed at KBI',
+      de: 'Anstellung bei KBI (Südkorea)',
+    },
+  }, {
+    date: { start: '', end: '2024' }, text: {
+      ko: '프론트엔드 프리랜스',
+      en: 'Freelanced at With Run',
+      de: 'Freelance bei With Run (Südkorea)',
+    },
+  }, {
+    date: { start: '2024', end: '2025' }, isNewYear: true, text: {
+      ko: '프론트엔드 정규직',
+      en: 'Employed at With Run',
+      de: 'Anstellung bei With Run (Südkorea)',
+    },
+  },
+  {
+    date: { start: '', end: '2025' }, text: {
+      ko: '독일 체류 시작',
+      en: 'Move to Germany',
+      de: 'Umzug nach Deutschland',
+    },
+  },
+  {
+    date: { start: '', end: '2026' }, isNewYear: true, text: {
+      ko: '독일 어학원 (B1 진행중)',
+      en: 'German Language School (Currently B1)',
+      de: 'Sprachschule A2 bis B1(jetzt)',
+    },
+  },
 ]
