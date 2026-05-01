@@ -40,9 +40,20 @@ export const personalInfo: IconWithText[] = [
 
 export const skillSets: IconName[] = [
   'react',
-  'reduxToolkit',
   'typescript',
+  'javascript',
+  'HTML',
+  'CSS',
+  'next',
+  'reduxToolkit',
+  'rtkQuery',
+  'reactQuery',
+  'zustand',
+  'tailwindcss',
+  'styledComponents',
   'mui',
+  'supabase',
+  'axios',
   'vite',
   'git',
 ]

@@ -3,3 +3,15 @@ export const lastUpdated = {
   en: 'Last updated',
   de: 'Zuletzt aktualisiert',
 }
+export const expandButtonText = {
+  expand: {
+    ko: '더 보기',
+    en: 'Expand',
+    de: 'mehr anzeigen',
+  },
+  collapse: {
+    ko: '접기',
+    en: 'Collapse',
+    de: 'weniger anzeigen',
+  },
+}

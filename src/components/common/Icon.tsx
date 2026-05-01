@@ -1,6 +1,7 @@
 import {
   SiAxios,
   SiClaude,
+  SiCss3,
   SiFigma,
   SiGit,
   SiGithub,
@@ -33,10 +34,13 @@ export type IconName =
   | 'chevronDown'
   | 'chevronUp'
   | 'claudeAi'
+  | 'CSS'
   | 'email'
   | 'figma'
   | 'git'
   | 'github'
+  | 'HTML'
+  | 'javascript'
   | 'location'
   | 'mathJax'
   | 'mathQuill'
@@ -67,10 +71,12 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   chevronDown: { icon: HiChevronDown },
   chevronUp: { icon: HiChevronUp },
   claudeAi: { icon: SiClaude },
+  CSS: { icon: SiCss3 },
   email: { icon: MdOutlineMail, color: disabled },
   figma: { icon: SiFigma },
   git: { icon: SiGit },
   github: { icon: SiGithub },
+  HTML: { icon: SiHtml5 },
   javascript: { icon: SiJavascript },
   location: { icon: MdOutlineLocationOn, color: disabled },
   mathJax: { icon: TbMath },
