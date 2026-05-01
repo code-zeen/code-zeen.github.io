@@ -19,12 +19,12 @@ import {
   SiWebstorm,
 } from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
-import { MdLocationSearching, MdOutlineLocationOn, MdOutlineMail, MdOutlineSmartToy, MdPerson2, MdSmartphone, MdWork } from 'react-icons/md'
+import { MdOutlineLocationOn, MdOutlineMail, MdOutlineSmartToy, MdPerson2, MdSmartphone, MdWork } from 'react-icons/md'
 import { HiChevronDown, HiChevronUp, HiOutlineChartPie } from 'react-icons/hi'
 import { TbCircleLetterZFilled, TbMath } from 'react-icons/tb'
 import { IconType } from 'react-icons'
 import { TabEnumValues } from '@/types/enums.ts'
-import { LuTextCursorInput } from 'react-icons/lu'
+import { LuSmile, LuTextCursorInput } from 'react-icons/lu'
 import { GiQuill } from 'react-icons/gi'
 
 export type IconName =
@@ -58,7 +58,6 @@ export type IconName =
   | 'zustand'
   | TabEnumValues
 
-
 const disabled = '#b4b4b4'
 
 const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
@@ -79,7 +78,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   mui: { icon: SiMui },
   next: { icon: SiNextdotjs },
   person: { icon: MdPerson2, color: disabled },
-  personality: { icon: MdLocationSearching, color: disabled },
+  personality: { icon: LuSmile, color: disabled },
   phone: { icon: MdSmartphone, color: disabled },
   publishing: { icon: SiHtml5 },
   react: { icon: SiReact },
