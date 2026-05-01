@@ -1,12 +1,13 @@
 import { myName } from '@/content/contact.ts'
 import Icon from '@/components/common/Icon.tsx'
 import { LanguageEnum } from '@/types/enums.ts'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import Flag from '@/components/common/Flag.tsx'
 import { Button } from '@/components/common/Button.tsx'
+import { Context } from '@/Context.tsx'
 
 function Profile() {
-  const [language, setLanguage] = useState<LanguageEnum>(LanguageEnum.GERMAN)
+  const { language, changeLanguage } = useContext(Context)
   const [isLanguageOpen, setIsLanguageOpen] = useState(false)
 
   const toggleLanguageMenu = () => {
@@ -14,7 +15,7 @@ function Profile() {
   }
 
   const handleLanguageChange = (lang: LanguageEnum) => {
-    setLanguage(lang)
+    changeLanguage(lang)
     setIsLanguageOpen(false)
   }
 
@@ -46,7 +47,7 @@ function Profile() {
           <img className="img profile-pic"
                src="https://avatars.githubusercontent.com/u/77660676?v=4" alt="profile-picture" />
           <div className="flex flex-col">
-            <h2 className="text-xl">{myName.text.ko}</h2>
+            <h2 className="text-xl">{myName.text[language]}</h2>
             <code>frontend-developer</code>
           </div>
         </div>

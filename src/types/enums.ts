@@ -12,4 +12,10 @@ export enum LanguageEnum {
   GERMAN = 'de',
 }
 
+export interface TranslatedText {
+  text: {
+    [key in LanguageEnum]: string
+  }
+}
+
 export type TabEnumValues = `${TabEnum}`
