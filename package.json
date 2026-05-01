@@ -2,6 +2,7 @@
   "name": "2024-portfolio",
   "homepage": "https://code-zeen.github.io",
   "private": true,
+  "packageManager": "pnpm@latest",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
