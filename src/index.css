@@ -111,27 +111,47 @@ img {
     user-select: none;
 }
 
+ul {
+    margin-left: 20px;
+}
+
 li {
     list-style-type: "\1F538";
     line-height: 1.8;
 }
+ul.language {
+    margin-left: 0;
+}
+ul.language>li {
+    list-style-type: none;
+}
 
-img.round {
+div.profile-pic {
+    height: 300px;
+}
+div.profile-title {
+    align-items: center;
+    gap: 2rem;
+}
+
+img.profile-pic {
     border-radius: 50%;
     width: 200px;
 }
-
 img.thumbnail {
     width: 400px;
     max-width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-    img.round {
+    div.profile-pic {
+        height: 150px;
+    }
+    div.profile-title {
+        align-items: flex-end;
+        gap: 1rem;
+    }
+    img.profile-pic {
         width: 100px;
     }
-}
-
-ul {
-    margin-left: 20px;
 }
