@@ -15,3 +15,50 @@ export const expandButtonText = {
     de: 'weniger anzeigen',
   },
 }
+export const sectionTitle = {
+  about: {
+    ko: '소개',
+    en: 'About Me',
+    de: 'Über mich',
+  },
+  timeline: {
+    ko: '타임라인',
+    en: 'Timeline',
+    de: 'Timeline',
+  },
+  projects: {
+    ko: '프로젝트',
+    en: 'Projects',
+    de: 'Projekte',
+  },
+  react: {
+    ko: 'React',
+    en: 'React',
+    de: 'React',
+  },
+  git: {
+    ko: 'Git',
+    en: 'Git',
+    de: 'Git',
+  },
+  misc: {
+    ko: '기타',
+    en: 'Misc',
+    de: 'Sonstiges',
+  },
+  current: {
+    ko: '',
+    en: '',
+    de: '',
+  },
+  future: {
+    ko: '',
+    en: '',
+    de: '',
+  },
+  farFuture: {
+    ko: '',
+    en: '',
+    de: '',
+  },
+}

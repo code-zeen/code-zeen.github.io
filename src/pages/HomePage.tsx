@@ -8,37 +8,42 @@ import AboutMiscellaneous from '@/components/specific/AboutMiscellaneous.tsx'
 import AboutCurrentHabits from '@/components/specific/AboutCurrentHabits.tsx'
 import AboutTopicsToLearn from '@/components/specific/AboutTopicsToLearn.tsx'
 import AboutFuturePlans from '@/components/specific/AboutFuturePlans.tsx'
+import { useContext } from 'react'
+import { Context } from '@/Context.tsx'
+import { sectionTitle } from '@/content/miscellaneous.ts'
 
 export default function HomePage() {
+  const { language } = useContext(Context)
+
   return (
     <div className="flex flex-col items-stretch p-1">
       <div className="flex flex-col gap-10">
-        <Section title="소개">
+        <Section title={sectionTitle.about[language]}>
           <AboutMe />
         </Section>
-        <Section title="타임라인">
+        <Section title={sectionTitle.timeline[language]}>
           <AboutEducation />
         </Section>
-        <Section title="프로젝트">
+        <Section title={sectionTitle.projects[language]}>
           <AboutProjects />
         </Section>
-        <Section title="React">
+        <Section title={sectionTitle.react[language]}>
           <AboutReact />
         </Section>
-        <Section title="Git">
+        <Section title={sectionTitle.git[language]}>
           <AboutGit />
         </Section>
-        <Section title="기타">
+        <Section title={sectionTitle.misc[language]}>
           <AboutMiscellaneous />
         </Section>
 
-        <Section title="현재 적용 중인 것">
+        <Section title={sectionTitle.current[language]}>
           <AboutCurrentHabits />
         </Section>
-        <Section title="더 배우고 싶은 것">
+        <Section title={sectionTitle.future[language]}>
           <AboutTopicsToLearn />
         </Section>
-        <Section title="미래에 하고 싶은 것">
+        <Section title={sectionTitle.farFuture[language]}>
           <AboutFuturePlans />
         </Section>
       </div>
