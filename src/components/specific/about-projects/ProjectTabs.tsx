@@ -2,6 +2,9 @@ import { projectColorMap } from '@/content/projectColorMap.ts'
 import Icon from '@/components/common/Icon.tsx'
 import { TabEnum } from '@/types/enums.ts'
 import { Button, TextButton } from '@/components/common/Button.tsx'
+import { useContext } from 'react'
+import { Context } from '@/Context.tsx'
+import { sortBy } from '@/content/miscellaneous.ts'
 
 interface ProjectTabProps {
   currentTab: TabEnum
@@ -11,6 +14,7 @@ interface ProjectTabProps {
 }
 
 export default function ProjectTabs({ currentTab, handleClick, orderBy, handleOrderBy }: ProjectTabProps) {
+  const { language } = useContext(Context)
   const buttons = Object.values(TabEnum).map(tab => tab)
 
   return (
@@ -25,7 +29,7 @@ export default function ProjectTabs({ currentTab, handleClick, orderBy, handleOr
         ))}
       </div>
       <TextButton onClick={handleOrderBy}>
-        {orderBy ? '최신순' : '과거순'}
+        {orderBy ? sortBy.newest.text[language] : sortBy.oldest.text[language]}
         <Icon name={orderBy ? 'chevronDown' : 'chevronUp'} />
       </TextButton>
     </div>
