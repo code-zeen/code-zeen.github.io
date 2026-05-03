@@ -21,7 +21,7 @@ function Profile() {
 
   return (
     <div className="profile-pic flex flex-col w-full">
-      <div className="relative flex w-full h-1/2 bg-[url('/src/assets/clouds.png')] bg-cover bg-center">
+      <div className="relative flex w-full h-1/2 bg-[url('/public/clouds.png')] bg-cover bg-center">
         <Button className="absolute top-4 right-4" onClick={toggleLanguageMenu}>
           <div className="relative flex items-end">
             <Flag language={language} />
