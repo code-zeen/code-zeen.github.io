@@ -8,6 +8,7 @@ import ProjectSkillSets from '@/components/specific/about-projects/ProjectSkillS
 import ProjectDescription from '@/components/specific/about-projects/ProjectDescription.tsx'
 import ProjectImageSlide from '@/components/specific/about-projects/ProjectImageSlide.tsx'
 import ProjectTabs from '@/components/specific/about-projects/ProjectTabs.tsx'
+import ProjectContributionMeter from '@/components/specific/about-projects/ProjectContributionMeter.tsx'
 
 function AboutProjects() {
   const [currentTab, setCurrentTab] = useState<TabEnum>(TabEnum.CAREER)
@@ -33,16 +34,19 @@ function AboutProjects() {
   return (
     <div ref={scrollRef} className="flex flex-col gap-2">
       <div className="sticky top-0 z-10 p-1 rounded-xl border border-zinc-800 bg-zinc-900">
-        <ProjectTabs currentTab={currentTab} handleClick={handleClick} orderBy={orderBy} handleOrderBy={handleOrderBy} />
+        <ProjectTabs currentTab={currentTab} handleClick={handleClick} orderBy={orderBy}
+                     handleOrderBy={handleOrderBy} />
       </div>
 
       {orderedProjects.map(project => project.type === currentTab && (
         <div className="flex flex-col gap-2 px-2 py-3 rounded-lg border border-zinc-800 bg-zinc-900">
           <ProjectMetaData project={project} />
           <ProjectTitle project={project} />
+          <ProjectContributionMeter project={project} />
+          <ProjectSkillSets project={project} />
+          <div className="border-b border-zinc-800" />
           {project.imageSlide && <ProjectImageSlide project={project} />}
           <ProjectDescription project={project} />
-          <ProjectSkillSets project={project} />
 
           {project.thumbnailOne && (
             <div className="flex flex-col items-center gap-3">
