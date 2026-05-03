@@ -49,12 +49,12 @@ export type IconName =
   | 'person'
   | 'personality'
   | 'phone'
-  | 'reactQuery'
   | 'reduxToolkit'
   | 'rtkQuery'
   | 'styledComponents'
   | 'supabase'
   | 'tailwindcss'
+  | 'tanstackQuery'
   | 'tinymceEditor'
   | 'typescript'
   | 'vite'
@@ -88,7 +88,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   phone: { icon: MdSmartphone, color: disabled },
   publishing: { icon: SiHtml5 },
   react: { icon: SiReact },
-  reactQuery: { icon: SiReactquery },
+  tanstackQuery: { icon: SiReactquery },
   reduxToolkit: { icon: SiRedux },
   rtkQuery: { icon: SiRedux },
   styledComponents: { icon: SiStyledcomponents },

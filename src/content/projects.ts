@@ -599,7 +599,7 @@ export const projects: Project[] = [
       },
     },
     contribution: 50,
-    stacks: ['next', 'typescript', 'reactQuery', 'zustand', 'axios'],
+    stacks: ['next', 'typescript', 'tanstackQuery', 'zustand', 'axios'],
     description:
       {
         text: {

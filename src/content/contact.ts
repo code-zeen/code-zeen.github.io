@@ -47,7 +47,7 @@ export const skillSets: IconName[] = [
   'next',
   'reduxToolkit',
   'rtkQuery',
-  'reactQuery',
+  'tanstackQuery',
   'zustand',
   'tailwindcss',
   'styledComponents',
