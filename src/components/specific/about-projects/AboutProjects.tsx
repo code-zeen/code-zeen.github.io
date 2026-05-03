@@ -50,11 +50,11 @@ function AboutProjects() {
 
           {project.thumbnailOne && (
             <div className="flex flex-col items-center gap-3">
-              <img src={project.thumbnailOne} className="thumbnail" />
+              <img src={project.thumbnailOne} className="thumbnail" alt="thumbnail1" />
               {project.thumbnailTwo && (
                 <>
                   <MdArrowRightAlt size="2em" />
-                  <img src={project.thumbnailTwo} className="thumbnail" />
+                  <img src={project.thumbnailTwo} className="thumbnail" alt="thumbnail2" />
                 </>
               )}
             </div>
