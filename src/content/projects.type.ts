@@ -1,14 +1,14 @@
-import { TabEnum } from '../types/enums.ts'
+import { TabEnum, TranslatedText } from '../types/enums.ts'
 import { IconName } from '@/components/common/Icon.tsx'
 
 export interface Project {
   type: TabEnum
   date: string
-  location: string
-  title: string
+  location: TranslatedText
+  title: TranslatedText
   contribution: number
   stacks?: IconName[]
-  description: string
+  description: TranslatedText
   imageSlide?: ImageSlide[]
 
   thumbnailOne?: string
@@ -17,7 +17,6 @@ export interface Project {
   urlEn?: string
 }
 
-interface ImageSlide {
+interface ImageSlide extends TranslatedText {
   image: string
-  caption: string
 }

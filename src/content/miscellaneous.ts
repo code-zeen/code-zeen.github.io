@@ -1,3 +1,5 @@
+import { TranslatedText } from '@/types/enums.ts'
+
 export const lastUpdated = {
   ko: '최근 수정일',
   en: 'Last updated',
@@ -60,5 +62,31 @@ export const sectionTitle = {
     ko: '',
     en: '',
     de: '',
+  },
+}
+export const contribution: TranslatedText = {
+  text: {
+    ko: '기여도',
+    en: 'Contribution',
+    de: 'Contribution',
+  },
+}
+export const slideButton: {
+  prev: TranslatedText
+  next: TranslatedText
+} = {
+  prev: {
+    text: {
+      ko: '이전',
+      en: 'prev',
+      de: 'prev',
+    },
+  },
+  next: {
+    text: {
+      ko: '다음',
+      en: 'next',
+      de: 'next',
+    },
   },
 }
