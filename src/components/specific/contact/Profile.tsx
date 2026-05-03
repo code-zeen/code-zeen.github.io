@@ -16,6 +16,7 @@ function Profile() {
 
   const handleLanguageChange = (lang: LanguageEnum) => {
     changeLanguage(lang)
+    document.documentElement.lang = lang
     setIsLanguageOpen(false)
   }
 
