@@ -48,20 +48,34 @@ export const sectionTitle = {
     en: 'Misc',
     de: 'Sonstiges',
   },
-  current: {
-    ko: '',
-    en: '',
-    de: '',
+  interests: {
+    ko: '배우고싶은 것',
+    en: 'Interests',
+    de: 'Interessen',
   },
-  future: {
-    ko: '',
-    en: '',
-    de: '',
+  goal: {
+    ko: '나의 목표',
+    en: 'Goals',
+    de: 'Ziele',
   },
-  farFuture: {
-    ko: '',
-    en: '',
-    de: '',
+}
+export const sortBy: {
+  newest: TranslatedText
+  oldest: TranslatedText
+} = {
+  newest: {
+    text: {
+      ko: '최신순',
+      en: 'Newest',
+      de: 'Neueste',
+    },
+  },
+  oldest: {
+    text: {
+      ko: '오래된 순',
+      en: 'Oldest',
+      de: 'Älteste',
+    },
   },
 }
 export const contribution: TranslatedText = {
@@ -88,5 +102,12 @@ export const slideButton: {
       en: 'next',
       de: 'next',
     },
+  },
+}
+export const interests: TranslatedText = {
+  text: {
+    ko: '다음으로 공부 하고싶은 것은..,',
+    en: 'I would like to learn next...',
+    de: 'Als Nächstes möchte ich lernen...',
   },
 }
