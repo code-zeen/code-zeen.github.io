@@ -5,6 +5,7 @@ import { useContext, useState } from 'react'
 import Flag from '@/components/common/Flag.tsx'
 import { Button } from '@/components/common/Button.tsx'
 import { Context } from '@/Context.tsx'
+import cloudsPng from '@/assets/clouds.png'
 
 function Profile() {
   const { language, changeLanguage } = useContext(Context)
@@ -22,7 +23,7 @@ function Profile() {
 
   return (
     <div className="profile-pic flex flex-col w-full">
-      <div className="relative flex w-full h-1/2 bg-[url('/clouds.png')] bg-cover bg-center">
+      <div className="relative flex w-full h-1/2 bg-cover bg-center" style={{ backgroundImage: `url(${cloudsPng})` }}>
         <Button className="absolute top-4 right-4" onClick={toggleLanguageMenu}>
           <div className="relative flex items-end">
             <Flag language={language} />
