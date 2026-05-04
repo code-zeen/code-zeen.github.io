@@ -1,6 +1,6 @@
 import Section from '@/components/common/Section.tsx'
 import AboutMe from '@/components/specific/about-me/AboutMe.tsx'
-import AboutEducation from '@/components/specific/about-education/AboutEducation.tsx'
+import AboutTimeline from '@/components/specific/about-education/AboutTimeline.tsx'
 import AboutProjects from '@/components/specific/about-projects/AboutProjects.tsx'
 import { useContext } from 'react'
 import { Context } from '@/Context.tsx'
@@ -18,7 +18,7 @@ export default function HomePage() {
           <AboutMe />
         </Section>
         <Section title={sectionTitle.timeline[language]}>
-          <AboutEducation />
+          <AboutTimeline />
         </Section>
         <Section title={sectionTitle.projects[language]}>
           <AboutProjects />
