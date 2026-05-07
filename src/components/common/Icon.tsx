@@ -21,7 +21,7 @@ import {
 } from 'react-icons/si'
 import { SlQuestion } from 'react-icons/sl'
 import { MdOutlineLocationOn, MdOutlineMail, MdOutlineSmartToy, MdPerson2, MdSmartphone, MdWork } from 'react-icons/md'
-import { HiChevronDown, HiChevronUp, HiOutlineChartPie } from 'react-icons/hi'
+import { HiChevronDown, HiChevronUp, HiOutlineChartPie, HiOutlineChatAlt } from 'react-icons/hi'
 import { TbCircleLetterZFilled, TbMath } from 'react-icons/tb'
 import { IconType } from 'react-icons'
 import { TabEnumValues } from '@/types/enums.ts'
@@ -41,6 +41,7 @@ export type IconName =
   | 'github'
   | 'HTML'
   | 'javascript'
+  | 'language'
   | 'location'
   | 'mathJax'
   | 'mathQuill'
@@ -78,6 +79,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   github: { icon: SiGithub },
   HTML: { icon: SiHtml5 },
   javascript: { icon: SiJavascript },
+  language: { icon: HiOutlineChatAlt },
   location: { icon: MdOutlineLocationOn, color: disabled },
   mathJax: { icon: TbMath },
   mathQuill: { icon: GiQuill },

@@ -17,9 +17,9 @@ export const personalInfo: IconWithText[] = [
   {
     icon: 'person',
     text: {
-      ko: '1996 • ♀️여',
-      en: '1996 • ♀️Female',
-      de: '1996 • ♀️weiblich',
+      ko: '1996 • 여 ♀',
+      en: '1996 • Female ♀',
+      de: '1996 • weiblich ♀',
     },
   }, {
     icon: 'location',
@@ -27,6 +27,13 @@ export const personalInfo: IconWithText[] = [
       ko: '바이에른, 독일',
       en: 'Erlangen-Höchstadt, Germany',
       de: 'Erlangen-Höchstadt, Deutschland',
+    },
+  }, {
+    icon: 'language',
+    text: {
+      ko: '영어, 한국어, 독일어',
+      en: 'English, Korean, German B1',
+      de: 'Englisch, Koreanisch, Deutsch (B1)',
     },
   }, {
     icon: 'personality',
