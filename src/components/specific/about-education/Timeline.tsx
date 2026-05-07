@@ -14,11 +14,11 @@ export default function Timeline({ event }: { event: TimelineEvent }) {
         <span className={textColor}>{event.date.end}</span>
       </div>
       <div
-        className="flex items-start gap-6 py-3 border-l-2 border-zinc-700 pl-6 relative group hover:border-zinc-500 transition-colors">
+        className="flex items-start gap-6 py-3 border-l-2 border-zinc-700 pl-6 relative group hover:border-zinc-500 transition-colors min-w-0">
         <div
           className="absolute -left-[7px] top-4 w-3 h-3 bg-zinc-700 rounded-full group-hover:bg-zinc-500 transition-colors" />
 
-        <div className="text-zinc-300">
+        <div className="text-zinc-300 min-w-0">
           {event.text[language]}
         </div>
       </div>
