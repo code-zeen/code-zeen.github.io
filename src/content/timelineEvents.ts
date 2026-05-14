@@ -24,7 +24,7 @@ export const timelineEvents: TimelineEvent[] = [
   }, {
     date: { start: '', end: '2022' }, text: {
       ko: '웹디자인기능사 취득',
-      en: 'Obtain Web Designer Certificate (South Korea)',
+      en: 'Web Designer Certificate (South Korea)',
       de: 'Web-Designer Certifikat (Südkorea)',
     },
   }, {
@@ -36,7 +36,7 @@ export const timelineEvents: TimelineEvent[] = [
   }, {
     date: { start: '', end: '2022' }, text: {
       ko: 'TOEIC 990점 취득',
-      en: 'Obtain TOEIC Score of 990/990',
+      en: 'TOEIC Certifikat (990/990)',
       de: 'TOEIC Certifikat (990/990)',
     },
   }, {
@@ -67,7 +67,7 @@ export const timelineEvents: TimelineEvent[] = [
   {
     date: { start: '', end: '2025' }, text: {
       ko: '독일 체류 시작',
-      en: 'Move to Germany',
+      en: 'Moved to Germany',
       de: 'Umzug nach Deutschland',
     },
   },
@@ -75,7 +75,7 @@ export const timelineEvents: TimelineEvent[] = [
     date: { start: '', end: '2026' }, isNewYear: true, text: {
       ko: '독일 어학원 (B1 진행중)',
       en: 'German Language School (Currently B1)',
-      de: 'Sprachschule A2 bis B1(jetzt)',
+      de: 'Deutsch Sprachschule (jetzt B1)',
     },
   },
 ]

@@ -22,6 +22,7 @@ import newBingo0 from '../assets/newBingo0.png'
 import newBingo1 from '../assets/newBingo1.png'
 import newBingo2 from '../assets/newBingo2.png'
 import newBingo3 from '../assets/newBingo3.png'
+import wr0 from '../assets/wr0.gif'
 import wr1 from '../assets/wr1.png'
 import wr2 from '../assets/wr2.png'
 import wr3 from '../assets/wr3.png'
@@ -380,8 +381,8 @@ export const projects: Project[] = [
     location: {
       text: {
         ko: '(주)케이비아이',
-        en: 'KBI',
-        de: 'KBI',
+        en: 'KBI Co.',
+        de: 'KBI Co.',
       },
     },
     title: {
@@ -442,15 +443,15 @@ export const projects: Project[] = [
     location: {
       text: {
         ko: '(주)케이비아이',
-        en: 'KBI',
-        de: 'KBI',
+        en: 'KBI Co.',
+        de: 'KBI Co.',
       },
     },
     title: {
       text: {
         ko: 'BingoCVM 취약점 진단 솔루션 2.x',
-        en: 'BingoCVM 3.x : Vulnerability Management',
-        de: 'BingoCVM 3.x : Vulnerability Management',
+        en: 'BingoCVM 3.x : Continuous Vulnerability Management',
+        de: 'BingoCVM 3.x : Continuous Vulnerability Management',
       },
     },
     contribution: 99,
@@ -613,6 +614,13 @@ export const projects: Project[] = [
             'As the number of users (and thus requests) increased, the cost of supabase became unpredictable, so backend developers were added to our team to build and host our own server. We collaborated with the backend to implement <em>Server-Sent Events(SSE)</em> for real-time features for time-sensitive interactions during live exams.',
         },
       },
+    imageSlide: [{
+      image: wr0, text: {
+        ko: '랜딩 화면',
+        en: 'Landing Page',
+        de: 'Landing Page',
+      },
+    }],
   },
   {
     type: TabEnum.CAREER,
@@ -627,8 +635,8 @@ export const projects: Project[] = [
     title: {
       text: {
         ko: '문제은행 에디터',
-        en: 'Digital: Test Editor',
-        de: 'Digital: Test Editor',
+        en: 'Digital Testing System: Test Editor',
+        de: 'Digital Testing System: Test Editor',
       },
     },
     contribution: 90,
