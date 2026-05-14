@@ -11,7 +11,11 @@ export default function PersonalInfo() {
       {personalInfo.map((row, i) => (
         <div key={i} className="flex items-center gap-2">
           <Icon name={row.icon} />
-          <p className="text-zinc-300">{row.text[language]}</p>
+          {row.icon === 'github' ? (
+            <a href="https://github.com/code-zeen/code-zeen.github.io" target="_blank">{row.text[language]}</a>
+          ) : (
+            <p className="text-zinc-300">{row.text[language]}</p>
+          )}
         </div>
       ))}
     </div>

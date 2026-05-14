@@ -42,6 +42,13 @@ export const personalInfo: IconWithText[] = [
       en: 'A curious explorer 🧐',
       de: 'Immer neugierig 🫠',
     },
+  }, {
+    icon: 'github',
+    text: {
+      ko: 'Github',
+      en: 'Github',
+      de: 'Github',
+    },
   },
 ]
 
