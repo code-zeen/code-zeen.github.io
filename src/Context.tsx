@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useState } from 'react'
+import { createContext, ReactNode, useEffect, useState } from 'react'
 import { LanguageEnum } from '@/types/enums.ts'
 
 type ContextType = {
@@ -14,6 +14,14 @@ const Context = createContext<ContextType>({
 
 function ContextProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState(LanguageEnum.ENGLISH)
+  const userSystemLanguage = navigator.language.split('-')[0]
+  const isSupportedLanguage = Object.values(LanguageEnum).includes(userSystemLanguage as LanguageEnum)
+
+  useEffect(() => {
+    if (isSupportedLanguage) {
+      setLanguage(userSystemLanguage as LanguageEnum)
+    }
+  }, [userSystemLanguage])
 
   const changeLanguage = (language: LanguageEnum) => {
     setLanguage(language)
