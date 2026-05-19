@@ -51,7 +51,7 @@ export const projects: Project[] = [
     title: {
       text: {
         ko: 'Float, Position 이용한 정적 레아이웃 -해피피플',
-        en: 'Creating Static Layouts using Float and Position',
+        en: 'Erstellung statischer Layouts mit Float und Position',
         de: 'Creating Static Layouts using Float and Position',
       },
     },
@@ -62,8 +62,8 @@ export const projects: Project[] = [
           '빼곡하고 답답한 레이아웃을 여백과 아이콘을 사용하여 좀 더 여유롭고 효과적으로 정보가 눈에 들어올 수 있도록 디자인 하였습니다.',
         en: 'My first project was to find a website that could use some visual improvement, and to redesign their landing page. I chose an NGO website called "Happy People". \n' +
           'I redesigned the initially tight layout to be more spacious and breathable by utilizing whitespace and icons, which made the information more visually pleasing to the eye.',
-        de: 'My first project was to find a website that could use some visual improvement, and to redesign their landing page. I chose an NGO website called "Happy People". \n' +
-          'I redesigned the initially tight layout to be more spacious and breathable by utilizing whitespace and icons, which made the information more visually pleasing to the eye.',
+        de: 'Mein erstes Projekt bestand darin, eine Website zu finden, die visuell verbessert werden konnte, und deren Landingpage neu zu gestalten. Ich entschied mich für eine NGO-Website namens „Happy People“.<br/><br/>' +
+          'Ich überarbeitete das ursprünglich enge Layout, um es durch mehr Weißraum und Icons offener und luftiger zu gestalten, wodurch die Informationen visuell angenehmer wahrgenommen werden konnten.',
       },
     },
     thumbnailOne: happyPeople0,
@@ -83,7 +83,7 @@ export const projects: Project[] = [
       text: {
         ko: 'Flexbox를 이용한 반응형 레이아웃 -mosh!',
         en: 'Creating Responsive Layouts with Flexbox',
-        de: 'Creating Responsive Layouts with Flexbox',
+        de: 'Erstellung responsiver Layouts mit Flexbox',
       },
     },
     contribution: 100,
@@ -93,8 +93,8 @@ export const projects: Project[] = [
           '타사 보온/보냉 텀블러와 차별화된 성능과 디자인 요소를 메인페이지에 슬라이드로 추가하여 이 브랜드만의 장점을 살렸습니다.',
         en: 'My second project was to again find a website to redesign, but while engaging my newly acquired knowledge over flexbox and grids to create a responsive layout. I also had immense fun playing "Flexbox Froggy" and "Flexbox Ninja" during breaks 😄\n' +
           'I tried to create a slideable image carousel, which was challenging to implement to work smoothly both on desktop and mobile devices. Although I got it to work in the end, the size of the images were not stretching as much as I had wanted on desktop view.',
-        de: 'My second project was to again find a website to redesign, but while engaging my newly acquired knowledge over flexbox and grids to create a responsive layout. I also had immense fun playing "Flexbox Froggy" and "Flexbox Ninja" during breaks 😄\n' +
-          'I tried to create a slideable image carousel, which was challenging to implement to work smoothly both on desktop and mobile devices. Although I got it to work in the end, the size of the images were not stretching as much as I had wanted on desktop view.',
+        de: 'Mein zweites Projekt war wieder eine Website-Überarbeitung, diesmal mit Fokus auf mein neu erlerntes Wissen über <em>Flexbox</em> und <em>Grid</em>, um ein responsives Layout zu erstellen. In den Pausen hatte ich außerdem viel Spaß mit „Flexbox Froggy“ und „Flexbox Ninja“ 😄<br/><br/>' +
+          'Ich versuchte, ein horizontal verschiebbares Bildkarussell zu erstellen, was schwierig war, besonders um eine flüssige Nutzung auf Desktop und Mobilgeräten zu erreichen. Obwohl es am Ende funktionierte, waren die Bildgrößen im Desktop-Layout nicht so flexibel, wie ich es mir gewünscht hatte.',
       },
     },
     thumbnailOne: mosh0,
@@ -114,7 +114,7 @@ export const projects: Project[] = [
       text: {
         ko: 'JavaScript를 활용한 masonry 레이아웃 -만개의레시피',
         en: 'Creating Masonry Layouts with JavaScript',
-        de: 'Creating Masonry Layouts with JavaScript',
+        de: 'Erstellung von Masonry-Layouts mit JavaScript',
       },
     },
     contribution: 100,
@@ -123,7 +123,7 @@ export const projects: Project[] = [
         ko: '유저 컨텐츠에 의존하는 Pinterest의 masonry 레이아웃을 연구하여 적용해보았습니다. \n' +
           '적응형인 기존 웹사이트 또한 반응형으로 리뉴얼 하였습니다.',
         en: 'My final project was yet another mission to revamp. I was inspired to try implementing Pinterest\'s masonry layout, which fits this cooking website\'s infinitely generated user content. With barely any knowledge in JavaScript or jQuery, I managed to find a blogpost that had a step-by-step tutorial that allowed me to create the layout that I wanted.',
-        de: 'My final project was yet another mission to revamp. I was inspired to try implementing Pinterest\'s masonry layout, which fits this cooking website\'s infinitely generated user content. With barely any knowledge in JavaScript or jQuery, I managed to find a blogpost that had a step-by-step tutorial that allowed me to create the layout that I wanted.',
+        de: 'Mein Abschlussprojekt war erneut eine Aufgabe zur Neugestaltung einer Website. Dabei ließ ich mich von Pinterests <em>Masonry-Layout</em> inspirieren, das gut zu den unendlich generierten Nutzerinhalten dieser Koch-Website passt. Mit nur wenig JavaScript- und jQuery-Kenntnissen fand ich einen Blogartikel mit einer Schritt-für-Schritt-Anleitung, der mir half, das gewünschte Layout umzusetzen.',
       },
     },
     thumbnailOne: recipes0,
@@ -143,7 +143,7 @@ export const projects: Project[] = [
       text: {
         ko: '카드 게임 : 블랙잭',
         en: 'Blackjack Card Game',
-        de: 'Blackjack Card Game',
+        de: 'Blackjack-Kartenspiel',
       },
     },
     contribution: 75,
@@ -151,7 +151,7 @@ export const projects: Project[] = [
       text: {
         ko: '블랙잭 카드게임에 필요한 다양한 로직들을 구현하였습니다.',
         en: 'A course project for understanding the flow of programmatic logic and dealing with chains of if-else statements.',
-        de: 'A course project for understanding the flow of programmatic logic and dealing with chains of if-else statements.',
+        de: 'Ein Kursprojekt zum Verständnis des Programmflusses und des Umgangs mit If-Else-Verzweigungen.',
       },
     },
     thumbnailOne: blackjack,
@@ -181,7 +181,7 @@ export const projects: Project[] = [
         ko: '영문 대문자, 소문자, 숫자, 그리고 특수기호가 포함된 15자 비밀번호를 생성할 수 있습니다. \n' +
           '생성된 비밀번호를 클릭하면 자동으로 클립보드에 저장됩니다.',
         en: 'A course project for learning about ASCI characters and randomization. It generates a 15-character password that includes uppercase letters, lowercase letters, numbers, and special characters.',
-        de: 'A course project for learning about ASCI characters and randomization. It generates a 15-character password that includes uppercase letters, lowercase letters, numbers, and special characters.',
+        de: 'Ein Kursprojekt zum Verständnis von ASCII-Zeichen und Zufallsgenerierung. Es erstellt ein 15-stelliges Passwort, das Großbuchstaben, Kleinbuchstaben, Zahlen und Sonderzeichen enthält.',
       },
     },
     thumbnailOne: password,
@@ -211,7 +211,7 @@ export const projects: Project[] = [
         ko: '미터법(Metric System)과 야드파운드법(Imperial System)의 변환을 빠르게 할 수 있습니다. \n' +
           '소수점 3자리까지 반올림하여 표시됩니다',
         en: 'A course project for learning how to take in user input, do basic calculations, and display the result.',
-        de: 'A course project for learning how to take in user input, do basic calculations, and display the result.',
+        de: 'Ein Kursprojekt zum Lernen, wie man Benutzereingaben verarbeitet, einfache Berechnungen durchführt und das Ergebnis anzeigt.',
       },
     },
     thumbnailOne: conversion,
@@ -240,7 +240,7 @@ export const projects: Project[] = [
       text: {
         ko: '<em>커스텀 컴포넌트, props, .map()</em>을 사용하여 하나의 json 파일의 정보를 화면에 표현하는 <em>정적 레이아웃</em>을 제작했습니다.',
         en: 'A project aimed at understanding how to use <em>custom components, props, and .map()</em> to create a static layout that displays information from a single json file.',
-        de: 'A project aimed at understanding how to use <em>custom components, props, and .map()</em> to create a static layout that displays information from a single json file.',
+        de: 'Ein Projekt zum Verständnis der Verwendung von <em>benutzerdefinierten Komponenten, Props und .map()</em>, um ein statisches Layout zu erstellen, das Informationen aus einer einzelnen JSON-Datei darstellt.',
       },
     },
     thumbnailOne: travel,
@@ -269,7 +269,8 @@ export const projects: Project[] = [
         ko: '<em>Form</em>을 통해 받는 유저의 <em>input</em>을 리액트가 제어할 수 있는 <em>제어 컴포넌트</em>로 만들었습니다. \n' +
           '사용자의 텍스트를 이미지 위에 렌더링을 하고, 밈 이미지는 버튼 클릭시 무작위 이미지를 <em>useEffect를 이용하여 API 호출</em>을합니다.',
         en: 'A project dealing with <em>Form, input, and useEffect</em> to understand how <em>controlled inputs</em> allows the inputted text to be stored and handled by React State rather than the native input element. <em>useEffect</em> taught me how to fetch data via API call.',
-        de: 'A project dealing with <em>Form, input, and useEffect</em> to understand how <em>controlled inputs</em> allows the inputted text to be stored and handled by React State rather than the native input element. <em>useEffect</em> taught me how to fetch data via API call.',
+        de: 'Ein Projekt zur Arbeit mit <em>Formularen, Eingaben und useEffect</em>, um zu verstehen, wie <em>kontrollierte Inputs</em> funktionieren. Dabei wird der eingegebene Text nicht vom nativen Input-Element, sondern von React State gespeichert und verarbeitet.<br/><br/>' +
+          '<em>useEffect</em> half mir dabei, Daten über API-Aufrufe abzurufen.',
       },
     },
     thumbnailOne: memes,
@@ -289,7 +290,7 @@ export const projects: Project[] = [
       text: {
         ko: '주사위 게임',
         en: 'Tenzies Dice Game',
-        de: 'Tenzies Dice Game',
+        de: 'Tenzies Würfelspiel',
       },
     },
     contribution: 75,
@@ -300,9 +301,9 @@ export const projects: Project[] = [
         en: 'A simple dice game where each die is an object that stores data. \n' +
           'The game is won when the numbers on all the dice are the same. \n' +
           'I learned to use <em>sessionStorage</em> and <em>localStorage</em> to store and retrieve the player\'s high score.',
-        de: 'A simple dice game where each die is an object that stores data. \n' +
-          'The game is won when the numbers on all the dice are the same. \n' +
-          'I learned to use <em>sessionStorage</em> and <em>localStorage</em> to store and retrieve the player\'s high score.',
+        de: 'Ein einfaches Würfelspiel, bei dem jeder Würfel als Objekt Daten speichert.<br/><br/>' +
+          'Das Spiel ist gewonnen, wenn alle Würfel denselben Wert zeigen.<br/><br/>' +
+          'Ich habe gelernt, <em>sessionStorage</em> und <em>localStorage</em> zu verwenden, um den Highscore des Spielers zu speichern und wieder abzurufen.',
       },
     },
     thumbnailOne: tenzies,
@@ -333,8 +334,8 @@ export const projects: Project[] = [
           'Check Answers 버튼으로 <em>답을 확인 및 채점</em> 할 수 있고, <em>New Quiz</em> 버튼을 눌러 새로운 질문들을 받아 올 수 있습니다.',
         en: 'I created a trivia quiz using the Trivia API. \n' +
           'The user can click the "Check Answers" button to find out their score, and can receive new questions by clicking the "New Quiz" button, which fetches a new group of questions from the Trivia API.',
-        de: 'I created a trivia quiz using the Trivia API. \n' +
-          'The user can click the "Check Answers" button to find out their score, and can receive new questions by clicking the "New Quiz" button, which fetches a new group of questions from the Trivia API.',
+        de: 'Ich habe ein Quiz-Spiel mit der Trivia API erstellt.<br/><br/>' +
+          'Der Nutzer kann auf den Button „Antworten prüfen“ klicken, um sein Ergebnis zu sehen, und neue Fragen erhalten, indem er auf „Neues Quiz“ klickt, wodurch eine neue Gruppe von Fragen von der Trivia API geladen wird.',
       },
     },
     thumbnailOne: quizzical,
@@ -367,9 +368,9 @@ export const projects: Project[] = [
         en: 'The final project of the course where I developed a <em>single-page application (SPA)</em> using <em>React Router</em> to create multiple "pages" such as search, movie detail, and user page. \n' +
           'I used the <em>Open Movie Database (OMDb) API</em> to search for movies and allowed users to bookmark movies into their user page, by storing the movie data in <em>sessionStorage</em>. \n' +
           'I learned the concept of <em>global state</em> using Context API, which ensures that data persists, even when components are unmounted.',
-        de: 'The final project of the course where I developed a <em>single-page application (SPA)</em> using <em>React Router</em> to create multiple "pages" such as search, movie detail, and user page. \n' +
-          'I used the <em>Open Movie Database (OMDb) API</em> to search for movies and allowed users to bookmark movies into their user page, by storing the movie data in <em>sessionStorage</em>. \n' +
-          'I learned the concept of <em>global state</em> using Context API, which ensures that data persists, even when components are unmounted.',
+        de: 'Abschlussprojekt des Kurses, in dem ich eine <em>Single-Page-Application (SPA)</em> mit <em>React Router</em> entwickelt habe, um mehrere „Seiten“ wie Suche, Filmdetails und Benutzerseite zu erstellen.<br/><br/>' +
+          'Ich nutzte die <em>Open Movie Database (OMDb) API</em>, um Filme zu suchen, und ermöglichte es den Nutzern, Filme auf ihrer Benutzerseite zu speichern, indem die Filmdaten im <em>sessionStorage</em> gespeichert wurden.<br/><br/>' +
+          'Ich lernte das Konzept von <em>globalem State</em> mit der Context API kennen, wodurch Daten erhalten bleiben, auch wenn Komponenten unmounted werden.',
       },
     },
     thumbnailOne: movies,
@@ -389,7 +390,7 @@ export const projects: Project[] = [
       text: {
         ko: 'BingoCVM 취약점 진단 솔루션 2.x',
         en: 'BingoCVM 2.x : Continuous Vulnerability Management',
-        de: 'BingoCVM 2.x : Continuous Vulnerability Management',
+        de: 'BingoCVM 2.x: Kontinuierliches Schwachstellenmanagement',
       },
     },
     contribution: 40,
@@ -406,34 +407,34 @@ export const projects: Project[] = [
           en: '<em>KBI</em>\'s product <em>Bingo CVM</em> is a software that manages vulnerabilities for digital assets of organizations, ensuring compliance with the latest standards set by <em>Korea Internet &amp; Security Agency (KISA)</em> to prevent digital security incidents.<br/><br/>' +
             'I worked with 2 full-stack developers, who had migrated the legacy code into more modern frameworks.<br/><br/>' +
             'I learned tremendously from the experience by analyzing the existing codebase. I worked on developing <em>new features requested</em> by our clients using <em>Material UI</em> as well as <em>refactoring</em> the existing code to reduce errors occuring from redundancies. I battled day and night with <em>Redux Toolkit</em>, and the more I learned about its functionalities, the more my fear gave way into quiet reverence 😲.',
-          de: '<em>KBI</em>\'s product <em>Bingo CVM</em> is a software that manages vulnerabilities for digital assets of organizations, ensuring compliance with the latest standards set by <em>Korea Internet &amp; Security Agency (KISA)</em> to prevent digital security incidents.<br/><br/>' +
-            'I worked with 2 full-stack developers, who had migrated the legacy code into more modern frameworks.<br/><br/>' +
-            'I learned tremendously from the experience by analyzing the existing codebase. I worked on developing <em>new features requested</em> by our clients using <em>Material UI</em> as well as <em>refactoring</em> the existing code to reduce errors occuring from redundancies. I battled day and night with <em>Redux Toolkit</em>, and the more I learned about its functionalities, the more my fear gave way into quiet reverence 😲.',
+          de: 'Das Produkt <em>Bingo CVM</em> von <em>KBI</em> ist eine Software zur Verwaltung von Schwachstellen digitaler Unternehmens-Assets und stellt die Einhaltung der aktuellen Standards der <em>Korea Internet &amp; Security Agency (KISA)</em> sicher, um Sicherheitsvorfälle im digitalen Bereich zu verhindern.<br/><br/>' +
+            'Ich arbeitete mit zwei Full-Stack-Entwicklern zusammen, die den Legacy-Code bereits in modernere Frameworks migriert hatten.<br/><br/>' +
+            'Ich habe sehr viel aus dieser Erfahrung gelernt, indem ich die bestehende Codebasis analysiert habe. Ich entwickelte <em>neue, von Kunden angeforderte Funktionen</em> mit <em>Material UI</em> und arbeitete gleichzeitig an der <em>Refaktorisierung</em> des bestehenden Codes, um Fehler durch Redundanzen zu reduzieren. Außerdem arbeitete ich intensiv mit <em>Redux Toolkit</em>; je mehr ich über dessen Funktionen lernte, desto mehr wich meine anfängliche Angst einer ruhigen Ehrfurcht 😲.',
         },
       },
     imageSlide: [{
       image: oldBingo0, text: {
         ko: '랜딩화면',
         en: 'List of Server Assets',
-        de: 'List of Server Assets',
+        de: 'Liste der Server-Assets',
       },
     }, {
       image: oldBingo1, text: {
         ko: '취약점 체크리스트 및 점수표',
         en: 'List of Vulnerability Checklists and Scores',
-        de: 'List of Vulnerability Checklists and Scores',
+        de: 'Liste der Schwachstellen-Checklisten und Bewertungen',
       },
     }, {
       image: oldBingo2, text: {
         ko: '계정 목록 및 생성',
         en: 'Account List and Creation',
-        de: 'Account List and Creation',
+        de: 'Liste und Erstellung von Benutzerkonten',
       },
     }, {
       image: oldBingo3, text: {
         ko: '자료실 및 파일 업로드',
         en: 'File Download and Upload',
-        de: 'File Download and Upload',
+        de: 'Datei-Download und -Upload',
       },
     }],
   },
@@ -451,7 +452,7 @@ export const projects: Project[] = [
       text: {
         ko: 'BingoCVM 취약점 진단 솔루션 2.x',
         en: 'BingoCVM 3.x : Continuous Vulnerability Management',
-        de: 'BingoCVM 3.x : Continuous Vulnerability Management',
+        de: 'BingoCVM 3.x: Kontinuierliches Schwachstellenmanagement',
       },
     },
     contribution: 99,
@@ -469,10 +470,10 @@ export const projects: Project[] = [
             'My team was fully onboard with giving me full reign over the entire new Frontend codebase, so that they could focus solely on the backend.<br/><br/>' +
             'I proposed a lot of changes: replace <em>Create React App</em> with <em>Vite</em> to drastically improve compile and build times; use <em>Axios</em> to set global configurations to authenticate all requests; handle API responses and errors in a more centralized location using <em>Redux Toolkit\'s middleware</em>; use <em>RTK Query</em> to track every API request status; create a consistent design theme by implementing <em>MUI\'s customizable theme object</em>; set stricter rules for using global states only when necessary, thus reducing roughly 30% in lines of pure code; and so on.<br/><br/>' +
             'By the suggestion of my lead dev, I researched and introduced <em>TypeScript</em> to the project, though yet rudimentary. I also gained experience with <em>data visualization tools</em> such as <em>Chart-js</em> and <em>ApexCharts</em>',
-          de: 'We decided to migrate the existing program into the <em>next version</em>.<br/><br/>' +
-            'My team was fully onboard with giving me full reign over the entire new Frontend codebase, so that they could focus solely on the backend.<br/><br/>' +
-            'I proposed a lot of changes: replace <em>Create React App</em> with <em>Vite</em> to drastically improve compile and build times; use <em>Axios</em> to set global configurations to authenticate all requests; handle API responses and errors in a more centralized location using <em>Redux Toolkit\'s middleware</em>; use <em>RTK Query</em> to track every API request status; create a consistent design theme by implementing <em>MUI\'s customizable theme object</em>; set stricter rules for using global states only when necessary, thus reducing roughly 30% in lines of pure code; and so on.<br/><br/>' +
-            'By the suggestion of my lead dev, I researched and introduced <em>TypeScript</em> to the project, though yet rudimentary. I also gained experience with <em>data visualization tools</em> such as <em>Chart-js</em> and <em>ApexCharts</em>',
+          de: 'Wir entschieden uns, das bestehende Programm in die <em>nächste Version</em> zu migrieren.<br/><br/>' +
+            'Mein Team gab mir dabei die volle Verantwortung über die gesamte neue Frontend-Codebasis, sodass sie sich vollständig auf das Backend konzentrieren konnten.<br/><br/>' +
+            'Ich schlug viele Änderungen vor: den Ersatz von <em>Create React App</em> durch <em>Vite</em>, um die Compile- und Build-Zeiten deutlich zu verbessern; die Nutzung von <em>Axios</em> zur zentralen Konfiguration der Authentifizierung aller Requests; die zentrale Behandlung von API-Antworten und Fehlern über <em>Middleware von Redux Toolkit</em>; den Einsatz von <em>RTK Query</em> zur Verfolgung des Status aller API-Anfragen; die Einführung eines einheitlichen Design-Systems durch das anpassbare <em>MUI Theme</em>; sowie strengere Regeln für den Einsatz von globalem State nur wenn notwendig, wodurch der Codeumfang um ca. 30 % reduziert wurde, und weitere Verbesserungen.<br/><br/>' +
+            'Auf Vorschlag meines Lead-Entwicklers recherchierte und integrierte ich <em>TypeScript</em> in das Projekt, zunächst noch in grundlegender Form. Außerdem sammelte ich Erfahrung mit <em>Data-Visualization-Tools</em> wie <em>Chart.js</em> und <em>ApexCharts</em>.',
         },
       },
     imageSlide: [{
@@ -485,19 +486,19 @@ export const projects: Project[] = [
       image: newBingo1, text: {
         ko: '취약점 체크리스트 및 점수표',
         en: 'List of Vulnerability Checklists and Scores',
-        de: 'List of Vulnerability Checklists and Scores',
+        de: 'Liste der Schwachstellen-Checklisten und Bewertungen',
       },
     }, {
       image: newBingo2, text: {
         ko: '계정 목록 및 생성',
         en: 'Account List and Creation',
-        de: 'Account List and Creation',
+        de: 'Liste und Erstellung von Benutzerkonten',
       },
     }, {
       image: newBingo3, text: {
         ko: '자료실 및 파일 업로드',
         en: 'File Download and Upload',
-        de: 'File Download and Upload',
+        de: 'Datei-Download und -Upload',
       },
     }],
   },
@@ -515,7 +516,7 @@ export const projects: Project[] = [
       text: {
         ko: '컴퓨터 기반 평가 문제은행: 프로토타입 구축',
         en: 'Digital Testing System: Prototype',
-        de: 'Digital Testing System: Prototype',
+        de: 'Digitales Prüfungssystem: Prototyp',
       },
     },
     contribution: 50,
@@ -532,17 +533,17 @@ export const projects: Project[] = [
             'I worked with a senior full-stack developer and a frontend developer. In order to create the prototype as fast as possible, we used <em>supabase</em> to call APIs directly from JavaScript to query multiple tables, perform calculations, and process data. This allowed us to develop the application <em>without the need for a backend server</em>. ' +
             'To suit the visual needs of grade school students, we had to implement various layouts that were impossible to implement only with a database. To achieve this, we had a team of web designers who created thousands of custom HTML files. I parsed these HTML files into JSX using <em>html-react-parser</em>, so that I could add functionality to the interactable elements. One of the most challenging aspects of this project was implementing the <em>canvas</em>-based <em>"connect the dots"</em> feature and the <em>react-dnd</em>-based <em>"drag and drop"</em> feature.<br/><br/>' +
             'After implementing the interactions, we converted the student input into a format that matched the database and compared it to the correct answer to implement the <em>automatic grading</em> feature.',
-          de: '<em>With Run</em>\'s <em>digital testing application</em> allows grade school teachers to <em>generate tests</em> from an existing questions database, by selecting the class, subject, chapter, difficulty, and more.<br/><br/>' +
-            'I worked with a senior full-stack developer and a frontend developer. In order to create the prototype as fast as possible, we used <em>supabase</em> to call APIs directly from JavaScript to query multiple tables, perform calculations, and process data. This allowed us to develop the application <em>without the need for a backend server</em>. ' +
-            'To suit the visual needs of grade school students, we had to implement various layouts that were impossible to implement only with a database. To achieve this, we had a team of web designers who created thousands of custom HTML files. I parsed these HTML files into JSX using <em>html-react-parser</em>, so that I could add functionality to the interactable elements. One of the most challenging aspects of this project was implementing the <em>canvas</em>-based <em>"connect the dots"</em> feature and the <em>react-dnd</em>-based <em>"drag and drop"</em> feature.<br/><br/>' +
-            'After implementing the interactions, we converted the student input into a format that matched the database and compared it to the correct answer to implement the <em>automatic grading</em> feature.',
+          de: 'Die <em>digitale Testanwendung</em> von <em>Run</em> ermöglicht es Lehrkräften an Grundschulen, <em>Tests aus einer bestehenden Fragen-Datenbank zu erstellen</em>, indem sie Klasse, Fach, Kapitel, Schwierigkeitsgrad und weitere Kriterien auswählen.<br/><br/>' +
+            'Ich arbeitete mit einem Senior Full-Stack-Entwickler und einem Frontend-Entwickler zusammen. Um den Prototyp möglichst schnell umzusetzen, verwendeten wir <em>Supabase</em>, um APIs direkt aus JavaScript aufzurufen, mehrere Tabellen abzufragen, Berechnungen durchzuführen und Daten zu verarbeiten. Dadurch konnten wir die Anwendung <em>ohne eigenen Backend-Server</em> entwickeln.<br/><br/>' +
+            'Um den visuellen Anforderungen von Grundschülern gerecht zu werden, mussten verschiedene Layouts umgesetzt werden, die sich nicht nur über eine Datenbank realisieren ließen. Dafür arbeitete unser Team mit Webdesignern zusammen, die tausende individuelle HTML-Dateien erstellten. Ich wandelte diese HTML-Dateien mit <em>html-react-parser</em> in JSX um, sodass ich Interaktionen für die interaktiven Elemente hinzufügen konnte. Einer der schwierigsten Teile des Projekts war die Umsetzung der <em>canvas</em>-basierten <em>"Verbinde die Punkte"</em>-Funktion sowie der <em>react-dnd</em>-basierten <em>"Drag-and-Drop"</em>-Funktion.<br/><br/>' +
+            'Nach der Implementierung der Interaktionen konvertierten wir die Eingaben der Schüler in ein Datenbankformat und verglichen sie mit den richtigen Antworten, um die Funktion der <em>automatischen Benotung</em> umzusetzen.',
         },
       },
     imageSlide: [{
       image: wr1, text: {
         ko: '점 연결하기',
         en: 'Connect the Dots',
-        de: 'Connect the Dots',
+        de: 'Verbinde die Punkte',
       },
     }, {
       image: wr2, text: {
@@ -566,19 +567,19 @@ export const projects: Project[] = [
       image: wr5, text: {
         ko: '라디오 버튼',
         en: 'Radio Buttons',
-        de: 'Radio Buttons',
+        de: 'Radiobuttons',
       },
     }, {
       image: wr6, text: {
         ko: '라디오 버튼',
         en: 'Radio Buttons',
-        de: 'Radio Buttons',
+        de: 'Radiobuttons',
       },
     }, {
       image: wr7, text: {
         ko: '라디오 버튼',
         en: 'Radio Buttons',
-        de: 'Radio Buttons',
+        de: 'Radiobuttons',
       },
     }],
   },
@@ -596,7 +597,7 @@ export const projects: Project[] = [
       text: {
         ko: '컴퓨터 기반 평가 문제은행: NextJS 마이그레이션',
         en: 'Digital Testing System: NextJS Migration',
-        de: 'Digital Testing System: NextJS Migration',
+        de: 'Digitales Prüfungssystem: Next.js-Migration',
       },
     },
     contribution: 50,
@@ -610,15 +611,15 @@ export const projects: Project[] = [
             '사용자 수가 증가할 경우 supabase 비용 부담에 대한 우려로 백엔드 개발자가 충원이 되며 기존 supabse에서 제공해주던 <em>실시간(real-time) 기능</em>들을 백엔드와 협업하여 <em>Server-Sent Events(SSE)</em>로 구현해 실기간 트래픽을 자체 서버로 분산하였습니다.',
           en: 'Our team migrated the React-based prototype to <em>NextJS</em>. We also migrated all the supabase requests from the client to <em>NextJS server APIs</em>. This resolved the <em>API key exposure issue</em>.<br/><br/>' +
             'As the number of users (and thus requests) increased, the cost of supabase became unpredictable, so backend developers were added to our team to build and host our own server. We collaborated with the backend to implement <em>Server-Sent Events(SSE)</em> for real-time features for time-sensitive interactions during live exams.',
-          de: 'Our team migrated the React-based prototype to <em>NextJS</em>. We also migrated all the supabase requests from the client to <em>NextJS server APIs</em>. This resolved the <em>API key exposure issue</em>.<br/><br/>' +
-            'As the number of users (and thus requests) increased, the cost of supabase became unpredictable, so backend developers were added to our team to build and host our own server. We collaborated with the backend to implement <em>Server-Sent Events(SSE)</em> for real-time features for time-sensitive interactions during live exams.',
+          de: 'Unser Team migrierte den React-basierten Prototyp zu <em>Next.js</em>. Außerdem wurden alle Supabase-Anfragen vom Client auf <em>Next.js-Server-APIs</em> verlagert. Dadurch wurde das Problem der <em>Offenlegung von API-Schlüsseln</em> behoben.<br/><br/>' +
+            'Mit der steigenden Anzahl an Nutzern (und damit auch Anfragen) wurden die Kosten von Supabase schwer vorhersehbar. Deshalb wurde das Backend-Team erweitert, um einen eigenen Server zu entwickeln und zu betreiben. In Zusammenarbeit mit dem Backend implementierten wir <em>Server-Sent Events (SSE)</em> für Echtzeit-Funktionen bei zeitkritischen Interaktionen während Live-Prüfungen.',
         },
       },
     imageSlide: [{
       image: wr0, text: {
         ko: '랜딩 화면',
         en: 'Landing Page',
-        de: 'Landing Page',
+        de: 'Startseite',
       },
     }],
   },
@@ -636,7 +637,7 @@ export const projects: Project[] = [
       text: {
         ko: '문제은행 에디터',
         en: 'Digital Testing System: Test Editor',
-        de: 'Digital Testing System: Test Editor',
+        de: 'Digitales Prüfungssystem: Test-Editor',
       },
     },
     contribution: 90,
@@ -651,46 +652,47 @@ export const projects: Project[] = [
             'I developed a feature where the user can choose from a selection of templates, and then modify the content and layout to fit their own needs, using the free version of an opensource editor called <em>Tiny MCE Editor</em>.<br/><br/>' +
             'Additionally, I designed and developed the prototype for a completely new feature requested by our clients - <em>the math editor</em>, designed for use in <em>middle school</em> and <em>high school</em>. The editor integrates <em>TinyMCE</em> with custom features for the toolbar, <em>MathQuill</em> for input, and <em>MathJax</em> for output, which renders the mathematical expression as either an svg or png image for both the editor and preview screen, allowing users to freely modify the size, position, and layout. I saved the user\'s input as a <em>MathQuill-format string</em> in the <em>alt content of the image</em>, so that the content of the math expression can always be recalled, in case the user wants to edit the svg or png image.<br/><br/>' +
             'I presented my ideas in meetings in the form of <em>functioning prototypes</em>, which made it easy and intuitive to understand for everyone involved, even those who had no background in coding. My ideas were well received, and with meaningful feedback, I led the implementation of the editor feature seen above.',
-          de: 'I was given the task of brainstorming and creating a <em>text-based editor</em> that allows teachers to <em>create their own content</em> to be saved into the questions database.<br/><br/>' +
-            'I developed a feature where the user can choose from a selection of templates, and then modify the content and layout to fit their own needs, using the free version of an opensource editor called <em>Tiny MCE Editor</em>.<br/><br/>' +
-            'Additionally, I designed and developed the prototype for a completely new feature requested by our clients - <em>the math editor</em>, designed for use in <em>middle school</em> and <em>high school</em>. The editor integrates <em>TinyMCE</em> with custom features for the toolbar, <em>MathQuill</em> for input, and <em>MathJax</em> for output, which renders the mathematical expression as either an svg or png image for both the editor and preview screen, allowing users to freely modify the size, position, and layout. I saved the user\'s input as a <em>MathQuill-format string</em> in the <em>alt content of the image</em>, so that the content of the math expression can always be recalled, in case the user wants to edit the svg or png image.<br/><br/>' +
-            'I presented my ideas in meetings in the form of <em>functioning prototypes</em>, which made it easy and intuitive to understand for everyone involved, even those who had no background in coding. My ideas were well received, and with meaningful feedback, I led the implementation of the editor feature seen above.',
+          de: 'Mir wurde die Aufgabe gegeben, Ideen für einen <em>textbasierten Editor</em> zu entwickeln und zu erstellen, mit dem Lehrkräfte <em>eigene Inhalte erstellen</em> und in der Fragendatenbank speichern können.<br/><br/>' +
+            'Ich entwickelte eine Funktion, bei der der Benutzer aus verschiedenen Vorlagen wählen und danach Inhalt und Layout an die eigenen Bedürfnisse anpassen kann. Dafür nutzte ich die kostenlose Version des Open-Source-Editors <em>TinyMCE Editor</em>.<br/><br/>' +
+            'Zusätzlich entwarf und entwickelte ich den Prototyp für eine komplett neue Funktion, die von unseren Kunden gewünscht wurde – <em>den Mathematik-Editor</em> für den Einsatz in <em>Mittel- und Oberstufen</em>. Der Editor verbindet <em>TinyMCE</em> mit eigenen Funktionen für die Werkzeugleiste, <em>MathQuill</em> für die Eingabe und <em>MathJax</em> für die Ausgabe. Mathematische Ausdrücke werden dabei als SVG- oder PNG-Bilder für den Editor und die Vorschau dargestellt. Benutzer können Größe, Position und Layout frei anpassen.<br/><br/>' +
+            'Die Eingaben der Benutzer speicherte ich zusätzlich als <em>MathQuill-Format-String</em> im <em>Alt-Inhalt des Bildes</em>, damit mathematische Ausdrücke später wieder geladen und bearbeitet werden können, falls der Benutzer die SVG- oder PNG-Datei ändern möchte.<br/><br/>' +
+            'Ich stellte meine Ideen in Meetings in Form von <em>funktionsfähigen Prototypen</em> vor. Dadurch waren die Konzepte leicht verständlich, auch für Personen ohne Programmiererfahrung. Meine Vorschläge wurden positiv aufgenommen und ich leitete anschließend die Umsetzung der oben beschriebenen Editor-Funktion.',
         },
       },
     imageSlide: [{
       image: wr8, text: {
         ko: '중고등 수식 에디터',
         en: 'Feature: Middle- and Highschool Level Math Editor',
-        de: 'Feature: Middle- and Highschool Level Math Editor',
+        de: 'Funktion: Mathematik-Editor für Mittel- und Oberstufe',
       },
     }, {
       image: wr9, text: {
         ko: '타입1: 에디터 + 미리보기 분리',
         en: 'Type 1: Editor & Preview - Radio Buttons with Image',
-        de: 'Type 1: Editor & Preview  - Radio Buttons with Image',
+        de: 'Typ 1: Editor und Vorschau – Auswahlfelder mit Bildern',
       },
     }, {
       image: wr10, text: {
         ko: '타입1: 에디터 + 미리보기 분리',
         en: 'Type 1: Editor & Preview - Audio File and Custom background',
-        de: 'Type 1: Editor & Preview - Audio File and Custom background ',
+        de: 'Typ 1: Editor und Vorschau – Audiodatei und benutzerdefinierter Hintergrund',
       },
     }, {
       image: wr11, text: {
         ko: '타입2: 미리보기 내부에 inline 에디터',
         en: 'Type 2: WYSIWYG Editor - Poetry with Drag & Drop Input Type',
-        de: 'Prototype 2: WYSIWYG Editor - Poetry with Drag & Drop Input Type',
+        de: 'Typ 2: WYSIWYG-Editor – Gedicht mit Drag-and-Drop-Eingabetyp',
       },
     }],
   },
   {
     type: TabEnum.TOYPROJECTS,
-    date: '2024 . 12 ~ 2025.05',
+    date: '2024 . 12 ~ 2025 . 05',
     location: {
       text: {
         ko: '개인 프로젝트',
         en: 'Personal Project',
-        de: 'Personal Project',
+        de: 'Persönliches Projekt',
       },
     },
     title: {
@@ -708,7 +710,7 @@ export const projects: Project[] = [
           ko: '포켓몬카드를 모으는 취미로 시작하여 <em>포켓몬 정보를 볼 수 있는 사이트</em>를 만들어보았습니다.</br></br>' +
             '<em>TailwindCSS</em>를 사용하여 포켓몬카드 디자인을 제작하는게 제일 재밌었습니다. 시간날 때마다 틈틈히 개발 중인 개인 프로젝트입니다!',
           en: 'I made a Pokedex for fun, where I can look up Pokemon sprites and listen to their cries. I designed the entire site with Tailwind, and it was a lot of fun 😄',
-          de: 'I made a Pokedex for fun, where I can look up Pokemon sprites and listen to their cries. I designed the entire site with Tailwind, and it was a lot of fun 😄',
+          de: 'Ich habe aus Spaß einen Pokédex erstellt, mit dem ich Pokémon-Sprites nachschlagen und ihre Rufe anhören kann. Die gesamte Website habe ich mit Tailwind gestaltet, und es hat viel Spaß gemacht 😄',
         },
       },
     imageSlide: [{
@@ -721,7 +723,7 @@ export const projects: Project[] = [
       image: ppbGrumpig, text: {
         ko: '포켓몬 카드 랜덤 뽑기',
         en: 'Designed solely with Tailwind',
-        de: 'Designed solely with Tailwind',
+        de: 'Gestaltung ausschließlich mit Tailwind',
       },
     }],
   },

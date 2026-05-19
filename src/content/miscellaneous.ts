@@ -82,7 +82,7 @@ export const contribution: TranslatedText = {
   text: {
     ko: '기여도',
     en: 'Contribution',
-    de: 'Contribution',
+    de: 'Beitrag',
   },
 }
 export const slideButton: {
