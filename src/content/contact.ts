@@ -36,13 +36,6 @@ export const personalInfo: IconWithText[] = [
       de: 'Englisch, Koreanisch, Deutsch (B1)',
     },
   }, {
-    icon: 'personality',
-    text: {
-      ko: '느긋한 인팁 😉',
-      en: 'A curious explorer 🧐',
-      de: 'Immer neugierig 🫠',
-    },
-  }, {
     icon: 'github',
     text: {
       ko: 'Github',
