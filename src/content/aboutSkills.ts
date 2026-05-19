@@ -108,8 +108,8 @@ export const aboutSkills: {
     {
       text: {
         ko: '유닛 테스트',
-        en: 'Unit Tests',
-        de: 'Unit Tests',
+        en: 'Unit and E2E Tests',
+        de: 'Unit- und E2E-Tests',
       },
     },
     {
