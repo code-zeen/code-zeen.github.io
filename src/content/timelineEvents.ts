@@ -74,8 +74,8 @@ export const timelineEvents: TimelineEvent[] = [
   {
     date: { start: '', end: '2026' }, isNewYear: true, text: {
       ko: '독일 어학원 (B1 진행중)',
-      en: 'German Language School (Currently B1)',
-      de: 'Deutsch Sprachschule (jetzt B1)',
+      en: 'German Language School (Currently C1)',
+      de: 'Deutsch Sprachschule (aktuell C1)',
     },
   },
 ]

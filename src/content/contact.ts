@@ -32,8 +32,8 @@ export const personalInfo: IconWithText[] = [
     icon: 'language',
     text: {
       ko: '영어, 한국어, 독일어',
-      en: 'English, Korean, German B1',
-      de: 'Englisch, Koreanisch, Deutsch (B1)',
+      en: 'English, Korean, German B2',
+      de: 'Englisch, Koreanisch, Deutsch B2',
     },
   }, {
     icon: 'github',
