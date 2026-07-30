@@ -93,14 +93,33 @@ export const slideButton: {
     text: {
       ko: '이전',
       en: 'prev',
-      de: 'prev',
+      de: 'zurück',
     },
   },
   next: {
     text: {
       ko: '다음',
       en: 'next',
-      de: 'next',
+      de: 'weiter',
+    },
+  },
+}
+export const projectLinks: {
+  englishVersion: TranslatedText
+  koreanVersion: TranslatedText
+} = {
+  englishVersion: {
+    text: {
+      ko: '영어 버전',
+      en: 'English Version',
+      de: 'englische Version',
+    },
+  },
+  koreanVersion: {
+    text: {
+      ko: '한글 버전',
+      en: 'Korean Version',
+      de: 'koreanische Version',
     },
   },
 }

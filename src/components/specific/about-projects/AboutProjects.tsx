@@ -1,5 +1,5 @@
 import { MdArrowRightAlt } from 'react-icons/md'
-import { useRef, useState } from 'react'
+import { useContext, useRef, useState } from 'react'
 import { projects } from '@/content/projects.ts'
 import { TabEnum } from '@/types/enums.ts'
 import ProjectMetaData from '@/components/specific/about-projects/ProjectMetaData.tsx'
@@ -9,8 +9,11 @@ import ProjectDescription from '@/components/specific/about-projects/ProjectDesc
 import ProjectImageSlide from '@/components/specific/about-projects/ProjectImageSlide.tsx'
 import ProjectTabs from '@/components/specific/about-projects/ProjectTabs.tsx'
 import ProjectContributionMeter from '@/components/specific/about-projects/ProjectContributionMeter.tsx'
+import { Context } from '@/Context.tsx'
+import { projectLinks } from '@/content/miscellaneous.ts'
 
 function AboutProjects() {
+  const { language } = useContext(Context)
   const [currentTab, setCurrentTab] = useState<TabEnum>(TabEnum.CAREER)
   const [orderBy, setOrderBy] = useState(true)
   const scrollRef = useRef<HTMLDivElement>(null)
@@ -61,8 +64,9 @@ function AboutProjects() {
           )}
           {(project.urlEn || project.urlKr) && (
             <div className="flex gap-3">
-              {project.urlEn && <a href={project.urlEn} target="_blank">영어 버전</a>}
-              {project.urlKr && <a href={project.urlKr} target="_blank">한국어 버전</a>}
+              {project.urlEn &&
+                <a href={project.urlEn} target="_blank">{projectLinks.englishVersion.text[language]}</a>}
+              {project.urlKr && <a href={project.urlKr} target="_blank">{projectLinks.koreanVersion.text[language]}</a>}
             </div>
           )}
         </div>
