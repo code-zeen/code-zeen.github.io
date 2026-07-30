@@ -24,7 +24,7 @@ export default function ProjectTabs({ currentTab, handleClick, orderBy, handleOr
           <Button onClick={() => handleClick(button)}
                   className={button === currentTab ? `${projectColorMap[currentTab]}` : 'bg-zinc-700'}>
             <Icon name={button} />
-            {button === currentTab && button}
+            {button}
           </Button>
         ))}
       </div>
