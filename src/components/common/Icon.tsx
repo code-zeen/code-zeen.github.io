@@ -2,6 +2,7 @@ import {
   SiAxios,
   SiClaude,
   SiCss3,
+  SiExpo,
   SiFigma,
   SiGit,
   SiGithub,
@@ -36,6 +37,7 @@ export type IconName =
   | 'claudeAi'
   | 'CSS'
   | 'email'
+  | 'expo'
   | 'figma'
   | 'git'
   | 'github'
@@ -49,6 +51,8 @@ export type IconName =
   | 'next'
   | 'person'
   | 'phone'
+  | 'react'
+  | 'reactNative'
   | 'reduxToolkit'
   | 'rtkQuery'
   | 'styledComponents'
@@ -73,6 +77,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   claudeAi: { icon: SiClaude },
   CSS: { icon: SiCss3 },
   email: { icon: MdOutlineMail, color: disabled },
+  expo: { icon: SiExpo },
   figma: { icon: SiFigma },
   git: { icon: SiGit },
   github: { icon: SiGithub },
@@ -88,6 +93,7 @@ const iconMap: Record<IconName, { icon: IconType; color?: string }> = {
   phone: { icon: MdSmartphone, color: disabled },
   publishing: { icon: SiHtml5 },
   react: { icon: SiReact },
+  reactNative: { icon: SiReact },
   tanstackQuery: { icon: SiReactquery },
   reduxToolkit: { icon: SiRedux },
   rtkQuery: { icon: SiRedux },

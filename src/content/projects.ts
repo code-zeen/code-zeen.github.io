@@ -36,6 +36,7 @@ import wr10 from '../assets/wr10.gif'
 import wr11 from '../assets/wr11.gif'
 import ppbDitto from '../assets/ppb-ditto.gif'
 import ppbGrumpig from '../assets/ppb-grumpig.gif'
+import wortbox from '../assets/wortbox.jpg'
 
 export const projects: Project[] = [
   {
@@ -724,6 +725,43 @@ export const projects: Project[] = [
         ko: '포켓몬 카드 랜덤 뽑기',
         en: 'Designed solely with Tailwind',
         de: 'Gestaltung ausschließlich mit Tailwind',
+      },
+    }],
+  },
+  {
+    type: TabEnum.TOYPROJECTS,
+    date: '2025 . 06 ~ 2026 . 06',
+    location: {
+      text: {
+        ko: '개인 프로젝트',
+        en: 'Personal Project',
+        de: 'Persönliches Projekt',
+      },
+    },
+    title: {
+      text: {
+        ko: 'Wortbox',
+        en: 'Wortbox',
+        de: 'Wortbox',
+      },
+    },
+    contribution: 100,
+    stacks: ['reactNative', 'expo', 'typescript', 'rtkQuery', 'supabase'],
+    description:
+      {
+        text: {
+          ko: '독일어 공부와 리액트 네이티브 공부를 동시에 할 수 있는 일석이조 단어장 어플을 개발중입니다.',
+          en: 'After quitting my job in preparation of moving to Germany, I wanted to spend my time productively. With my greedy little heart, I decided to catch two birds with one stone - make a German vocabulary app, with  React Native.',
+          de: `Nachdem ich meinen Job gekündigt hatte, um nach Deutschland zu ziehen, wollte ich die freie Zeit sinnvoll nutzen. Also dachte sich mein gieriges kleines Herz: Warum nicht gleich zwei Fliegen mit einer Klappe schlagen und mit React Native eine deutsche Vokabel-App bauen, obwohl ich vorher von beidem keine Ahnung hatte? </br></br>
+          
+          Der Benutzer kann jedes Wort entweder als Favorit oder als Wichtiges markieren, um die schwierigeren Wörter schneller zu finden und geziehlter lernen zu können. Diese Wörter werden in einem Supabase-Account gespeichert.`,
+        },
+      },
+    imageSlide: [{
+      image: wortbox, text: {
+        ko: '단어장',
+        en: 'Vocabulary App',
+        de: 'Vocabulary App',
       },
     }],
   },
