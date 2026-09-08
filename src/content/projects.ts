@@ -52,8 +52,8 @@ export const projects: Project[] = [
     title: {
       text: {
         ko: 'Float, Position 이용한 정적 레아이웃 -해피피플',
-        en: 'Erstellung statischer Layouts mit Float und Position',
-        de: 'Creating Static Layouts using Float and Position',
+        en: 'Creating Static Layouts using Float and Position',
+        de: 'Erstellung statischer Layouts mit Float und Position',
       },
     },
     contribution: 100,
